@@ -5,6 +5,12 @@
 
   z-index: 2;
 
+  #content {
+    width: auto !important;
+    max-width: 100% !important;
+    margin: 0px 20px;
+  }
+
   header.site-header {
     @include flexbox;
     align-items: center;
@@ -142,5 +148,20 @@ body.single-product,
 body.page-template-page-recommender {
   #header-wrapper {
     position: fixed;
+  }
+}
+
+.menu--right {
+  ul {
+    li {
+      list-style: none;
+
+      a {
+        color: $white;
+        text-decoration: none;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+    }
   }
 }

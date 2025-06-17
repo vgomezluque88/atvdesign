@@ -1046,6 +1046,10 @@ html {
   top: 0;
   left: 0;
   z-index: 2; }
+  #header-wrapper #content {
+    width: auto !important;
+    max-width: 100% !important;
+    margin: 0px 20px; }
   #header-wrapper header.site-header {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1141,6 +1145,14 @@ body.page-template-page-ingredients #header-wrapper,
 body.single-product #header-wrapper,
 body.page-template-page-recommender #header-wrapper {
   position: fixed; }
+
+.menu--right ul li {
+  list-style: none; }
+  .menu--right ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase; }
 
 #footer-wrapper {
   position: relative;

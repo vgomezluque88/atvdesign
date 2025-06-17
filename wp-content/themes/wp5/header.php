@@ -53,7 +53,9 @@ $post_id = get_the_ID();
 </head>
 
 <body <?php body_class(); ?>>
-    <?php if ( function_exists( 'gtm4wp_the_gtm_tag' ) ) { gtm4wp_the_gtm_tag(); } ?>
+    <?php if (function_exists('gtm4wp_the_gtm_tag')) {
+        gtm4wp_the_gtm_tag();
+    } ?>
     <?php wp_body_open(); ?>
     <div id="page" class="site">
 
@@ -62,91 +64,87 @@ $post_id = get_the_ID();
             <div class="container" id="content" tabindex="-1">
 
                 <header id="masthead" class="site-header">
-                    <div class="site-branding">
-                        <?php
-                        if (is_front_page() && is_home()):
-                            ?>
-                            <h1 class="navbar-brand mb-0">
-                                <a rel="home" href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" itemprop="url">
-                                    <div class="cont--logo">
-                                        <?php
-                                        $color_logo = get_field('color_logo', $post_id);
-                                        if ($color_logo): ?>
-                                            <?php echo wp_get_attachment_image($color_logo, 'full') ?>
-                                    <?php else: ?>
-                                            <?php echo wp_get_attachment_image(get_theme_mod('custom_logo'), 'full') ?>
-                                        <?php endif; ?>
-                                    </div>
+                    <nav id="site-navigation" class="main-navigation">
+                        <div class="cont--menu container">
+                            <div class="menu--right">
+                                <a href="/" class="logo-menu">
+                                    <img src="/wp-content/uploads/logo.png" alt="wp5">
                                 </a>
-                            </h1>
-                        <?php
-                        else:
-                            ?>
-                            <div class="navbar-brand mb-0">
-                                <a rel="home" href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" itemprop="url">
-                                    <div class="cont--logo">
-                                        <?php
-                                        $color_logo = get_field('color_logo', $post_id);
-                                        if ($color_logo): ?>
-                                            <?php echo wp_get_attachment_image($color_logo, 'full') ?>
-                                    <?php else: ?>
-                                            <?php echo wp_get_attachment_image(get_theme_mod('custom_logo'), 'full') ?>
-                                        <?php endif; ?>
+
+                                <?php
+                                wp_nav_menu(
+                                    array(
+                                        'theme_location' => 'menu-1',
+                                        'menu_id' => 'primary-menu',
+                                        'container_class' => 'menu-menu-principal-container',
+                                    )
+                                );
+                                ?>
+
+                                <div class="menu--right-bottom">
+                                    <?php
+                                    $phone = get_field('phone', 'option');
+                                    $mail = get_field('mail', 'option');
+                                    $address = get_field('address', 'option');
+                                    ?>
+
+                                    <div class="cont__info">
+                                        <div class="cont__item cont__item--phone">
+                                            <i class="icon-phone"></i>
+                                            <a href="tel:+34<?php echo $phone; ?>"><?php echo $phone; ?></a>
+                                        </div>
+                                        <div class="cont__item cont__item--mail">
+                                            <i class="icon-mail"></i>
+                                            <a href="mailto:<?php echo $mail; ?>"><?php echo $mail; ?></a>
+                                        </div>
+                                        <div class="cont__item cont__item--address">
+                                            <i class="icon-house"></i>
+                                            <?php echo $address; ?>
+                                        </div>
                                     </div>
-                                </a>
+                                </div>
+
                             </div>
+                        </div>
+                    </nav>
+                    <div class="site-branding">
+                        <div class="cont--logo">
                             <?php
-                        endif;
-                        ?>
+                            $color_logo = get_field('color_logo', $post_id);
+                            if ($color_logo): ?>
+                                <?php echo wp_get_attachment_image($color_logo, 'full') ?>
+                            <?php else: ?>
+                                <?php echo wp_get_attachment_image(get_theme_mod('custom_logo'), 'full') ?>
+                            <?php endif; ?>
+                        </div>
                     </div> <!-- .site-branding -->
+                    <nav id="site-navigation-right" class="main-navigation">
+                        <div class="cont--menu container">
+                            <div class="menu--right">
+
+                                <?php
+                                $menu_id = '16';
+                                $menu = wp_get_nav_menu_object($menu_id);
+
+                                if ($menu) {
+                                    $menu_args = array(
+                                        'menu' => $menu->slug,
+                                        'menu_class' => 'menu__footer-center', // Agrega la clase menu__footer aquí
+                                    );
+
+                                    wp_nav_menu($menu_args);
+                                }
+                                ?>
+
+                            </div>
+                        </div>
+                    </nav>
                     <div class="cont--menu__open">
                         <label class="burger" for="burger1">
                             <input class="hidden" id="burger1" type="checkbox" /><span></span>
                         </label>
                     </div>
-                    <nav id="site-navigation" class="main-navigation">
-                            <div class="cont--menu container">
-                                <div class="menu--right">
-                                    <a href="/" class="logo-menu">
-                                        <img src="/wp-content/uploads/logo.png" alt="wp5">
-                                    </a>
 
-                                    <?php
-                                    wp_nav_menu(
-                                        array(
-                                            'theme_location' => 'menu-1',
-                                            'menu_id' => 'primary-menu',
-                                            'container_class' => 'menu-menu-principal-container',
-                                        )
-                                    );
-                                    ?>
-
-                                    <div class="menu--right-bottom">
-                                        <?php
-                                        $phone = get_field('phone', 'option');
-                                        $mail = get_field('mail', 'option');
-                                        $address = get_field('address', 'option');
-                                        ?>
-
-                                        <div class="cont__info">
-                                            <div class="cont__item cont__item--phone">
-                                                <i class="icon-phone"></i>
-                                                <a href="tel:+34<?php echo $phone; ?>"><?php echo $phone; ?></a>
-                                            </div>
-                                            <div class="cont__item cont__item--mail">
-                                                <i class="icon-mail"></i>
-                                                <a href="mailto:<?php echo $mail; ?>"><?php echo $mail; ?></a>
-                                            </div>
-                                            <div class="cont__item cont__item--address">
-                                                <i class="icon-house"></i>
-                                                <?php echo $address; ?>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </nav>
                 </header><!-- #masthead -->
 
             </div><!-- #content -->
