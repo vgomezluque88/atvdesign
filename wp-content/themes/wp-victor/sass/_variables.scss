@@ -1,0 +1,34 @@
+//Media Queries
+$Mobile-md: 480px;
+$tablet-sm: 768px;
+$tablet-md: 991px;
+$desktop-md: 1024px;
+$desktop-lg: 1279px;
+$desktop-lg2: 1366px;
+$desktop-xl: 1600px;
+$desktop-xxl: 1920px;
+$desktop-xxxl: 2048px;
+
+
+//$container-max: ;
+
+//Variable Colors 
+$primary: #d66cec;
+$secondary: #5831D9;
+$background: seashell;
+$white: #fff;
+$black: #161616;
+$low-priority: #848191;
+$white-2: #f6f6f6;
+$pink: #ffdbe0;
+$peach: #fbc8c0;
+$cloudy-blue: #b6d4d3;
+$greyblue: #63abaf;
+$yellow: #ffdcad;
+$beige: #e8d1c6;
+$card-color: #333333;
+$card-color-category: #2e2e2e;
+$dark: #11111b;
+/* IMG */
+//background: url('#{$imgPath}/xxxx.png')
+$imgPath : "../../assets/";

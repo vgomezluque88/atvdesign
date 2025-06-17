@@ -1,0 +1,159 @@
+/* -------------- FONTS -------------- */
+//font-family: 'Roboto', sans-serif;
+
+
+//$primary-font: 'Lexend';
+$primary-font: 'Roboto', Arial, Helvetica, sans-serif;
+
+@mixin font-thin($font-family: $primary-font) {
+  font-family: $font-family;
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap; 
+}
+@mixin font-extralight($font-family: $primary-font) {
+  font-family: $font-family;
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@mixin font-light($font-family: $primary-font) {
+  font-family: $font-family;
+  font-weight: 300;
+  font-style: normal;
+} 
+@mixin font-regular($font-family: $primary-font) {
+  font-family: $font-family;
+  font-weight: 400;
+  font-style: normal;
+}
+@mixin font-medium($font-family: $primary-font) {
+  font-family: $font-family;
+  font-weight: 500;
+  font-style: normal;
+}
+@mixin font-semibold($font-family: $primary-font) {
+  font-family: $font-family;
+  font-weight: 600;
+  font-style: normal;
+}
+@mixin font-bold($font-family: $primary-font) {
+  font-family: $font-family;
+  font-weight: 700;
+  font-style: normal;
+}
+@mixin font-extrabold($font-family: $primary-font) {
+  font-family: $font-family;
+  font-weight: 800;
+  font-style: normal;
+}
+@mixin font-black($font-family: $primary-font) {
+  font-family: $font-family;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+@mixin Body-Mobile {
+  @include font-regular;
+  font-size: 1rem;
+  line-height: 1.33;
+  text-align: left;
+  color: $black;
+}
+@mixin Body-Desktop1600 {
+  @include font-regular;
+  font-size: 1.2rem;
+  line-height: 1.39;
+  text-align: left;
+  color: $black; 
+}
+
+@mixin Title1-Mobile {
+  @include font-bold;
+  font-size: 1.333rem;
+  line-height: 1.25;
+  text-align: left;
+  color: $black;
+}
+@mixin Title1-Desktop1600 {
+  @include font-bold;
+  font-size: 2rem;
+  text-align: left;
+  color: $black;
+}
+
+@mixin Title2-Mobile {
+  @include font-bold;
+  font-size: 1.067rem;
+  line-height: 1.25;
+  text-align: left;
+  color: $black;
+}
+@mixin Title2-Desktop1600 {
+  @include font-bold;
+  font-size: 1.333rem;
+  text-align: left;
+  color: $black;
+}
+
+@mixin Title3-Mobile {
+  @include font-bold;
+  font-size: 0.733rem;
+  line-height: 1.18;
+  letter-spacing: 1.1px;
+  text-align: left;
+  color: $black;
+}
+@mixin Title3-Desktop1600 {
+  @include font-bold;
+  font-size: 0.933rem;
+  letter-spacing: 1.4px;
+  text-align: left;
+  color: $black;
+}
+
+@mixin Featured-Mobile {
+  @include font-regular;
+  font-size: 1.2rem;
+  line-height: 1.22;
+  text-align: left;
+  color: $black;
+}
+@mixin Featured-Desktop1600 {
+  @include font-regular;
+  font-size: 1.667rem;
+  line-height: 1.4;
+  text-align: left;
+  color: $black;
+}
+
+@mixin Small-Mobile {
+  @include font-regular;
+  font-size: 0.733rem;
+  line-height: 1.64;
+  text-align: left;
+  color: $black;
+}
+@mixin Small-Desktop1600 {
+  @include font-regular;
+  font-size: 0.8rem;
+  line-height: 1.25;
+  text-align: left;
+  color: $black;
+}
+
+@mixin wp5($value) {
+  content: $value;
+  z-index: 0;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  font-family: $icomoon-font-family;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+}

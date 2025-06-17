@@ -1,0 +1,195 @@
+.product-security {
+    position: relative;
+    margin-top: 45px;
+    margin-bottom: 20px;
+
+    padding-bottom: 31px;
+
+    @include desktop {
+        @include flexbox_wrap;
+        justify-content: space-between;
+
+        margin-top: 30px;
+        margin-bottom: 80px;
+
+        padding-bottom: 34px;
+    }
+
+    @include desktop-1600 {
+        margin-top: 60px;
+        margin-bottom: 100px;
+    }
+
+    &:before {
+        content: '';
+        @include absolute_center_x;
+        top: 0;
+
+        width: 100vw;
+        height: 100%;
+
+        background-color: #e6dfd8;
+        z-index: -1;
+    }
+
+    .cont__left {
+        padding-top: 30px;
+        margin-bottom: 37px;
+
+        @include desktop {
+            padding-top: 80px;
+            width: 36%;
+        }
+
+        @include desktop-1600 {
+            width: 28%;
+        }
+
+        .cont__pretitle {
+            @include PreTitle-Mobile;
+            text-transform: uppercase;
+
+            margin-bottom: 5px;
+
+            @include desktop-1440 {
+                @include PreTitle-Desktop;
+
+                margin-bottom: 15px;
+            }
+        }
+
+        .cont__title {
+            margin-bottom: 12px;
+
+            @include desktop-1440 {
+                margin-bottom: 12px;
+            }
+        }
+
+        .cont__text {
+            font-size: 0.875rem;
+            line-height: 1.29;
+
+            color: #676767;
+
+            @include desktop-1440 {
+                @include Small-Mobile;
+            }
+        }
+    }
+
+    .cont__right {
+        margin-right: -20px;
+
+        @include tablet {
+            margin-right: -40px;
+        }
+
+        @include desktop {
+            width: 62%;
+            margin-right: -50px;
+
+            padding-top: 40px;
+        }
+
+        @include desktop-1440 {
+            margin-right: -60px;
+        }
+
+        @include desktop-1600 {
+            width: 72%;
+            margin-right: -100px;
+        }
+
+        .cont__cards {
+            .cont__card {
+                @include flexbox;
+                flex-direction: column;
+
+                height: auto;
+
+                .cont__media {
+                    margin-bottom: 19px;
+
+                    min-height: 240px;
+
+                    @include desktop {
+                        min-height: 345px;
+                    }
+
+                    .cont__image,
+                    .cont__video {
+                        height: 100%;
+
+                        background-color: $white-2;
+
+                        img,
+                        video {
+                            display: block;
+
+                            width: 100%;
+                            height: 100%;
+
+                            max-height: 240px;
+                            min-height: 240px;
+
+                            object-fit: cover;
+
+                            @include desktop {
+                                max-height: 345px;
+                                min-height: 345px;
+                                object-fit: cover;
+                            }
+                        }
+                    }
+                }
+
+                .cont__title {
+                    @include font-medium;
+                    font-size: 1.125rem;
+                    line-height: 1.11;
+
+                    margin-bottom: 5px;
+
+                    @include desktop-1440 {
+                        @include Title3-Mobile;
+                    }
+
+                    @include desktop-1600 {
+                        margin-bottom: 12px;
+                    }
+                }
+
+                .cont__text {
+                    font-size: 0.875rem;
+                    line-height: 1.21;
+
+                    color: #676767;
+
+                    @include desktop-1440 {
+                        @include Small-Mobile;
+                    }
+                }
+            }
+        }
+
+        .swiper-navigation {
+            margin-top: 25px;
+
+            @include desktop {
+                margin-top: 31px;
+            }
+
+            .swiper-button-next,
+            .swiper-button-prev {
+                background-color: #7a7a7a;
+                border-color: #7a7a7a;
+
+                &:hover {
+                    background-color: transparent;
+                    border-color: $dark;
+                }
+            }
+        }
+    }
+}

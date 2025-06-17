@@ -1,0 +1,73 @@
+html {
+    box-sizing: border-box;
+    -ms-overflow-style: scrollbar;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+:root {
+    --gutters: 20px;
+
+    @include tablet {
+        --gutters: 40px;
+    }
+
+    @include desktop {
+        --gutters: 50px;
+    }
+
+    @include desktop-1440 {
+        --gutters: 60px;
+    }
+
+    @include desktop-1600 {
+        --gutters: 100px;
+    }
+
+    @include desktop-1920 {
+        --gutters: 0px;
+    }
+}
+
+
+.container {
+    width: 100%;
+    padding-right: var(--gutters);
+    padding-left: var(--gutters);
+    margin-right: auto;
+    margin-left: auto;
+
+    @include tablet {
+        max-width: 100%;
+    }
+
+    @include desktop-1920 {
+        max-width: 1720px;
+    }
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: var(--gutters);
+    padding-left: var(--gutters);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: calc(var(--gutters) * -1);
+    margin-left: calc(var(--gutters) * -1);
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}

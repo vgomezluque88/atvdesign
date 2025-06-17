@@ -1,0 +1,33 @@
+.wpcf7-form {
+    display: flex;
+    flex-direction: column;
+
+
+    input,
+    textarea {
+        background-color: $dark ;
+        border: solid 1px $dark !important;
+        border: 30px !important;
+        padding: 20px !important;
+        color: $white !important;
+        margin: 10px 0px !important;
+        max-width: 300px;
+        max-width: 300px;
+
+        width: 100%;
+
+        @include desktop {
+            min-width: 600px;
+            max-width: 600px;
+        }
+
+        &.wpcf7-submit {
+            max-width: 150px !important;
+
+            @include desktop {
+                max-width: 200px !important;
+            }
+        }
+    }
+
+}

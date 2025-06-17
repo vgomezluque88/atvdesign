@@ -1,0 +1,47 @@
+.section__last-articles {
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  .cont__title {
+    h2 {
+      @include Title1-Mobile;
+
+      margin-bottom: 16px;
+
+      @include desktop {
+        margin-bottom: 28px;
+      }
+
+      @include desktop-1600 {
+        @include Title1-Mobile;
+
+        margin-bottom: 42px;
+      }
+
+      @include desktop-1920 {
+        @include Title1-Desktop1600;
+      }
+
+    }
+  }
+
+  .owl-carousel .owl-stage {
+    display: flex;
+  }
+
+  .cont--post {
+    display: flex;
+    flex: 1 0 auto;
+    height: 100%;
+  }
+
+  .aticle-box {
+    position: relative;
+    overflow: hidden;
+    /* margin-bottom: 80px; */
+    /*This is optional*/
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

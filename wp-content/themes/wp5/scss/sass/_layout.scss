@@ -1,0 +1,81 @@
+.page-template-page-basic-page {
+  .entry-content {
+    margin-bottom: 55px;
+
+    @include tablet {
+      margin-bottom: 125px;
+    }
+
+    @include desktop-1280 {
+      max-width: 944px;
+    }
+
+    @include desktop-1366 {
+      max-width: 1160px;
+    }
+  }
+}
+
+.owl-dots {
+  .owl-dot {
+    margin-right: 5px;
+
+    @include desktop {
+      margin-right: 10px;
+    }
+
+    &.active,
+    &:hover {
+      span {
+        background-color: $black;
+      }
+    }
+
+    span {
+      display: block;
+
+      width: 10px;
+      height: 10px;
+
+      background-color: #cdcdcd;
+      border-radius: 50%;
+      border: 2.5px solid $white;
+
+      @include transition;
+
+      @include desktop {
+        width: 20px;
+        height: 20px;
+
+        border: 5px solid $white;
+      }
+    }
+  }
+}
+
+.wcc-consent-container [data-tag] {
+  visibility: visible;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $white;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $black;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $black;
+}

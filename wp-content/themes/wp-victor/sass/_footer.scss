@@ -1,0 +1,90 @@
+footer {
+
+
+    border-top: solid 1px $low-priority;
+    padding: 30px;
+
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+
+        @include desktop {
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: initial;
+            align-items: initial;
+
+
+        }
+
+        &-left {
+            display: flex;
+            flex-direction: column;
+
+            @include desktop {
+                justify-content: space-between;
+            }
+
+            &-top {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 50px;
+
+                @include desktop {
+                    margin-bottom: 0px;
+
+                }
+            }
+
+            &-social {
+                display: flex;
+                gap: 20px;
+
+                justify-content: center;
+
+                @include desktop {
+                    justify-content: flex-start;
+                }
+
+                svg {
+                    width: 30px;
+                    height: 30px;
+
+                    path {
+                        fill: $low-priority !important;
+
+                        &:hover {
+                            fill: $primary !important;
+                        }
+                    }
+                }
+            }
+
+            .contact-copyright {
+                margin: 0px !important;
+                color: $low-priority;
+            }
+        }
+
+        &-right {
+            &-content {
+                p {
+                    font-size: 1.2rem !important;
+                    font-weight: 700;
+                }
+            }
+        }
+
+    }
+
+    .contact-copyright {
+        p {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.2rem;
+            color: $low-priority;
+        }
+    }
+}

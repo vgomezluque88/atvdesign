@@ -1,0 +1,111 @@
+.cont_cv-experciencias {
+    margin-top: 100px;
+
+    .cont_cv-experiencias--title {
+        text-align: center;
+        color: $primary;
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+    .cont_cv-experiencias--item {
+        margin-bottom: 50px;
+        text-align: center;
+
+        @include desktop {
+            text-align: left;
+        }
+
+        &-content {
+            display: flex;
+            flex-direction: column;
+
+            @include desktop {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            &-title {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 5px;
+
+                @include desktop {
+                    flex-direction: row;
+                }
+
+
+
+                @include desktop {
+                    justify-content: flex-start;
+                }
+
+                img {
+                    width: 32px;
+                    height: 32px;
+                    margin-bottom: 30px;
+
+                    @include desktop {
+                        margin-right: 30px;
+                        margin-bottom: 0px;
+
+
+                    }
+                }
+
+                p {
+                    margin: 0px !important;
+                    font-size: 2rem;
+                }
+            }
+
+            &-date {
+
+                p {
+                    font-size: 1rem;
+
+                    color: $low-priority;
+
+                    @include desktop {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+
+        &-text {
+            max-height: 200px;
+            overflow: scroll;
+            overflow-x: hidden;
+            padding-right: 20px;
+
+            @include desktop {
+                max-height: 300px;
+            }
+
+            p {
+                margin-top: 10px;
+                color: $low-priority;
+            }
+        }
+
+        &:hover {
+
+            .cont_cv-experiencias--item-text,
+            .cont_cv-experiencias--item-content-date {
+                p {
+                    color: $white !important;
+                }
+            }
+
+            .cont_cv-experiencias--item-content-title {
+                p {
+                    color: $primary;
+                }
+            }
+        }
+
+    }
+}

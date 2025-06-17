@@ -1,0 +1,3219 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GDPR Cookie Consent\n"
+"POT-Creation-Date: 2023-08-17 10:23+0530\n"
+"PO-Revision-Date: 2023-08-17 10:39+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: cookie-law-info.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-cookie-law-info-admin.php:235
+#: admin/class-cookie-law-info-admin.php:236
+#: admin/class-cookie-law-info-admin.php:266
+#: admin/partials/cookie-law-info-admin_settings.php:32
+msgid "Settings"
+msgstr "Asetukset"
+
+#: admin/class-cookie-law-info-admin.php:267
+msgid "Support"
+msgstr "Tuki"
+
+#: admin/class-cookie-law-info-admin.php:281
+#: admin/class-cookie-law-info-admin.php:294
+#: admin/class-cookie-law-info-admin.php:318
+#: admin/class-cookie-law-info-admin.php:391
+#: admin/class-cookie-law-info-admin.php:537
+#: admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php:22
+#: admin/modules/cli-themes/classes/class-htmlscanner.php:36
+#: admin/modules/cli-themes/cli-themes.php:421
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:28
+#: admin/modules/settings-popup/settings-popup.php:130
+#: admin/modules/settings-popup/settings-popup.php:226
+#: admin/partials/cookie-law-info-privacy_overview.php:13
+#: includes/class-cookie-law-info-cookieyes.php:100
+#: includes/class-cookie-law-info-cookieyes.php:864
+#: public/modules/script-blocker/script-blocker.php:504
+#: public/modules/script-blocker/script-blocker.php:523
+#: public/modules/script-blocker/script-blocker.php:562
+#: public/modules/script-blocker/script-blocker.php:999
+msgid "You do not have sufficient permission to perform this operation"
+msgstr "Sinulla ei ole riittävästi lupaa tämän toiminnon suorittamiseen"
+
+#: admin/class-cookie-law-info-admin.php:422
+#: admin/modules/settings-popup/settings-popup.php:142
+#: admin/partials/cookie-law-info-privacy_overview.php:30
+msgid "Settings Updated."
+msgstr "Asetukset päivitetty."
+
+#: admin/class-cookie-law-info-admin.php:443
+msgid "ERROR MIGRATING SETTINGS (ERROR: 2)"
+msgstr "ERROR MIGRATING SETTINGS (VIRHE: 2)"
+
+#: admin/class-cookie-law-info-admin.php:604
+msgid "Close Header"
+msgstr "Sulje otsikko"
+
+#: admin/class-cookie-law-info-admin.php:608
+msgid "Open URL"
+msgstr "Avaa URL"
+
+#: admin/class-cookie-law-info-admin.php:621
+msgid "Extra Large"
+msgstr "XL"
+
+#: admin/class-cookie-law-info-admin.php:625
+msgid "Large"
+msgstr "Suuri"
+
+#: admin/class-cookie-law-info-admin.php:629
+msgid "Medium"
+msgstr "Keskikokoinen"
+
+#: admin/class-cookie-law-info-admin.php:633
+msgid "Small"
+msgstr "Pieni"
+
+#: admin/class-cookie-law-info-admin.php:647
+msgid "Default theme font"
+msgstr "Teeman oletusfonti"
+
+#: admin/class-cookie-law-info-admin.php:651
+msgid "Sans Serif"
+msgstr "Sans Serif"
+
+#: admin/class-cookie-law-info-admin.php:655
+msgid "Serif"
+msgstr "Serif"
+
+#: admin/class-cookie-law-info-admin.php:659
+msgid "Arial"
+msgstr "Arial"
+
+#: admin/class-cookie-law-info-admin.php:663
+msgid "Arial Black"
+msgstr "Arial Black"
+
+#: admin/class-cookie-law-info-admin.php:667
+msgid "Georgia, serif"
+msgstr "Georgia, serif"
+
+#: admin/class-cookie-law-info-admin.php:671
+msgid "Helvetica"
+msgstr "Helvetica"
+
+#: admin/class-cookie-law-info-admin.php:675
+msgid "Lucida"
+msgstr "Lucida"
+
+#: admin/class-cookie-law-info-admin.php:679
+msgid "Tahoma"
+msgstr "Tahoma"
+
+#: admin/class-cookie-law-info-admin.php:683
+msgid "Times New Roman"
+msgstr "Times New Roman"
+
+#: admin/class-cookie-law-info-admin.php:687
+msgid "Trebuchet"
+msgstr "Trebuchet"
+
+#: admin/class-cookie-law-info-admin.php:691
+msgid "Verdana"
+msgstr "Verdana"
+
+#: admin/modules/ccpa/ccpa.php:121
+msgid "Do you really wish to opt out?"
+msgstr "Haluatko todella kieltäytyä käytöstä?"
+
+#: admin/modules/ccpa/ccpa.php:122
+msgid "Confirm"
+msgstr "Vahvistaa"
+
+#: admin/modules/ccpa/ccpa.php:123
+#: admin/modules/cli-themes/views/theme_buttons.php:23
+#: admin/modules/cli-themes/views/themes_popup.php:109
+#: admin/modules/cookie-scaner/cookie-scaner.php:332
+msgid "Cancel"
+msgstr "Peruuttaa"
+
+#: admin/modules/ccpa/ccpa.php:134 admin/modules/ccpa/ccpa.php:167
+msgid "Sells Personal Information"
+msgstr "Myy henkilökohtaisia ​​tietoja"
+
+#: admin/modules/ccpa/ccpa.php:136 admin/modules/ccpa/ccpa.php:170
+msgid ""
+"If you enable this option, scripts under this category will be considered as "
+"personal data collecting scripts and will be blocked if opted out from CCPA"
+msgstr ""
+"Jos otat tämän vaihtoehdon käyttöön, tämän luokan skriptejä pidetään "
+"henkilökohtaisia tietoja keräävinä skripteinä ja ne estetään, jos CCPA "
+"poistetaan käytöstä"
+
+#: admin/modules/ccpa/ccpa.php:217
+msgid "Select the type of law"
+msgstr "Valitse lain tyyppi"
+
+#: admin/modules/ccpa/ccpa.php:221
+msgid "GDPR"
+msgstr "GDPR"
+
+#: admin/modules/ccpa/ccpa.php:222 admin/modules/ccpa/ccpa.php:230
+msgid ""
+"Customize the buttons, notice, themes from the relevant tabs to setup your "
+"cookie notice accordingly."
+msgstr ""
+"Mukauta painikkeet, huomautus, teemat asianmukaisista välilehdistä "
+"asettaaksesi evästeilmoituksen vastaavasti."
+
+#: admin/modules/ccpa/ccpa.php:225
+msgid "CCPA"
+msgstr "CCPA"
+
+#: admin/modules/ccpa/ccpa.php:226
+msgid ""
+"Most of the customizations from the tabs for buttons, notice or themes are "
+"not relevant especially if you choose to not show the notice, except the Do "
+"not sell within the buttons."
+msgstr ""
+"Suurin osa painikkeiden, huomautusten tai teemojen välilehtien mukautuksista "
+"ei ole merkityksellisiä varsinkin jos et halua näyttää ilmoitusta, paitsi "
+"Älä myy painikkeissa."
+
+#: admin/modules/ccpa/ccpa.php:229
+msgid "CCPA & GDPR"
+msgstr "CCPA ja GDPR"
+
+#: admin/modules/ccpa/views/ccpa_settings.php:7
+msgid "CCPA Settings"
+msgstr "CCPA-asetukset"
+
+#: admin/modules/ccpa/views/ccpa_settings.php:7
+msgid ""
+"The right to opt out in the California Consumer Privacy Act gives consumers "
+"the ability to direct a business not to sell their personal information to a "
+"third party. If the user considers to not sell their personal information, "
+"all the scripts related to the categories which are configured to sell "
+"personal information will be blocked. The DO NOT SELL option is facilitated "
+"via a shortcode [wt_cli_ccpa_optout]."
+msgstr ""
+"Kalifornian kuluttajansuojalaissa annettu oikeus kieltäytyä antaa "
+"kuluttajille mahdollisuuden ohjata yritystä olemaan myymättä "
+"henkilökohtaisia tietojaan kolmannelle osapuolelle. Jos käyttäjä harkitsee "
+"myymättä henkilökohtaisia tietojaan, kaikki komentosarjat, jotka liittyvät "
+"luokkiin, jotka on määritetty myymään henkilökohtaisia tietoja, estetään. "
+"ÄLÄ MYY-vaihtoehtoa helpotetaan lyhyen koodin avulla [wt_cli_ccpa_optout]."
+
+#: admin/modules/ccpa/views/ccpa_settings.php:10
+msgid "Enable CCPA ?"
+msgstr "Ota CCPA käyttöön?"
+
+#: admin/modules/ccpa/views/ccpa_settings.php:18
+msgid "Restrict CCPA to only California"
+msgstr "Rajoita CCPA vain Kaliforniaan"
+
+#: admin/modules/ccpa/views/ccpa_settings.php:18
+msgid ""
+"When enabled this regulation will be applicable only to visits from "
+"California; applicable to all visitors when disabled."
+msgstr ""
+"Kun tämä asetus on käytössä, sitä sovelletaan vain Kalifornian vierailuihin; "
+"soveltuu kaikille vierailijoille, kun he ovat poissa käytöstä."
+
+#: admin/modules/ccpa/views/ccpa_settings.php:26
+msgid "Enable CCPA notice"
+msgstr "Ota CCPA-ilmoitus käyttöön"
+
+#: admin/modules/ccpa/views/ccpa_settings.php:26
+msgid ""
+"Enabling the notice will display the banner with the relevant text as per "
+"your configuration. Use this option particularly to record prior consent "
+"from the website visitors."
+msgstr ""
+"Ilmoituksen ottaminen käyttöön näyttää bannerin ja siihen liittyvän tekstin "
+"kokoonpanosi mukaan. Käytä tätä vaihtoehtoa erityisesti verkkosivustojen "
+"kävijöiden aikaisemman suostumuksen tallentamiseen."
+
+#: admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php:26
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:33
+msgid "Unable to handle your request."
+msgstr "Pyyntöä ei voi käsitellä."
+
+#: admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php:95
+#: admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php:133
+#: admin/modules/cli-policy-generator/cli-policy-generator.php:139
+#: admin/modules/cli-themes/cli-themes.php:805
+#: admin/modules/cookie-scaner/cookie-scaner.php:320
+#: admin/modules/cookie-scaner/views/unable-to-start.php:9
+#: public/modules/visitor-report/visitor-report.php:136
+msgid "Error"
+msgstr "Virhe"
+
+#: admin/modules/cli-policy-generator/classes/class-preview-page.php:27
+msgid "Cookie Policy"
+msgstr "Evästekäytäntö"
+
+#: admin/modules/cli-policy-generator/classes/class-preview-page.php:86
+msgid "Auto reload preview"
+msgstr "Automaattinen latauksen esikatselu"
+
+#: admin/modules/cli-policy-generator/cli-policy-generator.php:112
+#: admin/modules/cli-policy-generator/cli-policy-generator.php:113
+msgid "Policy generator"
+msgstr "Politiikan generaattori"
+
+#: admin/modules/cli-policy-generator/cli-policy-generator.php:140
+#: admin/modules/cli-themes/cli-themes.php:806
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:102
+#: admin/modules/cookie-scaner/cookie-scaner.php:340
+msgid "Success"
+msgstr "Menestys"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:21
+msgid "Cookie Policy generator"
+msgstr "Evästepolitiikan luominen"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:25
+msgid "Sample heading"
+msgstr "Näytteen otsikko"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:26
+msgid "Sample content"
+msgstr "Näytteen sisältö"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:27
+#: public/modules/visitor-report/classes/class-visitor-history.php:101
+msgid "Delete"
+msgstr "Poistaa"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:49
+msgid "Add new"
+msgstr "Lisää uusi"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:53
+msgid "Heading"
+msgstr "Otsikko"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:57
+#: admin/modules/cookie-scaner/cookie-scaner.php:996
+#: admin/modules/cookies/cookies.php:291
+#: public/modules/script-blocker/views/admin_script_blocker.php:153
+#: public/modules/script-blocker/views/admin_script_blocker.php:227
+#: public/modules/shortcode/shortcode.php:348
+#: public/modules/shortcode/shortcode.php:451
+msgid "Description"
+msgstr "Kuvaus"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:78
+msgid "Update existing Cookie Policy page"
+msgstr "Päivitä olemassa oleva evästekäytäntö -sivu"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:84
+msgid "Create Cookie Policy page"
+msgstr "Luo evästekäytäntö -sivu"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:88
+#: admin/modules/cli-themes/views/themes_popup.php:105
+msgid "Live preview"
+msgstr "Live-esikatselu"
+
+#: admin/modules/cli-themes/cli-themes.php:235
+msgid "Change GDPR cookie preview template"
+msgstr "Muuta GDPR-evästeiden esikatselumalli"
+
+#: admin/modules/cli-themes/views/theme_buttons.php:8
+msgid "Save & Publish"
+msgstr "Tallenna ja julkaise"
+
+#: admin/modules/cli-themes/views/theme_buttons.php:18
+msgid "Change Template"
+msgstr "Muuta mallia"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:8
+msgid "Properties"
+msgstr "Ominaisuudet"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:15
+#: admin/views/admin-settings-buttons.php:35
+#: admin/views/admin-settings-buttons.php:107
+#: admin/views/admin-settings-buttons.php:174
+#: admin/views/admin-settings-buttons.php:244
+#: admin/views/admin-settings-buttons.php:307
+#: admin/views/admin-settings-buttons.php:418
+msgid "Text"
+msgstr "Teksti"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:21
+msgid "Text size"
+msgstr "Tekstin koko"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:26
+msgid "Text color"
+msgstr "Tekstin väri"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:30
+msgid "Font weight"
+msgstr "Fontin paino"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:47
+msgid "Background"
+msgstr "Tausta"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:51
+msgid "Border width"
+msgstr "Rajan leveys"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:55
+msgid "Border Color"
+msgstr "Reunuksen väri"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:59
+msgid "Corner radius"
+msgstr "Kulman säde"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:63
+msgid "Text style"
+msgstr "Tekstityyli"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:66
+msgid "Italic"
+msgstr "Italic"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:68
+msgid "Underline"
+msgstr "Korostaa"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:82
+msgid "Apply"
+msgstr "Käytä"
+
+#: admin/modules/cli-themes/views/themes.php:40
+#: admin/modules/settings-popup/views/settings.php:36
+#: admin/views/admin-settings-general.php:33
+#: admin/views/admin-settings-messagebar.php:38
+#, php-format
+msgid ""
+"Your banner has been enabled with %s IAB TCF v2.2 support %s. This means "
+"that most of the text will be non-editable. The IAB TCF v2.2 enforces strict "
+"policies on the wording used in the first and second layers of a cookie "
+"banner to ensure clear and concise information for users about the "
+"collection and processing of their data."
+msgstr ""
+"Bannerisi on otettu käyttöön %s IAB TCF v2.2 -tuella %s. Tämä tarkoittaa, "
+"että suurinta osaa tekstistä ei voi muokata. IAB TCF v2.2 noudattaa tiukkoja "
+"käytäntöjä evästebannerin ensimmäisessä ja toisessa kerroksessa käytetylle "
+"sanamuodolle varmistaakseen käyttäjille selkeät ja ytimekkäät tiedot heidän "
+"tietojensa keräämisestä ja käsittelystä."
+
+#: admin/modules/cli-themes/views/themes.php:47
+msgid "Cookie bar - Design editor"
+msgstr "Cookie bar - Suunnittelueditori"
+
+#: admin/modules/cli-themes/views/themes.php:54
+msgid "Click on the elements to customize."
+msgstr "Napsauta mukautettavia elementtejä."
+
+#: admin/modules/cli-themes/views/themes.php:58
+msgid "Cookie message - Text editor"
+msgstr "Cookie-viesti - Tekstieditori"
+
+#: admin/modules/cli-themes/views/themes.php:63
+msgid ""
+"Text on the selected theme may be different. Please update the cookie "
+"message accordingly in the above text view."
+msgstr ""
+"Valitun teeman teksti voi olla erilainen. Päivitä evästeviesti vastaavasti "
+"yllä olevassa tekstinäkymässä."
+
+#: admin/modules/cli-themes/views/themes_popup.php:12
+#: admin/modules/cli-themes/views/themes_popup.php:23
+#: admin/views/admin-settings-messagebar.php:100
+msgid "Banner"
+msgstr "Banneri"
+
+#: admin/modules/cli-themes/views/themes_popup.php:13
+#: admin/modules/cli-themes/views/themes_popup.php:24
+#: admin/views/admin-settings-buttons.php:289
+#: admin/views/admin-settings-buttons.php:292
+#: admin/views/admin-settings-messagebar.php:101
+msgid "Popup"
+msgstr "Ponnahdusikkuna"
+
+#: admin/modules/cli-themes/views/themes_popup.php:14
+#: admin/modules/cli-themes/views/themes_popup.php:25
+#: admin/views/admin-settings-messagebar.php:102
+msgid "Widget"
+msgstr "Vekotin"
+
+#: admin/modules/cli-themes/views/themes_popup.php:18
+msgid "Templates"
+msgstr "Mallit"
+
+#: admin/modules/cli-themes/views/themes_popup.php:102
+msgid "Customize"
+msgstr "Mukauta"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:90
+msgid "Sorry..."
+msgstr "Sorry ..."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:93
+msgid ""
+"Cookie Scanner API is not available now. Please try again later. <br />Do "
+"you want to report this to developer and get notified?"
+msgstr ""
+"Cookie Scanner API ei ole käytettävissä nyt. Yritä uudelleen myöhemmin. <br /"
+"> Haluatko ilmoittaa tästä kehittäjälle ja saada ilmoituksen?"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:117
+msgid "Unable to handle your request"
+msgstr "Pyyntöä ei voi käsitellä"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:121
+#: admin/modules/csv-export/csv-export.php:65
+#: admin/modules/csv-import/csv-import.php:118
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Sinulla ei ole riittävästi oikeuksia käyttääksesi tätä sivua."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:213
+msgid "cookies added."
+msgstr "evästeet lisätty."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:216
+msgid "cookies skipped."
+msgstr "evästeet ohitettiin."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:220
+msgid "cookies deleted."
+msgstr "evästeet poistettu."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:227
+msgid "No cookies found"
+msgstr "Evästeitä ei löytynyt"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:436
+msgid "Could not initiate scan"
+msgstr "Skannausta ei voitu aloittaa"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:450
+msgid "Scanning initiated successfully"
+msgstr "Skannaus aloitettu onnistuneesti"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:451
+msgid ""
+"It might take a few minutes to a few hours to complete the scanning of your "
+"website. This depends on the number of pages to scan and the website speed. "
+"Once the scanning is complete, we will notify you by email."
+msgstr ""
+"Verkkosivustosi tarkistuksen suorittaminen voi kestää muutaman minuutin tai "
+"muutaman tunnin. Tämä riippuu skannattavien sivujen määrästä ja "
+"verkkosivuston nopeudesta. Kun skannaus on valmis, ilmoitamme siitä sinulle "
+"sähköpostitse."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:515
+#: admin/modules/cookie-scaner/cookie-scaner.php:846
+msgid "Token mismatch"
+msgstr "Tunnuksen ristiriita"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:548
+msgid "Abort successfull"
+msgstr "Keskeytys onnistui"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:552
+msgid "Abort failed"
+msgstr "Skannaus epäonnistui"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:35
+msgid "Incomplete"
+msgstr "Epätäydellinen"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:36
+msgid "Completed"
+msgstr "Suoritettu"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:37
+msgid "Stopped"
+msgstr "Päättynyt"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:38
+msgid "Failed"
+msgstr "Epäonnistui"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:66
+msgid "Unknown"
+msgstr "Tuntematon"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:280
+#: admin/modules/cookie-scaner/cookie-scaner.php:281
+msgid "Cookie Scanner"
+msgstr "Evästeiden skanneri"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:314
+msgid "Scanned"
+msgstr "Skannattu"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:315
+msgid "Scanning completed."
+msgstr "Skannaus on valmis."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:316
+msgid "Added to cookie list."
+msgstr "Lisätty evästeiden luetteloon."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:317
+#, php-format
+msgid ""
+"Unable to connect. Try setting the URL per scan request to 1 or 2 under "
+"advanced settings tab <a href=\"%s\">click here.</a>"
+msgstr ""
+"Yhteyden muodostaminen epäonnistui. Yritä asettaa skannauspyynnön URL-"
+"osoitteeksi 1 tai 2 lisäasetukset-välilehden <a href=\"%s\">napsauta tätä.</"
+"a>"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:318
+msgid "Finding pages..."
+msgstr "Sivujen etsiminen ..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:319
+msgid "Scanning pages..."
+msgstr "Skannaus sivuja ..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:321
+msgid "Stop"
+msgstr "Stop"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:322
+#: admin/modules/cookie-scaner/cookie-scaner.php:1133
+msgid "Scan again"
+msgstr "Skannaa uudelleen"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:323
+#: admin/modules/cookie-scaner/views/scan-result.php:33
+msgid "Download cookies as CSV"
+msgstr "Lataa evästeet CSV-muodossa"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:324
+#: admin/modules/cookie-scaner/views/scan-result.php:70
+msgid "Add to cookie list"
+msgstr "Lisää evästeiden luetteloon"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:325
+msgid "View scan result"
+msgstr "Näytä skannaustulos"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:326
+msgid "Import options"
+msgstr "Tuo asetukset"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:327
+msgid "Replace old"
+msgstr "Vaihda vanha"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:328
+msgid "Merge"
+msgstr "Yhdistää"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:329
+msgid "Recommended"
+msgstr "Suositeltava"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:330
+msgid "Append"
+msgstr "Liitä"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:331
+msgid "Not recommended"
+msgstr "Ei suositeltu"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:333
+msgid "Start import"
+msgstr "Aloita tuonti"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:334
+msgid "Importing...."
+msgstr "Tuodaan ...."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:335
+msgid "Refreshing...."
+msgstr "Virkistävä...."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:336
+msgid "Error !!! Please reload the page to see cookie list."
+msgstr "Virhe !!! Lataa sivu uudelleen nähdäksesi evästeiden luettelon."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:337
+msgid "Stopping..."
+msgstr "Pysäytetään ..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:338
+msgid "Scanning stopped."
+msgstr "Skannaus pysähtyi."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:339
+msgid "Are you sure?"
+msgstr "Oletko varma?"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:341
+msgid "Thank you"
+msgstr "Kiitos"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:342
+msgid "Checking API"
+msgstr "Tarkista API"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:343
+msgid "Sending..."
+msgstr "Lähetetään ..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:344
+msgid "Total URLs scanned"
+msgstr "Skannatut URL-osoitteet yhteensä"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:345
+msgid "Total Cookies found"
+msgstr "Löydetyt evästeet yhteensä"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:346
+msgid "Could not fetch the URLs, please try again"
+msgstr "Yhteyttä skanneriin ei voitu muodostaa! yritä uudelleen myöhemmin"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:347
+msgid "Aborting the scan..."
+msgstr "Keskeytetään skannaus..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:348
+msgid "Could not abort the scan, please try again"
+msgstr "Skannausta ei voitu keskeyttää, yritä uudelleen"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:390
+msgid "Unable to load cookie scanner."
+msgstr "Evästeiden skanneria ei voi ladata."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:393
+msgid "Need `GDPR Cookie Consent` plugin version above 2.1.4"
+msgstr ""
+"Tarvitsetko \"GDPR-evästeiden suostumusta\" -sovellusversiota yllä 2.1.4"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:397
+msgid "Scanning will not work on local server."
+msgstr "Skannaus ei toimi paikallisessa palvelimessa."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:631
+msgid "Please activate your license in order to proceed with the scan."
+msgstr "Aktivoi lisenssi jatkaaksesi skannausta."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:631
+msgid "Activate"
+msgstr "Aktivoida"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:666
+#, php-format
+msgid ""
+"GDPR Cookie Consent now uses <a href=\"%s\" target=\"_blank\">CookieYes</a> "
+"to bring you enhanced scanning for cookies on your website! To further avail "
+"quick and accurate scanning of your website, connect with CookieYes, in just "
+"a click! By continuing, you agree to CookieYes's <a href=\"%s\" "
+"target=\"_blank\">Privacy Policy</a> & <a href=\"%s\" "
+"target=\"_blank\">Terms of service</a>."
+msgstr ""
+"GDPR-evästeiden suostumus käyttää nyt <a href=“%s” target=“_blank”> "
+"CookieYes </a> -toimintoa tuodakseen sinulle parannettua evästeiden "
+"tarkistusta verkkosivustollasi! Jos haluat edelleen käyttää verkkosivustosi "
+"nopeaa ja tarkkaa skannausta, ota yhteys CookieYes-palveluun yhdellä "
+"napsautuksella! Jatkamalla hyväksyt CookieYesin <a href=“%s” "
+"target=“_blank”> tietosuojakäytännön </a> ja <a href=“%s” target=“_blank”> "
+"käyttöehdot </a>."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:668
+msgid "Scan your website for cookies automatically with CookieYes!"
+msgstr ""
+"Etsi verkkosivustoltasi evästeet automaattisesti CookieYes-toiminnolla!"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:669
+#, php-format
+msgid ""
+"Connect with <a href=\"%s\" target=\"_blank\">CookieYes</a>, our scanning "
+"solution to get fast and accurate cookie scanning. By continuing, you agree "
+"to CookieYes's <a href=\"%s\" target=\"_blank\">Privacy Policy</a> & <a "
+"href=\"%s\" target=\"_blank\">Terms of service</a>."
+msgstr ""
+"Ota yhteyttä <a href=“%s” target=“_blank”> CookieYes </a> -"
+"skannausratkaisuumme saadaksesi nopean ja tarkan evästeiden skannauksen. "
+"Jatkamalla hyväksyt CookieYesin <a href=“%s” target=“_blank”> "
+"tietosuojakäytännön </a> ja <a href=“%s” target=“_blank”> käyttöehdot </a>."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:670
+#: admin/modules/cookie-scaner/cookie-scaner.php:1138
+msgid "Connect & scan"
+msgstr "Yhdistä ja skannaa"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:710
+msgid "You haven't performed a site scan yet."
+msgstr "Et ole vielä suorittanut sivuston tarkistusta."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:719
+msgid "Scan failed"
+msgstr "Skannaus epäonnistui"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:720
+#: admin/modules/cookie-scaner/cookie-scaner.php:759
+msgid "Last scan:"
+msgstr "Viimeinen tarkistus:"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:732
+#, php-format
+msgid "Last scan: %s"
+msgstr "Viimeinen tarkistus: %s"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:734
+msgid "Scan complete"
+msgstr "Skannaus valmis"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:758
+msgid "Scan aborted"
+msgstr "Skannaus keskeytetty"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:780
+msgid "Scan initiated..."
+msgstr "Skannaus aloitettu ..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:783
+msgid "Abort scan"
+msgstr "Keskeytä skannaus"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:794
+msgid "Scan started at"
+msgstr "Skannaus aloitettiin osoitteessa"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:802
+#: admin/modules/cookie-scaner/views/scan-result.php:44
+msgid "Total URLs"
+msgstr "URL-osoitteet yhteensä"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:810
+msgid "Total estimated time (Approx)"
+msgstr "Arvioitu kokonaisaika (noin)"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:818
+msgid ""
+"Your website is currently being scanned for cookies. This might take from a "
+"few minutes to a few hours, depending on your website speed and the number "
+"of pages to be scanned."
+msgstr ""
+"Verkkosivustoasi tarkistetaan evästeiden varalta. Tämä voi kestää muutamasta "
+"minuutista muutamaan tuntiin riippuen verkkosivustosi nopeudesta ja "
+"skannattavien sivujen määrästä."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:820
+msgid "Once the scanning is complete, we will notify you by email."
+msgstr "Kun skannaus on valmis, ilmoitamme siitä sinulle sähköpostitse."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:848
+msgid "Successfully inserted"
+msgstr "Lisäys onnistui"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:851
+msgid "Failed to insert"
+msgstr "Lisäys epäonnistui"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:880
+msgid "Invalid scan token"
+msgstr "Virheellinen skannaustunnus"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:992
+msgid "Sl.No:"
+msgstr "Sl.No:"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:993
+#: admin/modules/cookies/cookies.php:285
+msgid "Cookie Name"
+msgstr "Cookie Nimi"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:994
+#: admin/modules/cookies/cookies.php:288 public/modules/iab-tcf/iab-tcf.php:134
+#: public/modules/shortcode/shortcode.php:345
+#: public/modules/shortcode/shortcode.php:448
+msgid "Duration"
+msgstr "Kesto"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:995
+#: admin/modules/cookies/cookies.php:287
+#: public/modules/script-blocker/views/admin_script_blocker.php:154
+#: public/modules/script-blocker/views/admin_script_blocker.php:228
+msgid "Category"
+msgstr "Kategoria"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:1012
+msgid "Your cookie list is empty"
+msgstr "Evästeiden luettelo on tyhjä"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:1125
+msgid "Scan website for cookies"
+msgstr "Skannaa evästeitä verkkosivustolta"
+
+#: admin/modules/cookie-scaner/views/scan-cookies.php:190
+msgid "Cookie scanner"
+msgstr "Evästeiden skanneri"
+
+#: admin/modules/cookie-scaner/views/scan-result.php:14
+msgid "Cookie scan result for your website"
+msgstr "Evästeiden skannaustulos verkkosivustollesi"
+
+#: admin/modules/cookie-scaner/views/scan-result.php:47
+msgid "Total cookies"
+msgstr "Evästeiden kokonaismäärä"
+
+#: admin/modules/cookie-scaner/views/scan-result.php:57
+#, php-format
+msgid ""
+"Clicking “Add to cookie list” will import the discovered cookies to the <a "
+"href=\"%s\" target=\"_blank\">Cookie List</a> and thus display them in the "
+"cookie declaration section of your consent banner."
+msgstr ""
+"Napsauttamalla \"Lisää evästeluetteloon\" tuo löydetyt evästeet <a "
+"href=\"%s\" target=\"_blank\">evästeluetteloon</a> ja näyttää ne sitten "
+"evästeilmoitusosiossa."
+
+#: admin/modules/cookie-scaner/views/unable-to-start.php:7
+msgid "Scan cookies"
+msgstr "Skannaa evästeet"
+
+#: admin/modules/cookies/cookies.php:69
+msgid "Term meta cannot be added to terms that are shared between taxonomies."
+msgstr ""
+"Termi metaa ei voi lisätä termeihin, jotka jaetaan taksonomioiden kesken."
+
+#. Plugin Name of the plugin/theme
+#: admin/modules/cookies/cookies.php:132
+msgid "GDPR Cookie Consent"
+msgstr "GDPR Cookie Consent"
+
+#: admin/modules/cookies/cookies.php:133
+msgid "Cookie List"
+msgstr "Evästeiden luettelo"
+
+#: admin/modules/cookies/cookies.php:134
+#: public/modules/shortcode/shortcode.php:339
+#: public/modules/shortcode/shortcode.php:442
+msgid "Cookie"
+msgstr "Cookie"
+
+#: admin/modules/cookies/cookies.php:135
+msgid "Add New"
+msgstr "Lisää uusi"
+
+#: admin/modules/cookies/cookies.php:136
+msgid "Add New Cookie Type"
+msgstr "Lisää uusi Cookie tyyppi"
+
+#: admin/modules/cookies/cookies.php:137
+msgid "Edit Cookie Type"
+msgstr "Muokkaa Cookie tyyppiä"
+
+#: admin/modules/cookies/cookies.php:138
+msgid "New Cookie Type"
+msgstr "Uusi Cookie tyyppi"
+
+#: admin/modules/cookies/cookies.php:139
+msgid "View Cookie Type"
+msgstr "Näytä Cookie tyyppi"
+
+#: admin/modules/cookies/cookies.php:140
+msgid "Search Cookies"
+msgstr "Hae Cookies"
+
+#: admin/modules/cookies/cookies.php:141
+msgid "Nothing found"
+msgstr "Mitään ei löytynyt"
+
+#: admin/modules/cookies/cookies.php:142
+msgid "Nothing found in Trash"
+msgstr "Roskassa ei löytynyt mitään"
+
+#: admin/modules/cookies/cookies.php:208 admin/modules/cookies/cookies.php:221
+msgid "Cookie ID"
+msgstr "Evästetunnus"
+
+#: admin/modules/cookies/cookies.php:209
+msgid "Cookie Type"
+msgstr "Evästetyyppi"
+
+#: admin/modules/cookies/cookies.php:210
+msgid "Cookie Duration"
+msgstr "Evästeen kesto"
+
+#: admin/modules/cookies/cookies.php:211
+msgid "Cookie Sensitivity"
+msgstr "Evästeiden herkkyys"
+
+#: admin/modules/cookies/cookies.php:212
+msgid "Head Scripts"
+msgstr "Pään skriptit"
+
+#: admin/modules/cookies/cookies.php:213
+msgid "Body Scripts"
+msgstr "Body Scripts"
+
+#: admin/modules/cookies/cookies.php:232
+msgid "Cookie Type: (persistent, session, third party )"
+msgstr "Evästetyyppi: (jatkuva, istunto, kolmas osapuoli)"
+
+#: admin/modules/cookies/cookies.php:244
+msgid "Cookie Duration:"
+msgstr "Evästeen kesto:"
+
+#: admin/modules/cookies/cookies.php:255
+msgid "Cookie Sensitivity: ( necessary , non-necessary )"
+msgstr "Evästeiden herkkyys: (välttämätön, ei välttämätön)"
+
+#: admin/modules/cookies/cookies.php:286 public/modules/iab-tcf/iab-tcf.php:133
+#: public/modules/shortcode/shortcode.php:342
+#: public/modules/shortcode/shortcode.php:445
+msgid "Type"
+msgstr "Tyyppi"
+
+#: admin/modules/cookies/cookies.php:289
+msgid "Sensitivity"
+msgstr "Herkkyys"
+
+#: admin/modules/cookies/cookies.php:290
+msgid "ID"
+msgstr "ID"
+
+#: admin/modules/cookies/cookies.php:345 admin/modules/cookies/cookies.php:361
+#: admin/modules/cookies/cookies.php:373
+msgid "Priority"
+msgstr "Prioriteetti"
+
+#: admin/modules/cookies/cookies.php:346 admin/modules/cookies/cookies.php:437
+#: admin/modules/cookies/cookies.php:454
+msgid "Load on start"
+msgstr "Lataa alussa"
+
+#: admin/modules/cookies/cookies.php:354
+#: admin/views/admin-settings-buttons.php:28
+#: admin/views/admin-settings-buttons.php:84
+#: admin/views/admin-settings-buttons.php:155
+#: admin/views/admin-settings-buttons.php:226
+#: admin/views/admin-settings-buttons.php:385
+#: admin/views/admin-settings-buttons.php:393
+#: admin/views/admin-settings-buttons.php:400
+#: admin/views/admin-settings-general.php:68
+#: admin/views/admin-settings-general.php:82
+#: admin/views/admin-settings-general.php:91
+#: admin/views/admin-settings-general.php:108
+#: admin/views/admin-settings-general.php:116
+#: admin/views/admin-settings-general.php:123
+#: admin/views/admin-settings-messagebar.php:118
+#: admin/views/admin-settings-messagebar.php:142
+msgid "Yes"
+msgstr "Joo"
+
+#: admin/modules/cookies/cookies.php:354
+#: admin/views/admin-settings-buttons.php:29
+#: admin/views/admin-settings-buttons.php:86
+#: admin/views/admin-settings-buttons.php:157
+#: admin/views/admin-settings-buttons.php:227
+#: admin/views/admin-settings-buttons.php:386
+#: admin/views/admin-settings-buttons.php:394
+#: admin/views/admin-settings-buttons.php:401
+#: admin/views/admin-settings-general.php:69
+#: admin/views/admin-settings-general.php:83
+#: admin/views/admin-settings-general.php:92
+#: admin/views/admin-settings-general.php:109
+#: admin/views/admin-settings-general.php:117
+#: admin/views/admin-settings-general.php:124
+#: admin/views/admin-settings-messagebar.php:119
+#: admin/views/admin-settings-messagebar.php:143
+#: public/modules/script-blocker/views/admin_script_blocker.php:150
+#: public/modules/script-blocker/views/admin_script_blocker.php:224
+msgid "No"
+msgstr "Ei"
+
+#: admin/modules/cookies/cookies.php:363 admin/modules/cookies/cookies.php:377
+msgid "Numeric - Higher the value, higher the priority"
+msgstr "Numeerinen - Korkeampi arvo, suurempi prioriteetti"
+
+#: admin/modules/cookies/cookies.php:398 admin/modules/cookies/cookies.php:416
+msgid "Make this as stricly necessary category"
+msgstr "Tee tästä ehdottoman välttämätön luokka"
+
+#: admin/modules/cookies/cookies.php:400 admin/modules/cookies/cookies.php:419
+msgid ""
+"The underlying scripts are assumed to be absolutely essential for the "
+"website to function properly. They will be rendered irrespective of user "
+"consent."
+msgstr ""
+"Taustalla olevien skriptien oletetaan olevan ehdottoman välttämättömiä "
+"verkkosivuston moitteettoman toiminnan kannalta. Ne toimitetaan käyttäjän "
+"suostumuksesta riippumatta."
+
+#: admin/modules/cookies/cookies.php:439 admin/modules/cookies/cookies.php:457
+msgid ""
+"If you enable this option, scripts under this category will be rendered "
+"without waiting for user consent on first page visit. Use this option "
+"discreetly, only if you are sure that no user sensitive data is being "
+"obtained via these scripts."
+msgstr ""
+"Jos otat tämän vaihtoehdon käyttöön, tämän luokan skriptit tehdään "
+"odottamatta käyttäjän suostumusta ensimmäisellä sivulla. Käytä tätä "
+"vaihtoehtoa huomaamattomasti vain, jos olet varma, että näiden "
+"komentosarjojen kautta ei saada käyttäjän arkaluonteisia tietoja."
+
+#: admin/modules/cookies/cookies.php:478
+msgid "Cookie Category"
+msgstr "Evästeiden luokka"
+
+#: admin/modules/cookies/cookies.php:479
+msgid "Add cookie category"
+msgstr "Evästeiden luokka"
+
+#: admin/modules/cookies/cookies.php:480
+msgid "Edit cookie category"
+msgstr "Evästeiden luokka"
+
+#: admin/modules/cookies/cookies.php:868 admin/modules/cookies/cookies.php:894
+msgid "Category default state"
+msgstr "Luokan oletustila"
+
+#: admin/modules/cookies/cookies.php:869 admin/modules/cookies/cookies.php:896
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:4
+#: admin/modules/settings-popup/views/cookie_settings.php:5
+#: public/modules/script-blocker/views/admin_script_blocker.php:152
+#: public/modules/script-blocker/views/admin_script_blocker.php:181
+#: public/modules/script-blocker/views/admin_script_blocker.php:226
+msgid "Enabled"
+msgstr "Käytössä"
+
+#: admin/modules/cookies/cookies.php:870 admin/modules/cookies/cookies.php:897
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:5
+#: admin/modules/settings-popup/views/cookie_settings.php:6
+#: public/modules/script-blocker/views/admin_script_blocker.php:183
+msgid "Disabled"
+msgstr "Pois käytöstä"
+
+#: admin/modules/cookies/cookies.php:871 admin/modules/cookies/cookies.php:898
+msgid ""
+"If you enable this option, the category toggle button will be in the active "
+"state for cookie consent."
+msgstr ""
+"Jos otat tämän vaihtoehdon käyttöön, luokan vaihtopainike on aktiivisessa "
+"tilassa evästeen suostumusta varten."
+
+#: admin/modules/cookies/cookies.php:925 admin/modules/cookies/cookies.php:948
+msgid "Head scripts"
+msgstr "Head"
+
+#: admin/modules/cookies/cookies.php:932 admin/modules/cookies/cookies.php:956
+msgid "Body scripts"
+msgstr "Body-skriptit"
+
+#: admin/modules/csv-export/csv-export.php:29
+msgid "Download as CSV"
+msgstr "Lataa CSV-muodossa"
+
+#: admin/modules/csv-import/csv-import.php:46
+msgid "Import from CSV"
+msgstr "Tuo CSV: stä"
+
+#: admin/modules/csv-import/csv-import.php:67
+#: admin/modules/csv-import/csv-import.php:68
+msgid "Import Cookie"
+msgstr "Tuo evästeet"
+
+#: admin/modules/csv-import/csv-import.php:301
+#, php-format
+msgid "BEGIN %s"
+msgstr "BEGIN %s"
+
+#: admin/modules/csv-import/csv-import.php:306
+#, php-format
+msgid "[Line %1$s] %2$s"
+msgstr "[Linja %1$s]%2$s"
+
+#: admin/modules/csv-import/views/import_cookies.php:2
+msgid "Import from a CSV file"
+msgstr "Tuo CSV-tiedostosta"
+
+#: admin/modules/csv-import/views/import_cookies.php:12
+#, php-format
+msgid ""
+"Notice: please make the directory %s writable so that you can see the error "
+"log."
+msgstr ""
+"Huomautus: tee hakemisto %s kirjoitettavaksi, jotta voit nähdä virhelokin."
+
+#: admin/modules/csv-import/views/import_cookies.php:25
+#, php-format
+msgid ", please <a href=\"%s\">check the error log</a>"
+msgstr ", <a href=\"%s\">tarkista virheloki</a>"
+
+#: admin/modules/csv-import/views/import_cookies.php:29
+msgid "Error during file upload."
+msgstr "Virhe latauksen aikana."
+
+#: admin/modules/csv-import/views/import_cookies.php:32
+msgid "Cannot extract data from uploaded file or no file was uploaded."
+msgstr ""
+"Tiedostoja ei voi purkaa ladatuista tiedostoista tai tiedostoa ei ladattu."
+
+#: admin/modules/csv-import/views/import_cookies.php:35
+#, php-format
+msgid "No posts was successfully imported%s."
+msgstr "Mitään viestejä ei tuotu onnistuneesti% s."
+
+#: admin/modules/csv-import/views/import_cookies.php:38
+#, php-format
+msgid "Some posts were successfully imported but some were not%s."
+msgstr "Jotkut viestit tuotiin onnistuneesti, mutta jotkut eivät olleet% s."
+
+#: admin/modules/csv-import/views/import_cookies.php:41
+msgid "Post import was successful."
+msgstr "Postimyynti oli onnistunut."
+
+#: admin/modules/csv-import/views/import_cookies.php:52
+msgid "CSV file"
+msgstr "CSV-tiedosto"
+
+#: admin/modules/csv-import/views/import_cookies.php:55
+#, php-format
+msgid "You may want to see <a href=\"%s\">the example of the CSV file</a>."
+msgstr "Saatat haluta nähdä <a href=\"%s\"> CSV-tiedoston esimerkin </a>."
+
+#: admin/modules/csv-import/views/import_cookies.php:60
+msgid "Import"
+msgstr "Tuonti"
+
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:3
+#: admin/modules/settings-popup/views/cookie_settings.php:4
+msgid "Always Enabled"
+msgstr "Aina käytössä"
+
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:6
+msgid "Legitimate Interest"
+msgstr "Perusteltu etu"
+
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:7
+#: admin/modules/settings-popup/views/cookie_settings.php:7
+msgid "Show more"
+msgstr "Näytä lisää"
+
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:7
+#: admin/modules/settings-popup/views/cookie_settings.php:7
+msgid "Show less"
+msgstr "Näytä vähemmän"
+
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:12
+msgid ""
+"Customize your consent preferences for Cookie Categories and advertising "
+"tracking preferences for Purposes & Features and Vendors below. You can give "
+"granular consent for each <button class=\"wt-cli-link\" id=\"wt-cli-iab-"
+"preference-toggle\">Third Party Vendor</button>. Most vendors require "
+"explicit consent for personal data processing, while some rely on legitimate "
+"interest. However, you have the right to object to their use of legitimate "
+"interest."
+msgstr ""
+"Räätälöi alta suostumusasetuksesi evästeluokille ja mainonnan seuranta-"
+"asetukset käyttötarkoituksille ja ominaisuuksille sekä toimittajille. Voit "
+"antaa erillisen suostumuksen jokaiselle <button class=“wt-cli-link” id=“wt-"
+"cli-iab-preference-toggle”>kolmannen osapuolen myyjälle</button> . Useimmat "
+"myyjät vaativat täsmällisen suostumuksen henkilötietojen käsittelyyn, kun "
+"taas jotkut luottavat oikeutettuun etuun. Sinulla on kuitenkin oikeus "
+"vastustaa heidän oikeutetun edun käyttöään."
+
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:38
+msgid "Cookie Categories"
+msgstr "Evästeiden luokka"
+
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:39
+msgid "Purposes & Features"
+msgstr "Tarkoitukset ja ominaisuudet"
+
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:40
+msgid "Vendors"
+msgstr "Myyjät"
+
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:150
+#: public/modules/iab-tcf/iab-tcf.php:136
+msgid "Purposes"
+msgstr "Tarkoitukset"
+
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:155
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:301
+msgid "Special Features"
+msgstr "Erityisominaisuudet"
+
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:195
+msgid "Special purposes"
+msgstr "Erityistarkoitukset"
+
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:200
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:296
+msgid "Features"
+msgstr "Ominaisuudet"
+
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:266
+msgid "Third Party Vendors"
+msgstr "Kolmannen osapuolen myyjät"
+
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:316
+#: admin/modules/settings-popup/views/cookie_settings.php:139
+msgid "Powered by"
+msgstr "Powered by"
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:55
+msgid "Number of Vendors seeking consent:"
+msgstr "Suostumusta kaipaavien kauppiaiden määrä:"
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:65
+msgid "Number of Vendors seeking consent or relying on legitimate interest:"
+msgstr ""
+"Suostumusta kaipaavien tai oikeutettuun etuun luottavien kauppiaiden määrä:"
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:92
+msgid "Illustrations"
+msgstr "Luonnokset"
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:257
+msgid "Privacy Policy : "
+msgstr "Tietosuojakäytäntö : "
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:266
+msgid "Legitimate Interest Claim : "
+msgstr "Oikeutetun edun vaade : "
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:275
+msgid "  Data Retention Period : "
+msgstr "  Tietojen säilytysaika: "
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:276
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:528
+msgid " days"
+msgstr " päivää"
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:286
+msgid "Purposes (Consent)"
+msgstr "Tarkoitukset (suostumus)"
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:291
+msgid "Special Purposes"
+msgstr "Erikoistarkoitukset"
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:306
+msgid "Data categories"
+msgstr "Datakategoriat"
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:311
+msgid "Purposes (Legitimate interest)"
+msgstr "Tarkoitukset (oikeutettu etu)"
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:356
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:402
+msgid " ( Data Retention Period : "
+msgstr " ( Tietojen säilytysaika :"
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:358
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:404
+msgid " days )"
+msgstr " päivää)"
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:505
+msgid "Device storage overview"
+msgstr "Laitteen säilytystilan yleiskatsaus"
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:511
+msgid "Cookies"
+msgstr "Cookies"
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:514
+msgid " and others."
+msgstr " ja muut."
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:519
+msgid "Tracking method : "
+msgstr "Seurantatapa : "
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:528
+msgid "Maximum duration of cookies : "
+msgstr "Evästeiden enimmäiskesto : "
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:536
+msgid "Cookie lifetime is being refreshed"
+msgstr "Evästeiden toiminta-aikaa päivitetään"
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:540
+msgid "Cookie lifetime is not being refreshed"
+msgstr "Evästeen käyttöikää ei päivitetä"
+
+#: admin/modules/settings-popup/settings-popup.php:104
+msgid "Save & Accept"
+msgstr "Tallenna ja hyväksy"
+
+#: admin/modules/settings-popup/settings-popup.php:108
+msgid "Accept all"
+msgstr "Hyväksy kaikki"
+
+#: admin/modules/settings-popup/settings-popup.php:119
+#: admin/modules/settings-popup/settings-popup.php:120
+#: admin/modules/settings-popup/views/settings.php:24
+#: admin/partials/cookie-law-info-privacy_overview.php:36
+#: admin/partials/cookie-law-info-privacy_overview.php:37
+#: admin/partials/cookie-law-info-privacy_overview.php:55
+msgid "Privacy Overview"
+msgstr "Yksityisyyden yleiskatsaus"
+
+#: admin/modules/settings-popup/views/cookie_settings.php:131
+msgid "SAVE & ACCEPT"
+msgstr "TALLENNA & HYVÄKSY"
+
+#: admin/modules/settings-popup/views/settings.php:46
+#: admin/partials/cookie-law-info-privacy_overview.php:68
+msgid "Privacy Overview Title"
+msgstr "Tietosuojakäytännön otsikko"
+
+#: admin/modules/settings-popup/views/settings.php:52
+#: admin/modules/settings-popup/views/settings.php:67
+#: admin/partials/cookie-law-info-privacy_overview.php:74
+#: admin/partials/cookie-law-info-privacy_overview.php:89
+msgid "This will be shown in the settings visible for user on consent screen."
+msgstr "Tämä näkyy käyttäjän suostumuksenäytössä näkyvissä asetuksissa."
+
+#: admin/modules/settings-popup/views/settings.php:76
+#: admin/partials/cookie-law-info-privacy_overview.php:98
+msgid "Save Settings"
+msgstr "Tallenna asetukset"
+
+#: admin/partials/cookie-law-info-admin_settings.php:24
+msgid "Settings updated."
+msgstr "Asetukset päivitetty."
+
+#: admin/partials/cookie-law-info-admin_settings.php:25
+msgid "Unable to update Settings."
+msgstr "Asetuksia ei voi päivittää."
+
+#: admin/partials/cookie-law-info-admin_settings.php:26
+msgid "Settings reset to defaults."
+msgstr "Asetukset palautuvat oletusarvoihin."
+
+#: admin/partials/cookie-law-info-admin_settings.php:27
+msgid "Unable to reset settings."
+msgstr "Asetusten palauttaminen ei onnistu."
+
+#: admin/partials/cookie-law-info-admin_settings.php:28
+msgid "Consent has renewed."
+msgstr "Suostumus on uusi."
+
+#: admin/partials/cookie-law-info-admin_settings.php:29
+msgid "Unable to renew consent."
+msgstr "Suostumusta ei voi uusia."
+
+#: admin/partials/cookie-law-info-admin_settings.php:42
+msgid "Cookie bar is currently active"
+msgstr "Evästepalkki on tällä hetkellä aktiivinen"
+
+#: admin/partials/cookie-law-info-admin_settings.php:50
+msgid "Cookie bar is currently inactive"
+msgstr "Evästepalkki ei ole tällä hetkellä aktiivinen"
+
+#: admin/partials/cookie-law-info-admin_settings.php:62
+msgid "Cookie Compliance Made Easy"
+msgstr "Evästekäytäntö"
+
+#: admin/partials/cookie-law-info-admin_settings.php:64
+#, php-format
+msgid "Plugin Developed By <a href=\"%s\" target=\"_blank\">WebToffee</a>"
+msgstr ""
+"Laajennuksen on kehittänyt <a href=\"%s\" target=\"_blank\">WebToffee</a>"
+
+#: admin/partials/cookie-law-info-admin_settings.php:88
+#: admin/views/admin-settings-general.php:9
+msgid "General"
+msgstr "Yleinen"
+
+#: admin/partials/cookie-law-info-admin_settings.php:89
+msgid "Customise Cookie Bar"
+msgstr "Mukauta Cookie Bar"
+
+#: admin/partials/cookie-law-info-admin_settings.php:90
+msgid "Customise Buttons"
+msgstr "Mukauta painikkeet"
+
+#: admin/partials/cookie-law-info-admin_settings.php:91
+#: admin/views/admin-settings-advanced.php:8
+msgid "Advanced"
+msgstr "Pitkälle kehittynyt"
+
+#: admin/partials/cookie-law-info-admin_settings.php:92
+msgid "Licence"
+msgstr "Lisenssi"
+
+#: admin/partials/cookie-law-info-admin_settings.php:93
+msgid "Help Guide"
+msgstr "Ohjeopas"
+
+#: admin/partials/cookie-law-info-privacy_overview.php:62
+msgid "Privacy Overview Menu Title"
+msgstr "Yksityisyyden yleiskatsaus Valikon otsikko"
+
+#: admin/views/admin-settings-advanced.php:9
+msgid ""
+"Sometimes themes apply settings that clash with plugins. If that happens, "
+"try adjusting these settings."
+msgstr ""
+"Joskus teemat käyttävät asetuksia, jotka ovat ristiriidassa laajennusten "
+"kanssa. Jos näin käy, yritä säätää näitä asetuksia."
+
+#: admin/views/admin-settings-advanced.php:13
+msgid "Renew user consent"
+msgstr "Uusia käyttäjän suostumus"
+
+#: admin/views/admin-settings-advanced.php:15
+msgid "Renew consent"
+msgstr "Uusia suostumus"
+
+#: admin/views/admin-settings-advanced.php:16
+msgid ""
+"Clicking this will renew the existing user consents on your website. The "
+"existing users will be prompted with the consent banner irrespective of "
+"their previous consent."
+msgstr ""
+"Napsauttamalla tätä, uusit nykyiset käyttäjän suostumukset "
+"verkkosivustollasi. Nykyisiä käyttäjiä pyydetään suostumuksen bannerilla "
+"heidän aiemmasta suostumuksestaan riippumatta."
+
+#: admin/views/admin-settings-advanced.php:20
+msgid "Reset all values"
+msgstr "Nollaa kaikki arvot"
+
+#: admin/views/admin-settings-advanced.php:22
+msgid "Delete settings and reset"
+msgstr "Poista asetukset ja nollaa"
+
+#: admin/views/admin-settings-advanced.php:22
+msgid "Are you sure you want to delete all your settings?"
+msgstr "Haluatko varmasti poistaa kaikki asetukset?"
+
+#: admin/views/admin-settings-advanced.php:23
+msgid "Warning: this will actually delete your current settings."
+msgstr "Varoitus: tämä poistaa nykyiset asetukset."
+
+#: admin/views/admin-settings-buttons.php:10
+msgid "Accept Button"
+msgstr "Hyväksy painike"
+
+#: admin/views/admin-settings-buttons.php:11
+msgid "Accept All Button"
+msgstr "Hyväksy kaikki -painike"
+
+#: admin/views/admin-settings-buttons.php:12
+#: admin/views/admin-settings-buttons.php:171
+msgid "Reject Button"
+msgstr "Hylkää painike"
+
+#: admin/views/admin-settings-buttons.php:13
+#: admin/views/admin-settings-buttons.php:241
+msgid "Settings Button"
+msgstr "Asetukset-painike"
+
+#: admin/views/admin-settings-buttons.php:14
+#: admin/views/admin-settings-buttons.php:303
+msgid "Read More Link"
+msgstr "Lue lisää -linkkiä"
+
+#: admin/views/admin-settings-buttons.php:15
+msgid "Save My Preferences"
+msgstr "Tallenna Omat asetukset"
+
+#: admin/views/admin-settings-buttons.php:16
+#: admin/views/admin-settings-buttons.php:442
+msgid "Do not sell link"
+msgstr "Älä myy linkkiä"
+
+#: admin/views/admin-settings-buttons.php:22
+#: admin/views/admin-settings-buttons.php:103
+#: admin/views/admin-settings-buttons.php:415
+msgid "Main Button"
+msgstr "Päänäppäin"
+
+#: admin/views/admin-settings-buttons.php:23
+#: admin/views/admin-settings-buttons.php:104
+msgid ""
+"This button/link can be customised to either simply close the cookie bar, or "
+"follow a link. You can also customise the colours and styles, and show it as "
+"a link or a button."
+msgstr ""
+"Tämä painike / linkki voidaan räätälöidä joko sulkemaan evästeiden palkki "
+"tai seuraamalla linkkiä. Voit myös muokata värejä ja tyylejä ja näyttää sen "
+"linkkinä tai painikkeena."
+
+#: admin/views/admin-settings-buttons.php:26
+msgid "Enable accept all feature?"
+msgstr "Ota käyttöön kaikki ominaisuudet?"
+
+#: admin/views/admin-settings-buttons.php:30
+msgid ""
+"This will enable accept-all functionality for the plugin’s main accept "
+"button where all the categories will be enabled irrespective of it being "
+"enabled/disabled. Set it as NO to accept only the enabled categories "
+"(default behaviour of accept button)"
+msgstr ""
+"Tämä mahdollistaa lisäosan hyväksyntätoiminnon laajennuksen pääpainikkeelle, "
+"jossa kaikki luokat otetaan käyttöön riippumatta siitä, onko se otettu "
+"käyttöön / pois käytöstä. Aseta EI-asetukseksi hyväksyä vain käytössä olevat "
+"luokat (hyväksymispainikkeen oletusarvo)"
+
+#: admin/views/admin-settings-buttons.php:31
+msgid ""
+"Please note that you will not be able to extend the cookie consent bar with "
+"cookie settings once this option is enabled."
+msgstr ""
+"Huomaa, että evästeiden hyväksymispalkkia ei voi laajentaa evästeiden "
+"asetuksiin, kun tämä asetus on käytössä."
+
+#: admin/views/admin-settings-buttons.php:41
+#: admin/views/admin-settings-buttons.php:113
+#: admin/views/admin-settings-buttons.php:180
+#: admin/views/admin-settings-buttons.php:250
+#: admin/views/admin-settings-buttons.php:313
+#: admin/views/admin-settings-buttons.php:424
+#: admin/views/admin-settings-buttons.php:462
+msgid "Text colour"
+msgstr "Tekstin väri"
+
+#: admin/views/admin-settings-buttons.php:49
+#: admin/views/admin-settings-buttons.php:121
+#: admin/views/admin-settings-buttons.php:188
+#: admin/views/admin-settings-buttons.php:258
+#: admin/views/admin-settings-buttons.php:321
+#: admin/views/admin-settings-buttons.php:451
+msgid "Show as"
+msgstr "Näytä kuin"
+
+#: admin/views/admin-settings-buttons.php:51
+#: admin/views/admin-settings-buttons.php:123
+#: admin/views/admin-settings-buttons.php:190
+#: admin/views/admin-settings-buttons.php:260
+#: admin/views/admin-settings-buttons.php:323
+msgid "Button"
+msgstr "Painike"
+
+#: admin/views/admin-settings-buttons.php:53
+#: admin/views/admin-settings-buttons.php:125
+#: admin/views/admin-settings-buttons.php:192
+#: admin/views/admin-settings-buttons.php:262
+#: admin/views/admin-settings-buttons.php:325
+#: admin/views/admin-settings-buttons.php:453
+msgid "Link"
+msgstr "Linkki"
+
+#: admin/views/admin-settings-buttons.php:57
+#: admin/views/admin-settings-buttons.php:129
+#: admin/views/admin-settings-buttons.php:196
+#: admin/views/admin-settings-buttons.php:266
+#: admin/views/admin-settings-buttons.php:329
+#: admin/views/admin-settings-buttons.php:432
+msgid "Background colour"
+msgstr "Taustaväri"
+
+#: admin/views/admin-settings-buttons.php:66
+#: admin/views/admin-settings-buttons.php:137
+#: admin/views/admin-settings-buttons.php:204
+msgid "Action"
+msgstr "Toiminta"
+
+#: admin/views/admin-settings-buttons.php:74
+#: admin/views/admin-settings-buttons.php:145
+#: admin/views/admin-settings-buttons.php:216
+#: admin/views/admin-settings-buttons.php:339
+#: admin/views/admin-settings-buttons.php:346
+msgid "URL"
+msgstr "URL"
+
+#: admin/views/admin-settings-buttons.php:77
+#: admin/views/admin-settings-buttons.php:148
+#: admin/views/admin-settings-buttons.php:219
+msgid "Button will only link to URL if Action = Open URL"
+msgstr "Painike linkittää vain URL-osoitteen, jos Action = Open URL"
+
+#: admin/views/admin-settings-buttons.php:82
+#: admin/views/admin-settings-buttons.php:153
+#: admin/views/admin-settings-buttons.php:224
+msgid "Open URL in new window?"
+msgstr "Avaa URL-osoite uudessa ikkunassa?"
+
+#: admin/views/admin-settings-buttons.php:93
+#: admin/views/admin-settings-buttons.php:161
+#: admin/views/admin-settings-buttons.php:231
+#: admin/views/admin-settings-buttons.php:274
+#: admin/views/admin-settings-buttons.php:405
+msgid "Size"
+msgstr "Koko"
+
+#: admin/views/admin-settings-buttons.php:283
+msgid "Cookie Settings Layout"
+msgstr "Evästeasetusten asettelu"
+
+#: admin/views/admin-settings-buttons.php:290
+#: admin/views/admin-settings-buttons.php:293
+msgid "Extended Banner / Widget"
+msgstr "Laajennettu banneri / widget"
+
+#: admin/views/admin-settings-buttons.php:297
+msgid ""
+"When the cookie settings layout configured as extended banner/widget, "
+"customization options for settings popup and widget will be disabled."
+msgstr ""
+"Kun evästeasetusten asettelu määritetään laajennetuksi banneriksi / "
+"widgetiksi, asetusten ponnahdusikkunan ja widgetin mukautusvaihtoehdot "
+"poistetaan käytöstä."
+
+#: admin/views/admin-settings-buttons.php:304
+msgid ""
+"This button/link can be used to provide a link out to your Privacy & Cookie "
+"Policy. You can customise it any way you like."
+msgstr ""
+"Tätä painiketta / linkkiä voidaan käyttää linkin tarjoamiseen tietosuoja- ja "
+"evästepolitiikkaan. Voit muokata sitä haluamallasi tavalla."
+
+#: admin/views/admin-settings-buttons.php:337
+msgid "URL or Page?"
+msgstr "URL-osoite tai sivu?"
+
+#: admin/views/admin-settings-buttons.php:341
+#: admin/views/admin-settings-buttons.php:352
+msgid "Page"
+msgstr "Sivu"
+
+#: admin/views/admin-settings-buttons.php:355
+msgid "Select One"
+msgstr "Valitse yksi"
+
+#: admin/views/admin-settings-buttons.php:375
+msgid "The currently selected page does not exist. Please select a new page."
+msgstr "Tällä hetkellä valittua sivua ei ole. Valitse uusi sivu."
+
+#: admin/views/admin-settings-buttons.php:383
+msgid "No Follow"
+msgstr "Ei seuraa"
+
+#: admin/views/admin-settings-buttons.php:387
+msgid "Tells search engine crawlers not to follow this link"
+msgstr "Kertoo hakukoneiden indeksoijille, etteivät ne noudata tätä linkkiä"
+
+#: admin/views/admin-settings-buttons.php:391
+msgid "Minimize Cookie Bar in this page/URL?"
+msgstr "Minimoi evästeiden palkki tällä sivulla / URL-osoitteessa?"
+
+#: admin/views/admin-settings-buttons.php:398
+msgid "Open in new window?"
+msgstr "Avaa uudessa ikkunassa?"
+
+#: admin/views/admin-settings-buttons.php:445
+msgid "CCPA Text"
+msgstr "CCPA-teksti"
+
+#: admin/views/admin-settings-buttons.php:454
+msgid "Checkbox"
+msgstr "Valintaruutu"
+
+#: admin/views/admin-settings-buttons.php:456
+msgid "The shortcode will be represented as a link whereever used."
+msgstr "Lyhytkoodi esitetään linkkinä missä tahansa."
+
+#: admin/views/admin-settings-buttons.php:457
+msgid ""
+"The shortcode will be represented as a checkbox with select option to record "
+"consent."
+msgstr ""
+"Lyhytkoodi esitetään valintaruuduna, jolla on valintavaihtoehto suostumuksen "
+"tallentamiseksi."
+
+#: admin/views/admin-settings-general.php:10
+#: admin/views/admin-settings-general.php:103
+msgid "Other"
+msgstr "Muut"
+
+#: admin/views/admin-settings-general.php:17
+msgid "Enable cookie bar"
+msgstr "Ota evästepalkki käyttöön"
+
+#: admin/views/admin-settings-general.php:19
+#: admin/views/admin-settings-general.php:48
+msgid "On"
+msgstr "Päällä"
+
+#: admin/views/admin-settings-general.php:20
+#: admin/views/admin-settings-general.php:49
+msgid "Off"
+msgstr "Pois päältä"
+
+#: admin/views/admin-settings-general.php:25
+#: admin/views/admin-settings-general.php:28
+msgid "Enable IAB TCF 2.2 support"
+msgstr "Ota käyttöön IAB TCF 2.2 -tuki"
+
+#: admin/views/admin-settings-general.php:43
+msgid "GDPR Settings"
+msgstr "GDPR-asetukset"
+
+#: admin/views/admin-settings-general.php:43
+msgid ""
+"GDPR regulation lays down rules relating to the protection of natural "
+"persons with regard to the processing of personal data and rules relating to "
+"the free movement of personal data."
+msgstr ""
+"GDPR-asetuksessa vahvistetaan luonnollisten henkilöiden suojaa "
+"henkilötietojen käsittelyssä koskevat säännöt ja henkilötietojen vapaata "
+"liikkuvuutta koskevat säännöt."
+
+#: admin/views/admin-settings-general.php:46
+msgid "Show only for EU Countries ( GeoIP )"
+msgstr "Näytä vain EU-maissa (GeoIP)"
+
+#: admin/views/admin-settings-general.php:60
+msgid "More"
+msgstr "Lisää"
+
+#: admin/views/admin-settings-general.php:66
+msgid "Auto-hide(Accept) cookie bar after delay?"
+msgstr "Auto-hide (Hyväksy) evästepalkki viiveen jälkeen?"
+
+#: admin/views/admin-settings-general.php:73
+msgid "Milliseconds until hidden"
+msgstr "Millisekuntia, kunnes piilotettu"
+
+#: admin/views/admin-settings-general.php:76
+msgid "Specify milliseconds (not seconds)"
+msgstr "Määritä millisekuntia (ei sekuntia)"
+
+#: admin/views/admin-settings-general.php:76
+msgid "seconds"
+msgstr "sekuntia"
+
+#: admin/views/admin-settings-general.php:80
+msgid "Auto-hide cookie bar if the user scrolls ( Accept on Scroll )?"
+msgstr ""
+"Piilota evästeet automaattisesti, jos käyttäjä vierittää (Hyväksy "
+"vierittämällä)?"
+
+#: admin/views/admin-settings-general.php:84
+msgid ""
+"As per latest GDPR policies it is required to take an explicit consent for "
+"the cookies. Use this option with discretion especially if you serve EU"
+msgstr ""
+"Viimeisimpien GDPR-käytäntöjen mukaan evästeiden on annettava nimenomainen "
+"suostumus. Käytä tätä vaihtoehtoa harkinnan mukaan erityisesti, jos palvelet "
+"EU: ssa"
+
+#: admin/views/admin-settings-general.php:85
+msgid "This option will not work along with `Popup overlay`."
+msgstr "Tämä vaihtoehto ei toimi yhdessä ponnahdusikkunan peitteen kanssa."
+
+#: admin/views/admin-settings-general.php:89
+msgid "Auto-hide(Accept) cookie bar on-page navigation."
+msgstr "Piilota automaattinen (Hyväksy) evästepalkin sivunavigointi."
+
+#: admin/views/admin-settings-general.php:93
+msgid "Auto accept the cookie consent if the user navigates to other pages"
+msgstr ""
+"Hyväksy evästeen suostumus automaattisesti, jos käyttäjä siirtyy muille "
+"sivuille"
+
+#: admin/views/admin-settings-general.php:106
+msgid "Reload after \"scroll accept\" event?"
+msgstr "Lataa uudelleen sen jälkeen, kun \"vieritä hyväksyä\" -tapahtuma on?"
+
+#: admin/views/admin-settings-general.php:114
+msgid "Reload after Accept button click"
+msgstr "Lataa uudelleen Accept-painikkeen napsauttamisen jälkeen"
+
+#: admin/views/admin-settings-general.php:121
+msgid "Reload after Reject button click"
+msgstr "Lataa uudelleen Reject-painikkeen napsautuksen jälkeen"
+
+#: admin/views/admin-settings-help.php:9
+msgid "Shortcodes"
+msgstr "Lyhytkoodit"
+
+#: admin/views/admin-settings-help.php:10
+#: admin/views/admin-settings-help.php:100
+msgid "Help Links"
+msgstr "Ohjeen linkit"
+
+#: admin/views/admin-settings-help.php:16
+msgid "Cookie bar shortcodes"
+msgstr "Evästeiden pikanäppäimet"
+
+#: admin/views/admin-settings-help.php:17
+msgid ""
+"You can enter the shortcodes in the \"message\" field of the Cookie Law Info "
+"bar. They add nicely formatted buttons and/or links into the cookie bar, "
+"without you having to add any HTML."
+msgstr ""
+"Voit syöttää pikanäppäimet Evästeoikeusinfo-palkin \"viesti\" -kenttään. Ne "
+"lisäävät hienosti muotoiltuja painikkeita ja / tai linkkejä evästepalkkiin "
+"ilman, että sinun tarvitsee lisätä HTML-koodia."
+
+#: admin/views/admin-settings-help.php:18
+#: admin/views/admin-settings-help.php:50
+msgid ""
+"You can use `do_shortcode` function to add shortcodes inside the template "
+"file."
+msgstr ""
+"Voit käyttää `do_shortcode` -toimintoa, jos haluat lisätä pikanäppäimiä "
+"mallitiedoston sisällä."
+
+#: admin/views/admin-settings-help.php:23
+msgid ""
+"If you just want a standard green \"Accept\" button that closes the header "
+"and nothing more, use this shortcode. It is already styled, you don't need "
+"to customise it."
+msgstr ""
+"Jos haluat vain standardin vihreän \"Hyväksy\" -painikkeen, joka sulkee "
+"otsikon ja ei mitään muuta, käytä tätä lyhytkoodia. Se on jo muotoiltu, "
+"sinun ei tarvitse mukauttaa sitä."
+
+#: admin/views/admin-settings-help.php:27
+msgid ""
+"Alternatively you can add a colour value. Choose from: red, blue, orange, "
+"yellow, green or pink."
+msgstr ""
+"Vaihtoehtoisesti voit lisätä väriarvon. Valitse: punainen, sininen, oranssi, "
+"keltainen, vihreä tai vaaleanpunainen."
+
+#: admin/views/admin-settings-help.php:27
+msgid "Careful to use the British spelling of \"colour\" for the attribute."
+msgstr ""
+"Käytä varovasti brittiläistä \"värin\" oikeinkirjoitusta attribuuttiin."
+
+#: admin/views/admin-settings-help.php:31
+msgid "This is the \"main button\" you can customise."
+msgstr "Tämä on \"pääpainike\", jota voit muokata."
+
+#: admin/views/admin-settings-help.php:36
+msgid "This is the cookie settings button rendering shortcode."
+msgstr "Tämä on evästeasetusten painike, joka tekee lyhytkoodin."
+
+#: admin/views/admin-settings-help.php:40
+msgid "This is the cookie reject button shortcode."
+msgstr "Tämä on evästeen hylkäyspainikkeen lyhytkoodi."
+
+#: admin/views/admin-settings-help.php:44
+msgid "This is the \"read more\" link you can customise."
+msgstr "Tämä on \"lue lisää\" -linkki, jota voit muokata."
+
+#: admin/views/admin-settings-help.php:48
+msgid "Other shortcodes"
+msgstr "Muut lyhytkoodit"
+
+#: admin/views/admin-settings-help.php:49
+msgid ""
+"These shortcodes can be used in pages and posts on your website. It is not "
+"recommended to use these inside the cookie bar itself."
+msgstr ""
+"Näitä lyhytkoodeja voidaan käyttää sivustosi sivuilla ja virkoissa. Ei ole "
+"suositeltavaa käyttää näitä evästeiden sisällä."
+
+#: admin/views/admin-settings-help.php:56
+msgid ""
+"This prints out a nice table of cookies, in line with the guidance given by "
+"the ICO."
+msgstr ""
+"Tämä tulostaa hienon evästeiden taulukon ICO: n antamien ohjeiden mukaisesti."
+
+#: admin/views/admin-settings-help.php:56
+msgid ""
+"You need to enter the cookies your website uses via the Cookie Law Info menu "
+"in your WordPress dashboard."
+msgstr ""
+"Sinun täytyy syöttää sivustosi käyttämät evästeet WordPress-kojelaudan "
+"Cookie Law Info -valikon kautta."
+
+#: admin/views/admin-settings-help.php:68
+msgid "This prints out a nice table of cookies by category."
+msgstr "Tämä tulostaa mukavan pöydän evästeistä luokittain."
+
+#: admin/views/admin-settings-help.php:72
+msgid "This prints the settings popup of cookie category."
+msgstr "Tämä tulostaa evästekategorian asetukset."
+
+#: admin/views/admin-settings-help.php:76
+msgid ""
+"This shortcode will display a normal HTML link which when clicked, will "
+"delete the cookie set by Cookie Law Info (this cookie is used to remember "
+"that the cookie bar is closed)."
+msgstr ""
+"Tämä lyhytkoodi näyttää normaalin HTML-linkin, joka napsauttamalla poistaa "
+"Cookie Law Info -ohjelman asettaman evästeen (tätä evästettä käytetään "
+"muistamaan, että evästeiden palkki on suljettu)."
+
+#: admin/views/admin-settings-help.php:80
+msgid "Add any text you like useful if you want to add another language"
+msgstr "Lisää haluamasi teksti, jos haluat lisätä toisen kielen"
+
+#: admin/views/admin-settings-help.php:84
+msgid ""
+"Add content after accepting the cookie notice. Category wise checking allowed"
+msgstr ""
+"Lisää sisältöä evästeiden ilmoituksen hyväksymisen jälkeen. Luokan viisas "
+"tarkistus sallittu"
+
+#: admin/views/admin-settings-help.php:87
+msgid ""
+"Add content only if the consent has been obtained for the specified category."
+msgstr "Lisää sisältöä vain, jos määrättyyn ryhmään on saatu suostumus."
+
+#: admin/views/admin-settings-help.php:90
+msgid ""
+"Add content if consent has been obtained for all/or any of the specified "
+"categories."
+msgstr ""
+"Lisää sisältöä, jos suostumus on saatu kaikille / tai jollekin määritetyistä "
+"luokista."
+
+#: admin/views/admin-settings-help.php:104
+#: admin/views/admin-settings-help.php:107
+msgid "Documentation"
+msgstr "Dokumentointi"
+
+#: admin/views/admin-settings-help.php:105
+msgid "Refer to our documentation to set and get started"
+msgstr "Katso asetuksistamme ja aloita käyttöohjeet"
+
+#: admin/views/admin-settings-help.php:112
+msgid "Help and Support"
+msgstr "Apu ja tuki"
+
+#: admin/views/admin-settings-help.php:113
+msgid "We would love to help you on any queries or issues."
+msgstr "Haluaisimme auttaa sinua kyselyissä tai kysymyksissä."
+
+#: admin/views/admin-settings-help.php:115
+msgid "Contact Us"
+msgstr "Ota meihin yhteyttä"
+
+#: admin/views/admin-settings-messagebar.php:9
+msgid "Cookie bar"
+msgstr "Evästepalkki"
+
+#: admin/views/admin-settings-messagebar.php:10
+msgid "Revisit consent"
+msgstr "Tarkista suostumus uudelleen"
+
+#: admin/views/admin-settings-messagebar.php:15
+msgid "Cookie Bar"
+msgstr "Cookie Bar"
+
+#: admin/views/admin-settings-messagebar.php:18
+msgid "Message Heading"
+msgstr "Viestin otsikko"
+
+#: admin/views/admin-settings-messagebar.php:21
+msgid "Leave it blank, If you do not need a heading"
+msgstr "Jätä se tyhjäksi, jos et tarvitse otsikkoa"
+
+#: admin/views/admin-settings-messagebar.php:26
+msgid "Message"
+msgstr "Viesti"
+
+#: admin/views/admin-settings-messagebar.php:26
+msgid ""
+"All the elements defined within the class `wt-cli-ccpa-element` will be "
+"removed if CCPA does not apply to the visitors country."
+msgstr ""
+"Kaikki luokassa wt-cli-ccpa-element määritellyt elementit poistetaan, jos "
+"CCPA ei koske vierailijamaata."
+
+#: admin/views/admin-settings-messagebar.php:50
+#: admin/views/admin-settings-messagebar.php:62
+msgid "Shortcodes allowed: see the Help guide"
+msgstr "Lyhytkoodit sallittu: katso ohjetta"
+
+#: admin/views/admin-settings-messagebar.php:50
+#: admin/views/admin-settings-messagebar.php:62
+msgid ""
+"Examples: \"We use cookies on this website [cookie_accept] to find out how "
+"to delete cookies [cookie_link].\""
+msgstr ""
+"Esimerkkejä: \"Käytämme evästeitä tällä sivustolla [cookie_accept] "
+"selvittääksesi evästeiden poistamisen [cookie_link].\""
+
+#: admin/views/admin-settings-messagebar.php:71
+msgid "Cookie Bar Colour"
+msgstr "Cookie Bar Color"
+
+#: admin/views/admin-settings-messagebar.php:79
+msgid "Text Colour"
+msgstr "Tekstin väri"
+
+#: admin/views/admin-settings-messagebar.php:87
+msgid "Font"
+msgstr "Fontti"
+
+#: admin/views/admin-settings-messagebar.php:95
+msgid "Show cookie bar as"
+msgstr "Näytä evästepalkki nimellä"
+
+#: admin/views/admin-settings-messagebar.php:106
+msgid "Position"
+msgstr "Asento"
+
+#: admin/views/admin-settings-messagebar.php:110
+#: admin/views/admin-settings-messagebar.php:200
+#: admin/views/admin-settings-messagebar.php:203
+msgid "Left"
+msgstr "Vasen"
+
+#: admin/views/admin-settings-messagebar.php:111
+#: admin/views/admin-settings-messagebar.php:199
+#: admin/views/admin-settings-messagebar.php:202
+msgid "Right"
+msgstr "Oikea"
+
+#: admin/views/admin-settings-messagebar.php:116
+msgid "Add overlay?"
+msgstr "Lisää päällekkäin?"
+
+#: admin/views/admin-settings-messagebar.php:120
+msgid ""
+"When the popup is active, an overlay will block the user from browsing the "
+"site."
+msgstr ""
+"Kun ponnahdusikkuna on aktiivinen, peite estää käyttäjän selaamasta sivustoa."
+
+#: admin/views/admin-settings-messagebar.php:121
+msgid "`Accept on scroll` will not work along with this option."
+msgstr "`Hyväksy rullalla` ei toimi tämän vaihtoehdon kanssa."
+
+#: admin/views/admin-settings-messagebar.php:125
+msgid "Position:"
+msgstr "Asento:"
+
+#: admin/views/admin-settings-messagebar.php:130
+msgid "Header"
+msgstr "Ylätunniste"
+
+#: admin/views/admin-settings-messagebar.php:131
+msgid "Footer"
+msgstr "Alatunniste"
+
+#: admin/views/admin-settings-messagebar.php:140
+msgid "Fix Cookie Bar to Header?"
+msgstr "Korjaa evästeiden palkki otsikkoon?"
+
+#: admin/views/admin-settings-messagebar.php:144
+msgid ""
+"If you select \"Header\" then you can optionally stick the cookie bar to the "
+"header. Will not have any effect if you select \"Footer\"."
+msgstr ""
+"Jos valitset \"Otsikko\", voit valinnaisesti tallentaa evästepalkin "
+"otsikkoon. Ei ole mitään vaikutusta, jos valitset alatunnisteen."
+
+#: admin/views/admin-settings-messagebar.php:152
+msgid "On load"
+msgstr "Lastina"
+
+#: admin/views/admin-settings-messagebar.php:157
+#: admin/views/admin-settings-messagebar.php:167
+msgid "Animate"
+msgstr "Animate"
+
+#: admin/views/admin-settings-messagebar.php:158
+#: admin/views/admin-settings-messagebar.php:168
+msgid "Sticky"
+msgstr "Sticky"
+
+#: admin/views/admin-settings-messagebar.php:162
+msgid "On hide"
+msgstr "Piilossa"
+
+#: admin/views/admin-settings-messagebar.php:176
+msgid "Revisit consent (Show again tab)"
+msgstr "Palaa suostumukseen (Näytä uudelleen -välilehti)"
+
+#: admin/views/admin-settings-messagebar.php:178
+#, fuzzy
+#| msgid ""
+#| "Revisit consent will allow the visitors to view/edit/revoke their prior "
+#| "preferences. This can be done via a widget and/or a shortcode. A small "
+#| "privacy widget is automatically displayed at the footer of your website "
+#| "if the widget option is enabled. You can also manually insert a link to "
+#| "manage consent by adding the shortcode <b>[wt_cli_manage_consent]</b> to "
+#| "your website."
+msgid ""
+"Revisit consent will allow the visitors to view/edit/revoke their prior "
+"preferences. This can be done via a widget and/or a shortcode. A small "
+"privacy widget is automatically displayed at the footer of your website if "
+"the widget option is enabled. You can also manually insert a link to  by "
+"adding the shortcode <b>[wt_cli_manage_consent]</b> to your website."
+msgstr ""
+"Suostumuksen uudelleenkäynnistys antaa kävijöille mahdollisuuden "
+"tarkastella / muokata / kumota aiempia asetuksiaan. Tämä voidaan tehdä "
+"widgetin ja / tai pikakoodin kautta. Pieni tietosuoja-widget näkyy "
+"automaattisesti verkkosivustosi alatunnisteessa, jos widget-vaihtoehto on "
+"käytössä. Voit myös lisätä manuaalisesti linkin hallita suostumusta "
+"lisäämällä lyhytkoodi <b>[wt_cli_manage_consent]</b> verkkosivustoosi."
+
+#: admin/views/admin-settings-messagebar.php:183
+msgid "Enable revisit consent widget"
+msgstr "Ota uudelleen käyttöön suostumuswidget"
+
+#: admin/views/admin-settings-messagebar.php:183
+msgid ""
+"By enabling this option a small privacy widget is automatically displayed at "
+"the footer of your website."
+msgstr ""
+"Kun otat tämän vaihtoehdon käyttöön, pieni yksityisyyswidget näkyy "
+"automaattisesti verkkosivustosi alatunnisteessa."
+
+#: admin/views/admin-settings-messagebar.php:194
+msgid "Widget Position"
+msgstr "Widgetin sijainti"
+
+#: admin/views/admin-settings-messagebar.php:211
+msgid "Tab Position"
+msgstr "Välilehden sijainti"
+
+#: admin/views/admin-settings-messagebar.php:218
+msgid "Bottom Right"
+msgstr "Ala oikea"
+
+#: admin/views/admin-settings-messagebar.php:221
+msgid "Bottom Left"
+msgstr "Alhaalla vasemmalla"
+
+#: admin/views/admin-settings-messagebar.php:224
+msgid "Top Right"
+msgstr "Yläoikea"
+
+#: admin/views/admin-settings-messagebar.php:227
+msgid "Top Left"
+msgstr "Ylävasen"
+
+#: admin/views/admin-settings-messagebar.php:233
+msgid "From Right Margin"
+msgstr "Oikealta marginaalilta"
+
+#: admin/views/admin-settings-messagebar.php:233
+msgid "From Left Margin"
+msgstr "Vasemmasta reunasta"
+
+#: admin/views/admin-settings-messagebar.php:236
+msgid "Specify"
+msgstr "Täsmentää"
+
+#: admin/views/admin-settings-messagebar.php:243
+msgid "Title"
+msgstr "Titteli"
+
+#: admin/views/admin-settings-save-button.php:12
+msgid "Update Settings"
+msgstr "Päivitä asetukset"
+
+#: cookie-law-info.php:77
+msgid ""
+"Oops! You tried installing the premium version without deactivating and "
+"deleting the basic version. Kindly deactivate and delete GDPR Cookie Consent "
+"(BASIC) and then try again"
+msgstr ""
+"Oho! Yritit asentaa premium-version poistamatta käytöstä ja poistamatta "
+"perusversiota. Deaktivoi ja poista GDPR Cookie Consent (BASIC) ja yritä "
+"sitten uudelleen"
+
+#: cookie-law-info.php:99
+msgid ""
+"The pre-defined script blocker services are enabled by default. Hence "
+"activating the plugin blocks these services which may affect the web layout. "
+"For e.g, if you have embedded any youtube or Vimeo services the plugin will "
+"block these by default since they collect user information. Hence the videos "
+"will not render wherever it is placed. Therefore you may want to review the "
+"website w.r.t the blocked scripts. <a href=\"edit.php?post_type="
+msgstr ""
+"Esiasetetut komentosarjojen estopalvelut ovat oletuksena käytössä. Siksi "
+"laajennuksen aktivointi estää nämä palvelut, jotka voivat vaikuttaa web-"
+"asetteluun. Esimerkiksi, jos olet upottanut jonkin youtube- tai Vimeo-"
+"palvelun, laajennus estää nämä oletuksena, koska ne keräävät "
+"käyttäjätietoja. Siksi videoita ei näytetä minne tahansa. Siksi sinun "
+"kannattaa tarkistaa verkkosivusto w.r.t estetyt skriptit. <a href = \"edit."
+"php? post_type ="
+
+#: includes/class-cookie-law-info-cookieyes.php:128
+#: includes/class-cookie-law-info-cookieyes.php:912
+#: public/modules/script-blocker/script-blocker.php:622
+msgid "Invalid request"
+msgstr "Virheellinen pyyntö"
+
+#: includes/class-cookie-law-info-cookieyes.php:140
+msgid "Connected to Cookieyes"
+msgstr "Yhdistetty Cookieyesiin"
+
+#: includes/class-cookie-law-info-cookieyes.php:142
+msgid "Disconnect"
+msgstr "Katkaise yhteys"
+
+#: includes/class-cookie-law-info-cookieyes.php:150
+msgid "Disconnected from Cookieyes"
+msgstr "Irrotettu Cookieyesistä"
+
+#: includes/class-cookie-law-info-cookieyes.php:215
+#, php-format
+msgid ""
+"Looks like you already have an account with CookieYes for email id %s, "
+"please login to continue."
+msgstr ""
+"Näyttää siltä, että sinulla on jo tili CookieYes-sähköpostiosoitteella %s, "
+"jatka kirjautumalla sisään."
+
+#: includes/class-cookie-law-info-cookieyes.php:221
+msgid ""
+"Please check if you have received an email with your password from CookieYes."
+msgstr ""
+"Tarkista, oletko saanut salasanasi sisältävän sähköpostin CookieYesilta."
+
+#: includes/class-cookie-law-info-cookieyes.php:222
+msgid ""
+"If you did not get the email, click “Reset password” to create a new "
+"password."
+msgstr ""
+"Jos et saanut sähköpostia, napsauta \"Palauta salasana\" luodaksesi uuden "
+"salasanan."
+
+#: includes/class-cookie-law-info-cookieyes.php:225
+msgid "Reset password"
+msgstr "Nollaa salasana"
+
+#: includes/class-cookie-law-info-cookieyes.php:228
+msgid "Login"
+msgstr "Kirjaudu"
+
+#: includes/class-cookie-law-info-cookieyes.php:236
+msgid "Reset Password"
+msgstr "Palauta salasana"
+
+#: includes/class-cookie-law-info-cookieyes.php:242
+msgid "Send password reset email"
+msgstr "Lähetä salasanan palautuksen sähköposti"
+
+#: includes/class-cookie-law-info-cookieyes.php:258
+msgid "Could not establish connection with scanner! please try again later"
+msgstr "Yhteyttä skanneriin ei voitu muodostaa! yritä uudelleen myöhemmin"
+
+#: includes/class-cookie-law-info-cookieyes.php:261
+msgid "Invalid credentials"
+msgstr "Virheelliset kirjautumistiedot"
+
+#: includes/class-cookie-law-info-cookieyes.php:264
+msgid "You already have an account with CookieYes."
+msgstr "Sinulla on jo tili CookieYes-palvelussa."
+
+#: includes/class-cookie-law-info-cookieyes.php:267
+msgid "License is not activated, please activate your license and try again"
+msgstr "Lisenssiä ei ole aktivoitu, aktivoi lisenssi ja yritä uudelleen"
+
+#: includes/class-cookie-law-info-cookieyes.php:270
+msgid "Disconnected with cookieyes, please connect and scan again"
+msgstr ""
+"Yhteys evästeiden kanssa katkaistaan, muodosta yhteys ja skannaa uudelleen"
+
+#: includes/class-cookie-law-info-cookieyes.php:273
+msgid "Your monthly scan limit is reached please try again later"
+msgstr ""
+"Kuukausittainen skannausrajasi on saavutettu. Yritä myöhemmin uudelleen"
+
+#: includes/class-cookie-law-info-cookieyes.php:276
+msgid "A scanning is already in progress please try again after some time"
+msgstr "Skannaus on jo käynnissä. Yritä uudelleen jonkin ajan kuluttua"
+
+#: includes/class-cookie-law-info-cookieyes.php:279
+msgid "Successfully connected with CookieYes"
+msgstr "Yhteys onnistui evästeeseen Kyllä"
+
+#: includes/class-cookie-law-info-cookieyes.php:282
+msgid ""
+"A password reset message has been sent to your email address. Click the link "
+"in the email to reset your password"
+msgstr ""
+"Salasanan vaihtamisviesti on lähetetty sähköpostiosoitteeseesi. Napsauta "
+"sähköpostissa olevaa linkkiä nollataksesi salasanasi"
+
+#: includes/class-cookie-law-info-cookieyes.php:285
+msgid "License validation has failed, please try reactivating your license"
+msgstr "Lisenssiä ei ole aktivoitu, aktivoi lisenssi ja yritä uudelleen"
+
+#: includes/class-cookie-law-info-cookieyes.php:390
+msgid "Invalid json token"
+msgstr "Virheellinen json-tunnus"
+
+#: includes/class-cookie-law-info-cookieyes.php:393
+msgid "Invalid token format"
+msgstr "Virheellinen tunnuksen muoto"
+
+#: includes/class-cookie-law-info-cookieyes.php:752
+msgid "Successfully disconnected with Cookieyes"
+msgstr "Yhteyden muodostaminen Cookieyes-palveluun onnistui"
+
+#: includes/class-cookie-law-info-cookieyes.php:755
+msgid "Could not identify the action"
+msgstr "Toimintoa ei voitu tunnistaa"
+
+#: includes/class-cookie-law-info-cookieyes.php:760
+msgid "Successfully connected with Cookieyes"
+msgstr "Yhteys onnistuneesti Cookieyes-palveluun"
+
+#: includes/class-cookie-law-info-cookieyes.php:837
+msgid "Delete site data from CookieYes\t"
+msgstr "Poista sivuston tiedot CookieYesistä\t"
+
+#: includes/class-cookie-law-info-cookieyes.php:843
+msgid "Disable WebToffee branding"
+msgstr "Poista Cookieyes-tuotemerkki käytöstä"
+
+#: includes/class-cookie-law-info-cookieyes.php:843
+msgid ""
+"By enabling this option, a small link is automatically displayed at the "
+"bottom left of the cookie settings pop-up"
+msgstr ""
+"Kun tämä vaihtoehto otetaan käyttöön, pieni linkki näytetään automaattisesti "
+"evästeasetusten ponnahdusikkunan vasemmassa alakulmassa"
+
+#: includes/class-cookie-law-info-cookieyes.php:851
+msgid "Do you really want to delete your website from CookieYes"
+msgstr "Haluatko varmasti poistaa kaikki asetukset?"
+
+#: includes/class-cookie-law-info-cookieyes.php:853
+msgid ""
+"This action will clear all your website data from CookieYes. If you have "
+"multiple websites added to your CookieYes account, then only the data "
+"associated with this website get deleted. Otherwise, your entire account "
+"will be deleted."
+msgstr ""
+"Tämä toiminto poistaa kaikki verkkosivustosi tiedot CookieYesista. Jos "
+"CookieYes-tiliisi on lisätty useita verkkosivustoja, vain tähän "
+"verkkosivustoon liittyvät tiedot poistetaan. Muussa tapauksessa koko tilisi "
+"poistetaan."
+
+#: includes/class-cookie-law-info-cookieyes.php:854
+msgid "Delete this website"
+msgstr "Poista asetukset ja nollaa"
+
+#: includes/class-cookie-law-info-cookieyes.php:913
+msgid "Successfully deleted!"
+msgstr "Onnistuneesti poistettu!"
+
+#: includes/class-cookie-law-info-cookieyes.php:914
+msgid "Delete failed, please try again later"
+msgstr ""
+"Kuukausittainen skannausrajasi on saavutettu. Yritä myöhemmin uudelleen"
+
+#: includes/class-cookie-law-info.php:485
+msgid "Consent Preferences"
+msgstr "Suostumusasetukset"
+
+#: includes/class-cookie-law-info.php:1152
+msgid "Page number"
+msgstr "Sivunumero"
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:141
+msgid "GDPR Cookie Consent Pro"
+msgstr "GDPR Cookie Consent"
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:310
+#: includes/license_manager/class-cookie-law-info-license-handler.php:347
+msgid "Request failed, Please try again"
+msgstr "Pyyntö epäonnistui, yritä uudelleen"
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:335
+msgid "License activation successfull"
+msgstr "Lisenssin aktivointi"
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:366
+#: includes/license_manager/class-cookie-law-info-license-handler.php:531
+msgid "License deactivation successfull"
+msgstr "Lisenssin aktivointi"
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:420
+#: includes/license_manager/class-cookie-law-info-license-handler.php:597
+#: includes/license_manager/class-cookie-law-info-license-handler.php:659
+msgid "The product license has either expired or not been activated."
+msgstr "Tuotteen käyttöoikeus on joko vanhentunut tai sitä ei ole aktivoitu."
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:424
+msgid "Your license key has been disabled."
+msgstr "Lisenssiavain on poistettu käytöstä."
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:428
+msgid "Invalid license."
+msgstr "Virheellinen lisenssiavain."
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:434
+msgid "Your license is not active for this URL."
+msgstr "Lisenssiavaimesi ei ole käytössä tälle url-osoitteelle."
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:438
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr "Tämä näyttää olevan virheellinen lisenssiavain %s."
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:442
+msgid "Your license key has reached its activation limit."
+msgstr "Lisenssiavaimesi aktivointiraja on saavutettu."
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:446
+msgid "License is not valid for this product"
+msgstr "Lisenssi ei ole voimassa tälle tuotteelle"
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:450
+msgid "An error occurred, please try again."
+msgstr "Tapahtui virhe, yritä uudelleen."
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:600
+#, php-format
+msgid ""
+"The product license has expired. Please <a href=\"%s\" "
+"target=\"_blank\">renew</a> to continue receiving updates."
+msgstr ""
+"Tuotteen käyttöoikeus on vanhentunut. <a href=\"%s\" target=\"_blank\">Uusi,"
+"</a> jotta saat jatkossakin päivityksiä."
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:603
+msgid "Failed to retrieve license information from server please try again"
+msgstr "Lisenssitietojen hakeminen palvelimelta epäonnistui, yritä uudelleen"
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:656
+#, php-format
+msgid ""
+"The plugin license is not activated. You will not receive compatibility and "
+"security updates if the plugin license is not activated. <a href=\"%s\" "
+"target=\"_blank\">Activate now</a>"
+msgstr ""
+"Plugin-lisenssiä ei ole aktivoitu. Et saa yhteensopivuus- ja "
+"tietoturvapäivityksiä, jos laajennuksen lisenssiä ei ole aktivoitu. <a "
+"href=\"%s\" target=\"_blank\">Aktivoi nyt</a>"
+
+#: includes/license_manager/html/html-wf-activation-window.php:107
+msgid "License Activation"
+msgstr "Lisenssin aktivointi"
+
+#: public/class-cookie-law-info-public.php:291
+msgid ""
+"<div class=\"cli-bar-container cli-style-v2\"><div class=\"cli-bar-"
+"message\">We and <button class=\"wt-cli-link\" id=\"wt-cli-iab-notice-"
+"toggle\">our {{count}} partners</button> use cookies and other tracking "
+"technologies to improve your experience on our website. We may store and/or "
+"access information on a device and process personal data, such as your IP "
+"address and browsing data, for personalised advertising and content, "
+"advertising and content measurement, audience research and services "
+"development. Additionally, we may utilize precise geolocation data and "
+"identification through device scanning.</p><p>Please note that your consent "
+"will be valid across all our subdomains. You can change or withdraw your "
+"consent at any time by clicking the “Consent Preferences” button at the "
+"bottom of your screen. We respect your choices and are committed to "
+"providing you with a transparent and secure browsing experience.</p></"
+"div><div class=\"cli-bar-btn_container\">[cookie_settings][cookie_reject]"
+"[cookie_accept_all]</div></div>"
+msgstr ""
+"<div class=“cli-bar-container cli-style-v2”><div class=“cli-bar-message”>Me "
+"ja <button class=“wt-cli-link” id=“wt-cli-iab-notice-toggle”>{{count}} "
+"kumppanimme</button> käytämme evästeitä sekä muita seurantatekniikoita "
+"parantaaksemme käyttökokemustasi sivustollamme. Saatamme tallentaa ja/tai "
+"käyttää tietoja laitteella ja käsitellä henkilötietoja, kuten IP-osoitettasi "
+"ja selaustietojasi, personoidun mainonnan ja sisällön, mainosten ja sisällön "
+"mittauksen, yleisötutkimuksen ja palveluiden kehittämisen tarkoituksiin. "
+"Lisäksi saatamme hyödyntää tarkkoja geopaikannustietoja ja tunnistautumista "
+"laiteskannauksen avulla.</p><p> Huomaathan, että suostumuksesi on voimassa "
+"kaikilla aliverkkotunnuksillamme. Voit muuttaa suostumustasi tai peruuttaa "
+"sen milloin tahansa napsauttamalla “”Suostumusasetukset””-painiketta "
+"näyttösi alaosasta. Kunnioitamme valintojasi ja olemme sitoutuneet "
+"tarjoamaan sinulle läpinäkyvän ja turvallisen selauskokemuksen.</p></"
+"div><div class=“cli-bar-btn_container”> [cookie_settings][cookie_reject]"
+"[cookie_accept_all]</div></div>"
+
+#: public/class-cookie-law-info-public.php:292
+msgid ""
+"<div class=\"cli-bar-container cli-style-v2\"> <div class=\"cli-bar-"
+"message\">We and <button class=\"wt-cli-link\" id=\"wt-cli-iab-notice-"
+"toggle\">our {{count}} partners</button> use cookies and other tracking "
+"technologies to improve your experience on our website. We may store and/or "
+"access information on a device and process personal data, such as your IP "
+"address and browsing data, for personalised advertising and content, "
+"advertising and content measurement, audience research and services "
+"development. Additionally, we may utilize precise geolocation data and "
+"identification through device scanning.</p> <p>Please note that your consent "
+"will be valid across all our subdomains. You can change or withdraw your "
+"consent at any time by clicking the “Consent Preferences” button at the "
+"bottom of your screen. We respect your choices and are committed to "
+"providing you with a transparent and secure browsing experience.</p><div "
+"class=\"wt-cli-ccpa-element\"> In case of sale of your personal information, "
+"you may opt out by using the link [wt_cli_ccpa_optout].</div> </div> <div "
+"class=\"cli-bar-btn_container\">[cookie_settings][cookie_reject]"
+"[cookie_accept_all]</div> </div>"
+msgstr ""
+"<div class=“cli-bar-container cli-style-v2”><div class=“cli-bar-message”>Me "
+"ja <button class=“wt-cli-link” id=“wt-cli-iab-notice-toggle”>{{count}} "
+"kumppanimme</button> käytämme evästeitä sekä muita seurantatekniikoita "
+"parantaaksemme käyttökokemustasi sivustollamme. Saatamme tallentaa ja/tai "
+"käyttää tietoja laitteella ja käsitellä henkilötietoja, kuten IP-osoitettasi "
+"ja selaustietojasi, personoidun mainonnan ja sisällön, mainosten ja sisällön "
+"mittauksen, yleisötutkimuksen ja palveluiden kehittämisen tarkoituksiin. "
+"Lisäksi saatamme hyödyntää tarkkoja geopaikannustietoja ja tunnistautumista "
+"laiteskannauksen avulla.</p><p> Huomaathan, että suostumuksesi on voimassa "
+"kaikilla aliverkkotunnuksillamme. Voit muuttaa suostumustasi tai peruuttaa "
+"sen milloin tahansa napsauttamalla “”Suostumusasetukset””-painiketta "
+"näyttösi alaosasta. Kunnioitamme valintojasi ja olemme sitoutuneet "
+"tarjoamaan sinulle läpinäkyvän ja turvallisen selauskokemuksen.</p><div "
+"class=“wt-cli-ccpa-element”> Jos myyt henkilötietojasi, voit kieltäytyä "
+"käytöstä käyttämällä linkkiä [wt_cli_ccpa_optout].</div></div><div "
+"class=“cli-bar-btn_container”> [cookie_settings][cookie_reject]"
+"[cookie_accept_all]</div></div>"
+
+#: public/modules/iab-tcf/iab-tcf.php:130
+msgid "Device Storage Disclosure"
+msgstr "Laitteen säilytystiedot"
+
+#: public/modules/iab-tcf/iab-tcf.php:132
+#: public/modules/script-blocker/views/admin_script_blocker.php:151
+#: public/modules/script-blocker/views/admin_script_blocker.php:225
+msgid "Name"
+msgstr "Nimi"
+
+#: public/modules/iab-tcf/iab-tcf.php:135
+msgid "Domain"
+msgstr "Verkkotunniste"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:183
+msgid "Accept consent to view this"
+msgstr "Hyväksy suostumus nähdäksesi tämän"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:203
+#, php-format
+msgid ""
+"Accept <a class='cli_manage_current_consent'>%s</a> cookies to view the "
+"content."
+msgstr ""
+"Hyväksy <a class='cli_manage_current_consent'> %s</a> evästeet nähdäksesi "
+"sisällön."
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:491
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:507
+msgid "Facebook Pixel Code"
+msgstr "Facebook Pixel Code"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:522
+msgid "Google Tag Manager"
+msgstr "Google Tag Manager"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:530
+msgid "Hotjar"
+msgstr "Hotjar"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:537
+msgid "Google Publisher Tag"
+msgstr "Google Publisher Tag"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:554
+msgid "Youtube embed"
+msgstr "Youtube embed"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:583
+msgid "Vimeo embed"
+msgstr "Vimeo embed"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:595
+msgid "Libsyn"
+msgstr "Libsyn"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:607
+msgid "Google maps"
+msgstr "Google maps"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:624
+msgid "Addthis widget"
+msgstr "Addthis widget"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:631
+msgid "Sharethis widget"
+msgstr "Sharethis widget"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:638
+msgid "Twitter widget"
+msgstr "Twitter widget"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:645
+msgid "Soundcloud embed"
+msgstr "Soundcloud embed"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:662
+msgid "Slideshare embed"
+msgstr "Slideshare embed"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:675
+msgid "Linkedin widget/Analytics"
+msgstr "Linkedin widget/Analytics"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:688
+msgid "Instagram embed"
+msgstr "Instagram embed"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:701
+msgid "Pinterest widget"
+msgstr "Pinterest widget"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:707
+msgid "Google Adsense"
+msgstr "Google Adsense"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:713
+msgid "Hubspot Analytics"
+msgstr "Hubspot Analytics"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:720
+msgid "Matomo Analytics"
+msgstr "Matomo Analytics"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:726
+msgid "Google Recaptcha"
+msgstr "Google maps"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:740
+#, php-format
+msgid ""
+"Invalid index found in the thirdparties array. Index should be of type "
+"'string'. Index found: %d."
+msgstr ""
+"Kolmansien osapuolten ryhmässä on virheellinen indeksi. Indeksin tulisi olla "
+"tyyppiä \"merkkijono\". Hakemisto löydetty: %d."
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:1048
+msgid "Action is unknown."
+msgstr "Toiminta on tuntematon."
+
+#: public/modules/script-blocker/integrations/facebook-feed.php:10
+msgid "Smash Balloon Custom Facebook Feed"
+msgstr "Smash Balloon Custom Facebook -syöte"
+
+#: public/modules/script-blocker/integrations/facebook-for-woocommerce.php:9
+msgid "Facebook for Woocommerce"
+msgstr "Facebook Woocommercelle"
+
+#: public/modules/script-blocker/integrations/facebook-for-wordpress.php:9
+msgid "Facebook for Wordpress"
+msgstr "Facebook Wordpressille"
+
+#: public/modules/script-blocker/integrations/google-analytics-for-wordpress.php:9
+msgid "MonsterInsights"
+msgstr "MonsterInsights"
+
+#: public/modules/script-blocker/integrations/instagram-feed.php:10
+msgid "Smash Balloon Instagram Feed"
+msgstr "Smash Balloon Instagram -syöte"
+
+#: public/modules/script-blocker/integrations/pixel-your-site.php:10
+msgid "PixelYourSite"
+msgstr "PixelYourSite"
+
+#: public/modules/script-blocker/integrations/twitter-feed.php:10
+msgid "Custom Twitter Feeds"
+msgstr "Mukautetut Twitter-syötteet"
+
+#: public/modules/script-blocker/integrations/youtube-feed.php:10
+msgid "Feeds for YouTube"
+msgstr "Syötteet YouTubelle"
+
+#: public/modules/script-blocker/script-blocker.php:202
+msgid "Output buffer type"
+msgstr "Output-puskurityyppi"
+
+#: public/modules/script-blocker/script-blocker.php:204
+msgid "Multi"
+msgstr "Multi"
+
+#: public/modules/script-blocker/script-blocker.php:205
+msgid "Single"
+msgstr "Yksittäinen"
+
+#: public/modules/script-blocker/script-blocker.php:206
+msgid "Caution: This may break the site."
+msgstr "Varoitus: Tämä voi rikkoa sivuston."
+
+#: public/modules/script-blocker/script-blocker.php:502
+#: public/modules/script-blocker/script-blocker.php:521
+msgid "Invalid script id"
+msgstr "Virheellinen komentosarjan tunnus"
+
+#: public/modules/script-blocker/script-blocker.php:548
+#: public/modules/script-blocker/script-blocker.php:549
+msgid "Script Blocker"
+msgstr "Komentosarjojen esto"
+
+#: public/modules/script-blocker/script-blocker.php:621
+msgid "Status updated"
+msgstr "Tila päivitetty"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:8
+msgid "disable"
+msgstr "poista käytöstä"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:8
+msgid "enable"
+msgstr "ota käyttöön"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:10
+#, php-format
+msgid "Script blocker is currently %s"
+msgstr "Komentosuojaus on tällä hetkellä %s"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:11
+#, php-format
+msgid "<a href=\"javascript: submitform()\">click here</a> to %s "
+msgstr ""
+"<a href=\"javascript: submitform()\">napsauttamalla tätä</a> saadaksesi %s "
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:122
+msgid "Manage Script Blocking"
+msgstr "Hallitse komentosarjojen estämistä"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:128
+msgid ""
+"Enabled services/plugins will be blocked by default in the front-end of your "
+"website and will be rendered respectively only based on user consent."
+msgstr ""
+"Käytössä olevat palvelut / laajennukset estetään oletusarvoisesti "
+"verkkosivustosi käyttöliittymässä, ja ne renderöidään vastaavasti vain "
+"käyttäjän suostumuksella."
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:130
+#, php-format
+msgid ""
+"Apart from the below-listed pre-defined scripts you can also block your "
+"custom scripts by using plugin filters hooks. Please refer the <a "
+"target=\"_blank\" href=\"%s\">article</a> for more."
+msgstr ""
+"Alla lueteltujen ennalta määritettyjen komentosarjojen lisäksi voit myös "
+"estää mukautetut komentosarjat käyttämällä laajennussuodattimen koukkuja. "
+"Katso lisätietoja <a target=\"_blank\" href=\"%s\">artikkelista</a> ."
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:142
+msgid "Scripts"
+msgstr "Komentosarjat"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:143
+msgid "Plugins"
+msgstr "Lisäosat"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:155
+#: public/modules/script-blocker/views/admin_script_blocker.php:229
+msgid "Key"
+msgstr "Avain"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:166
+msgid "via code filter"
+msgstr "koodisuodattimen kautta"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:207
+msgid "Uncategorized"
+msgstr "Kategoroimaton"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:226
+msgid ""
+"Enabled: Plugins will be blocked by default prior to obtaining user consent."
+msgstr ""
+"Käytössä: Laajennukset estetään oletuksena ennen käyttäjän suostumuksen "
+"hankkimista."
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:226
+msgid "Disabled: Plugins will be rendered prior to obtaining consent."
+msgstr "Ei käytössä: Laajennukset renderöidään ennen suostumuksen hankkimista."
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:240
+msgid "Inactive"
+msgstr "Pois käytöstä"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:250
+msgid ""
+"Plugins marked inactive are either not installed or activated on your website"
+msgstr ""
+"Ei-aktiivisiksi merkittyjä laajennuksia ei ole asennettu tai aktivoitu "
+"verkkosivustollesi"
+
+#: public/modules/shortcode/shortcode.php:226
+msgid "Delete Cookies"
+msgstr "Poista evästeet"
+
+#: public/modules/shortcode/shortcode.php:641
+msgid "Close and Accept"
+msgstr "Sulje ja hyväksy"
+
+#: public/modules/shortcode/shortcode.php:809
+msgid "Your current state:"
+msgstr "Nykyinen tila:"
+
+#: public/modules/shortcode/shortcode.php:827
+msgid "Allowed cookies "
+msgstr "Sallitut evästeet "
+
+#: public/modules/shortcode/shortcode.php:827
+msgid "Allowed all cookies "
+msgstr "Salli kaikki evästeet "
+
+#: public/modules/shortcode/shortcode.php:831
+msgid "Not allowed cookies "
+msgstr "Ei sallittu evästeet "
+
+#: public/modules/shortcode/shortcode.php:834
+msgid "Consent accepted. "
+msgstr "Suostumus hyväksytään. "
+
+#: public/modules/shortcode/shortcode.php:836
+msgid "Consent rejected."
+msgstr "Suostumus hylättiin."
+
+#: public/modules/shortcode/shortcode.php:838
+msgid "No consent given."
+msgstr "Ei suostumusta."
+
+#: public/modules/shortcode/shortcode.php:840
+msgid "Manage your consent."
+msgstr "Hallitse suostumustasi."
+
+#: public/modules/visitor-report/classes/class-visitor-history.php:26
+msgid "No Consent History"
+msgstr "Ei suostumushistoriaa"
+
+#: public/modules/visitor-report/classes/class-visitor-history.php:75
+msgid "IP Address"
+msgstr "IP-osoite"
+
+#: public/modules/visitor-report/classes/class-visitor-history.php:76
+msgid "Visited Date"
+msgstr "Käyntipäivä"
+
+#: public/modules/visitor-report/classes/class-visitor-history.php:77
+msgid "Cookie Details"
+msgstr "Evästeiden tiedot"
+
+#: public/modules/visitor-report/classes/class-visitor-history.php:78
+msgid "User ID"
+msgstr "Käyttäjätunnus"
+
+#: public/modules/visitor-report/views/visitor_report.php:12
+msgid "GDPR Consent History"
+msgstr "GDPR: n suostumushistoria"
+
+#: public/modules/visitor-report/views/visitor_report.php:14
+msgid "Export Report"
+msgstr "Vie raportti"
+
+#: public/modules/visitor-report/views/visitor_report.php:16
+msgid "Enable consent logging"
+msgstr "Salli suostumuksen kirjaaminen"
+
+#: public/modules/visitor-report/views/visitor_report.php:19
+msgid "Enable"
+msgstr "Ota käyttöön"
+
+#: public/modules/visitor-report/visitor-report.php:133
+msgid "Event Logged Successfully"
+msgstr "Tapahtuma kirjautui onnistuneesti"
+
+#: public/modules/visitor-report/visitor-report.php:142
+msgid "Logging is not enabled"
+msgstr "Kirjautumista ei ole otettu käyttöön"
+
+#: public/modules/visitor-report/visitor-report.php:174
+#: public/modules/visitor-report/visitor-report.php:175
+msgid "Consent Report"
+msgstr "Suostumusraportti"
+
+#: public/views/cookie-law-info_bar.php:16
+#: public/views/cookie-law-info_bar.php:18
+msgid "Close"
+msgstr "Sulje"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.webtoffee.com/product/gdpr-cookie-consent/"
+msgstr "https://www.webtoffee.com/product/gdpr-cookie-consent/"
+
+#. Description of the plugin/theme
+msgid ""
+"A simple way to show your website complies with the EU Cookie Law / GDPR."
+msgstr ""
+"A simple way to show your website complies with the EU Cookie Law / GDPR."
+
+#. Author of the plugin/theme
+msgid "WebToffee"
+msgstr "WebToffee"
+
+#. Author URI of the plugin/theme
+msgid "https://www.webtoffee.com/"
+msgstr "https://www.webtoffee.com/"
+
+#, php-format
+#~ msgid "Last scan: %s <a href=\"%s\">View result</a>"
+#~ msgstr "Viimeisin tarkistus: %s <a href=\"%s\">Näytä tulos</a>"
+
+#~ msgid "Please do not leave this page until the progress bar reaches 100%"
+#~ msgstr "Älä jätä tätä sivua, ennen kuin edistymispalkki saavuttaa 100%"
+
+#~ msgid "Scan result"
+#~ msgstr "Skannaustulos"
+
+#~ msgid "Summary"
+#~ msgstr "Yhteenveto"
+
+#~ msgid "Scan status"
+#~ msgstr "Skannaustila"
+
+#~ msgid "No cookies"
+#~ msgstr "Ei evästeitä"
+
+#~ msgid "URLs"
+#~ msgstr "URL-osoitteita"
+
+#~ msgid "No URLs"
+#~ msgstr "Ei URL-osoitteita"
+
+#, php-format
+#~ msgid ""
+#~ "The license key for %s has expired. You can reactivate or purchase a "
+#~ "license key from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+#~ "a>."
+#~ msgstr ""
+#~ "%s: n lisenssiavain on vanhentunut. Voit aktivoida tai ostaa "
+#~ "lisenssiavain tilisi <a href=\"%s\" target=\"_blank\"> kojelaudasta </a>."
+
+#, php-format
+#~ msgid ""
+#~ "The subscription for %s is on-hold. You can reactivate the subscription "
+#~ "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "%s: n tilaus on pidossa. Voit aktivoida tilauksen tilisi <a href=\"%s\" "
+#~ "target=\"_blank\"> kojelaudasta </a>."
+
+#, php-format
+#~ msgid ""
+#~ "The subscription for %s has been cancelled. You can renew the "
+#~ "subscription from your account <a href=\"%s\" "
+#~ "target=\"_blank\">dashboard</a>. A new license key will be emailed to you "
+#~ "after your order has been completed."
+#~ msgstr ""
+#~ "Kohteen %s tilaus on peruutettu. Voit uusia tilauksen tilisi <a "
+#~ "href=\"%s\" target=\"_blank\">ohjauspaneelista</a>. Saat uuden "
+#~ "lisenssiavaimen sähköpostilla, kun tilauksesi on käsitelty."
+
+#, php-format
+#~ msgid ""
+#~ "The subscription for %s has expired. You can reactivate the subscription "
+#~ "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "Kohteen %s tilaus on vanhentunut. Voit uusia tilauksen tilisi <a "
+#~ "href=\"%s\" target=\"_blank\">ohjauspaneelista</a>."
+
+#, php-format
+#~ msgid ""
+#~ "The subscription for %s has been suspended. You can reactivate the "
+#~ "subscription from your account <a href=\"%s\" "
+#~ "target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "Kohteen %s tilaus on keskeytetty. Voit aktivoida tilauksen uudelleen "
+#~ "tilisi <a href=\"%s\" target=\"_blank\">ohjauspaneelista</a>."
+
+#, php-format
+#~ msgid ""
+#~ "The subscription for %s is still pending. You can check on the status of "
+#~ "the subscription from your account <a href=\"%s\" "
+#~ "target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "Kohteen %s tilaus odottaa edelleen. Voit tarkistaa tilauksen tilan tilisi "
+#~ "<a href=\"%s\" target=\"_blank\">ohjauspaneelista</a>."
+
+#, php-format
+#~ msgid ""
+#~ "The subscription for %s has been placed in the trash and will be deleted "
+#~ "soon. You can purchase a new subscription from your account <a "
+#~ "href=\"%s\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "Kohteen %s tilaus on siirretty roskakoriin ja poistetaan pian. Voit tehdä "
+#~ "uuden tilauksen tilisi <a href=\"%s\" target=\"_blank\">ohjauspaneelin</"
+#~ "a> kautta."
+
+#, php-format
+#~ msgid ""
+#~ "A subscription for %s could not be found. You can purchase a subscription "
+#~ "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "Kohteen %s tilausta ei löytynyt. Voit tehdä tilauksen tilisi <a "
+#~ "href=\"%s\" target=\"_blank\">ohjauspaneelin</a> kautta."
+
+#, php-format
+#~ msgid ""
+#~ "A license key for %s could not be found. Maybe you forgot to enter a "
+#~ "license key when setting up %s, or the key was deactivated in your "
+#~ "account. You can reactivate license key at your plugin <a href=\"%s\" "
+#~ "target=\"_blank\">settings page</a>."
+#~ msgstr ""
+#~ "%s: n lisenssiavainta ei löytynyt. Ehkä unohdit syöttää lisenssiavainta, "
+#~ "kun määrität%s, tai avain on poistettu käytöstä tilissäsi. Voit aktivoida "
+#~ "lisenssiavain uudelleen plugin- <a href=\"%s\" "
+#~ "target=\"_blank\">asetussivulla</a> ."
+
+#, php-format
+#~ msgid ""
+#~ "Download permission for %s has been revoked possibly due to a license key "
+#~ "or subscription expiring. You can reactivate or purchase a license key "
+#~ "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "Kohteen %s latausoikeus puuttuu mahdollisesti vanhentuneen tilauksen tai "
+#~ "lisenssiavaimen takia. Voit aktivoida sen uudelleen tai tehdä tilauksen "
+#~ "tilisi <a href=\"%s\" target=\"_blank\">ohjauspaneelin</a> kautta."
+
+#, php-format
+#~ msgid ""
+#~ "%s has not been activated. Go to the plugin <a href=\"%s\" "
+#~ "target=\"_blank\">settings page</a> and enter the license key and license "
+#~ "email to activate %s."
+#~ msgstr ""
+#~ "%s ei ole aktivoitu. Mene plugin <a href=\"%s\" "
+#~ "target=\"_blank\">asetussivulle</a> ja anna lisenssiavain ja lisenssin "
+#~ "sähköpostin aktivoida%s."
+
+#, php-format
+#~ msgid ""
+#~ "You changed the subscription for %s, so you will need to enter your new "
+#~ "API License Key in the settings page. The License Key should have arrived "
+#~ "in your email inbox, if not you can get it by logging into your account "
+#~ "<a href=\"%s\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "Muutit kohteen %s tilausta, joten sinun täytyy syöttää uusi API-"
+#~ "lisenssiavain asetussivulla. Jos et ole saanut lisenssiavainta "
+#~ "sähköpostiisi, voit antaa sen kirjautumalla tilisi <a href=\"%s\" "
+#~ "target=\"_blank\">ohjauspaneeliin</a> ."
+
+#~ msgid "API Licence Key:"
+#~ msgstr "API-lisenssiavain:"
+
+#~ msgid "Licence Key"
+#~ msgstr "Lisenssiavain"
+
+#~ msgid "Licence Email"
+#~ msgstr "Lisenssin sähköposti"
+
+#~ msgid "Check"
+#~ msgstr "Tarkistaa"
+
+#~ msgid "Deactive"
+#~ msgstr "Deactive"
+
+#~ msgid "Forgot password"
+#~ msgstr "Unohditko salasanan"
+
+#~ msgid "http://cookielawinfo.com/"
+#~ msgstr "http://cookielawinfo.com/"
+
+#~ msgid "Cookie scanner URL per request"
+#~ msgstr "Evästeiden skannerin URL-osoite pyynnöstä"
+
+#~ msgid ""
+#~ "Reduce/control the number of URLs scanned per request depending on the "
+#~ "server limitation. E.g if you see an error \"Unable to connect..retrying "
+#~ "\" during a scan try reducing this number to '2'."
+#~ msgstr ""
+#~ "Pienennä / ohjaa pyyntöön skannattujen URL-osoitteiden määrää palvelimen "
+#~ "rajoitusten mukaan. Eli jos näet virheilmoituksen \"Ei voi yhdistää .."
+#~ "siirtoa\" skannauksen aikana, yritä vähentää tätä numeroa '2'."
+
+#~ msgid "First found URL"
+#~ msgstr "Ensimmäinen löytynyt URL-osoite"
+
+#~ msgid "Your last scan at"
+#~ msgstr "Viimeinen skannauksesi osoitteessa"
+
+#~ msgid "View result"
+#~ msgstr "Näytä tulos"
+
+#~ msgid "Scan Now"
+#~ msgstr "Skannaa nyt"
+
+#~ msgid "Cookie Law Settings"
+#~ msgstr "Cookie Law asetukset"
+
+#~ msgid ""
+#~ "This will enable all cookie categories on clicking the accept button, no "
+#~ "matter whether they are in the enabled or disabled state."
+#~ msgstr ""
+#~ "Tämä mahdollistaa kaikkien evästeiden luokkien napsauttamisen Hyväksy-"
+#~ "painikkeella riippumatta siitä, ovatko ne käytössä tai poissa käytöstä."
+
+#~ msgid "Unable to connect. Retrying..."
+#~ msgstr "Yhteyden muodostaminen ei onnistu. Yritetään uudelleen ..."
+
+#~ msgid "Your Cookie Law Info bar is switched on"
+#~ msgstr "Evästeoikeustietopalkki on päällä"
+
+#~ msgid "Your Cookie Law Info bar is switched off"
+#~ msgstr "Evästeoikeustietopalkki on pois päältä"
+
+#~ msgid "Show Border?"
+#~ msgstr "Näytä raja?"
+
+#~ msgid "Border Colour"
+#~ msgstr "Rajan väri"
+
+#~ msgid "Show Again Tab"
+#~ msgstr "Näytä uudelleen -välilehti"
+
+#~ msgid "Use Show Again Tab?"
+#~ msgstr "Käytä Näytä uudelleen -välilehteä?"
+
+#~ msgid "Show More Text"
+#~ msgstr "Näytä lisää tekstiä"
+
+#~ msgid "No."
+#~ msgstr "Ei."
+
+#~ msgid "Cookie Bar will be shown in:"
+#~ msgstr "Evästepalkki näkyy:"
+
+#~ msgid "Disappear"
+#~ msgstr "Kadota"
+
+#~ msgid ""
+#~ "This option will renew consents for all the existing users. if the "
+#~ "consent has renewed returning users will be prompted for a new consent."
+#~ msgstr ""
+#~ "Tämä vaihtoehto uusii kaikkien nykyisten käyttäjien suostumukset. Jos "
+#~ "suostumus on uusi, palaaville käyttäjille pyydetään uutta suostumusta."
+
+#~ msgid "Override caching"
+#~ msgstr "Ohita välimuisti"
+
+#~ msgid ""
+#~ "Enable this option only if you are experiencing issues with loading "
+#~ "cached versions especially if you are using a server-side caching or any "
+#~ "caching plugins that may not be compatible with our plugin. When enabled, "
+#~ "the GDPR plugin overrides the cached webpages to show the webpage with "
+#~ "respective user consent. "
+#~ msgstr ""
+#~ "Ota tämä vaihtoehto käyttöön vain, jos sinulla on ongelmia välimuistiin "
+#~ "tallennettujen versioiden lataamisessa erityisesti, jos käytät "
+#~ "palvelinpuolen välimuistia tai välimuistin laajennuksia, jotka eivät "
+#~ "välttämättä ole yhteensopivia laajennuksen kanssa. Kun tämä asetus on "
+#~ "käytössä, GDPR-laajennus ohittaa välimuistissa olevat sivut, jotta "
+#~ "verkkosivut näkyvät vastaavan käyttäjän suostumuksella."
+
+#~ msgid "Inside bar"
+#~ msgstr "Sisäpalkki"

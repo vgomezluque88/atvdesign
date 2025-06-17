@@ -1,0 +1,344 @@
+.cont__reviews {
+  display: flex;
+  align-items: center;
+
+  a#openReviewOverlay {
+    @include font-medium;
+    font-size: 0.875rem;
+    line-height: 1.26;
+
+    @include hover_link_two;
+
+    @include desktop-1280 {
+      font-size: 1rem;
+      line-height: 1.25;
+    }
+  }
+
+  .woocommerce-product-rating {
+    margin-bottom: 0 !important;
+
+    .star-rating {
+      margin: 0 !important;
+
+      >span {
+        color: #ffc737;
+
+        &:before {
+          color: #ffc737;
+        }
+      }
+    }
+
+    .woocommerce-review-link {
+      display: none;
+    }
+  }
+
+  .cont__review-rating {
+    @include font-bold;
+    font-size: 0.813rem;
+    line-height: 1.36;
+
+    margin-left: 13px;
+    margin-right: 4px;
+
+    @include desktop-1280 {
+      @include Small-Mobile;
+      @include font-bold;
+
+      color: $dark;
+    }
+  }
+
+  .cont__review-count {
+    font-size: 0.813rem;
+    line-height: 1.36;
+
+    color: #676767;
+
+    margin-right: 19px;
+
+    @include desktop-1280 {
+      @include Small-Mobile;
+    }
+  }
+}
+
+.product-reviews {
+  position: relative;
+  margin-top: 33px;
+  margin-bottom: 30px;
+
+  padding-top: 43px;
+  padding-bottom: 70px;
+
+  @include desktop {
+    margin-top: 100px;
+    margin-bottom: 60px;
+
+    padding-top: 70px;
+    padding-bottom: 75px;
+  }
+
+  @include desktop-1600 {
+    margin-bottom: 100px;
+  }
+
+  &:before {
+    content: '';
+    @include absolute_center_x;
+    top: 0;
+
+    width: 100vw;
+    height: 100%;
+
+    background-color: $white-2;
+    z-index: -1;
+  }
+
+  .title-section {
+    margin-bottom: 8px;
+  }
+
+  p.no-content {
+    margin-top: 20px;
+  }
+
+  .product-reviews-section {
+    position: relative;
+
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+
+    margin-top: 29px;
+    padding-top: 20px;
+    padding-bottom: 58px;
+
+    @include desktop-1280 {
+      padding-top: 41px;
+      padding-bottom: 40px;
+    }
+
+    .swiper-slide {
+      height: auto;
+    }
+
+    .product-reviews-list {
+      .product-review-item {
+        .product-review-item--inner {
+          @include flexbox;
+          flex-direction: column;
+          justify-content: space-between;
+
+          height: 100%;
+        }
+
+        .review-content {
+          font-size: 0.875rem;
+          line-height: 1.29;
+
+          color: #676767;
+
+          margin-bottom: 10px;
+
+          @include desktop-1280 {
+            @include Small-Mobile;
+          }
+
+          p {
+            margin-bottom: 0;
+          }
+        }
+
+        .review-info {
+          @include flexbox;
+          flex-direction: column;
+
+          .star-rating {
+            margin: 0 !important;
+
+            >span {
+              color: #ffc737;
+
+              &:before {
+                color: #ffc737;
+              }
+            }
+          }
+
+          .review-author {
+            @include PreTitle-Mobile;
+
+            margin-top: 4px;
+
+            @include desktop-1280 {
+              margin-top: 11px;
+            }
+          }
+        }
+      }
+    }
+
+    .swiper-navigation {
+      position: absolute;
+      right: 0;
+      bottom: -18px;
+
+      @include desktop {
+        right: 18px;
+      }
+
+      .swiper-button-prev,
+      .swiper-button-next {
+        background-color: #7a7a7a;
+        border-color: #7a7a7a;
+
+        &:hover {
+          background-color: $white-2;
+          border-color: $dark;
+        }
+      }
+    }
+  }
+}
+
+
+.overlay-reviews {
+  width: 100%;
+  max-width: calc(100vw - 40px);
+
+  @include tablet {
+    width: auto;
+  }
+
+  .cont__overlay--inner {
+    @extend .container;
+
+    padding-top: 70px;
+    padding-bottom: 50px;
+
+    @include desktop-1920 {
+      padding-right: 100px;
+      padding-left: 100px;
+    }
+
+    .cont__close {
+      position: absolute;
+      cursor: pointer;
+      top: 20px;
+      right: 20px;
+
+      width: 28px;
+      height: 28px;
+
+      &:before {
+        font-size: 13px;
+      }
+    }
+  }
+
+  .cont__info {
+    .comment-respond {
+      h3.comment-reply-title {
+        @include font-medium;
+        font-size: 1.5rem;
+        line-height: 1.17;
+
+        @include desktop-1440 {
+          @include Title2-1440;
+        }
+      }
+
+      form.comment-form {
+        label {
+          @include Title3-Mobile;
+        }
+
+        textarea {
+          @include font-regular;
+          font-size: 1rem;
+          line-height: 1.56;
+          letter-spacing: normal;
+
+          color: $dark;
+
+          background-color: transparent;
+
+          border-radius: 0;
+          border: none;
+          border-bottom: 1px solid #9f9f9f;
+
+          margin-top: 10px;
+          padding: 0 0 4px;
+
+          &:focus {
+            outline: none;
+            border-color: $black;
+          }
+
+          @include desktop-1440 {
+            font-size: 1.125rem;
+            line-height: 1.39;
+
+            padding-bottom: 8px;
+          }
+        }
+
+        .acf-input-wrap {
+          overflow: visible;
+
+          input {
+            @include font-regular;
+            font-size: 1rem;
+            line-height: 1.56;
+            letter-spacing: normal;
+
+            color: $dark;
+
+            background-color: transparent;
+
+            border-radius: 0;
+            border: none;
+            border-bottom: 1px solid #9f9f9f;
+
+            margin-top: 10px;
+            padding: 0 0 4px;
+
+            &:focus {
+              outline: none;
+              border-color: $black;
+            }
+
+            @include desktop-1440 {
+              font-size: 1.125rem;
+              line-height: 1.39;
+
+              padding-bottom: 8px;
+            }
+          }
+        }
+
+        .stars {
+          margin-top: 10px;
+        }
+
+        input.submit {}
+
+        .comment-form-author,
+        .comment-form-email,
+        .comment-form-url {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) .overlay-reviews .cont__info #respond input#submit {
+  @include button;
+
+  margin-top: 30px;
+
+}

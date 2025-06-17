@@ -1,0 +1,146 @@
+#header-wrapper {
+  width: 100%;
+  top: 0;
+  left: 0;
+
+  z-index: 2;
+
+  header.site-header {
+    @include flexbox;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 25px 0;
+
+
+    .site-branding {
+      position: relative;
+      //z-index: 2;
+
+      transform: translateY(0);
+      @include transition;
+
+      .cont--logo {
+        img {
+          display: block;
+
+          width: inherit;
+          max-height: 48px;
+
+          @include desktop-1280 {
+            max-height: 64px;
+          }
+        }
+      }
+    }
+
+    .cont--menu__open {
+      position: relative;
+      z-index: 2;
+
+      @include desktop {
+        display: none;
+      }
+
+      .burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 30px;
+
+        cursor: pointer;
+
+        &:hover {
+
+          span,
+          span:before,
+          span:after {
+            background-color: $primary;
+            border-color: $primary;
+          }
+        }
+
+        span {
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+
+          @include absolute_center_xy;
+
+          border: 1px solid $primary;
+          border-radius: 20px;
+
+          &:before,
+          &:after {
+            position: absolute;
+            content: "";
+
+            border: 1px solid $primary;
+            border-radius: 20px;
+
+            margin-left: -1px;
+          }
+
+          &:before {
+            top: -10px;
+          }
+
+          &:after {
+            top: 8px;
+          }
+        }
+
+        span,
+        span:before,
+        span:after {
+          display: block;
+          width: 24px;
+          height: 2px;
+          background-color: $white;
+          @include transition;
+          opacity: 1;
+        }
+
+        input:checked+span {
+          background-color: transparent;
+          border-color: transparent;
+
+          &:before,
+          &:after {
+            top: 0px;
+            margin-top: -0.5875rem;
+            border-color: white;
+          }
+
+          &:before {
+            transform: translateY(0.525rem) rotate(45deg);
+          }
+
+          &:after {
+            transform: translateY(0.525rem) rotate(-45deg);
+          }
+        }
+      }
+
+      .hidden {
+        visibility: hidden;
+        position: absolute;
+        width: 0;
+        height: 0;
+      }
+    }
+  }
+}
+
+body.home,
+body.header-fixed,
+body.tax-cat_product,
+body.tax-cat_faq,
+body.page-template-page-ingredients,
+body.single-product,
+body.page-template-page-recommender {
+  #header-wrapper {
+    position: fixed;
+  }
+}

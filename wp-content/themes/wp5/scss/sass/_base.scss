@@ -1,0 +1,340 @@
+/**
+ * Selectores CSS
+ * Ejemplo: fonts, h1, div, a, p, span, etc...
+**/
+
+html {
+  font-size: 15px;
+  background-color: white;
+}
+
+body {
+  @include Body-Mobile;
+  overflow-y: overlay;
+
+  @include desktop-1600 {
+    @include Body-Desktop1600;
+  }
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.title-h1,
+.title-h2,
+.title-h3,
+.title-h4,
+.title-h5 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.title-h1,
+.title-1,
+h1 {
+  @include Title1-Mobile;
+
+
+  @include desktop-1600 {
+    @include Title1-Desktop1600;
+  }
+}
+
+.title-h2,
+.title-2,
+h2 {
+  @include Title2-Mobile;
+
+  @include desktop-1600 {
+    @include Title2-Desktop1600;
+  }
+}
+
+.title-h3,
+.title-3,
+h3 {
+  @include Title3-Mobile;
+
+  @include desktop-1600 {
+    @include Title3-Desktop1600;
+  }
+}
+
+.title-h4,
+.title-4,
+h4 {
+  @include Title3-Mobile;
+
+  @include desktop-1600 {
+    @include Title3-Desktop1600;
+  }
+}
+
+.text-small {
+  @include Small-Mobile;
+
+  @include desktop-1600 {
+    @include Small-Desktop1600;
+  }
+}
+
+.text-important {
+  @include Featured-Mobile;
+
+  @include desktop-1600 {
+    @include Featured-Desktop1600;
+  }
+}
+
+.text-medium {
+  @include Featured-Mobile;
+
+  @include desktop-1600 {
+    @include Featured-Mobile;
+  }
+}
+
+table {
+  border-collapse: collapse;
+
+  margin-bottom: 20px;
+
+  @include desktop {
+    margin-bottom: 18px;
+  }
+
+  @include desktop-1600 {
+    margin-bottom: 29px;
+  }
+
+  thead {
+    tr {
+      @include font-bold;
+    }
+  }
+
+  th,
+  td {
+    border: 1px solid $primary;
+    padding: 8px;
+  }
+
+  tr {
+    vertical-align: baseline;
+
+    td {}
+  }
+}
+
+a {
+  @include transition;
+  color: $black;
+  text-decoration: none;
+}
+
+/*Links*/
+
+a[href^="sms"],
+a[href^="tel:"] {
+  position: relative;
+  text-decoration: none !important;
+  pointer-events: auto;
+  color: inherit;
+  font-weight: inherit;
+  z-index: 0;
+  cursor: default;
+}
+
+i {
+  font-style: italic;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+p:empty {
+  display: none;
+}
+
+input[type="submit"],
+.btn,
+a.button {
+  @include button;
+  overflow: hidden;
+  @include transition;
+}
+
+.wrapper {
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.link__arrow {
+  @include font-bold;
+  font-size: 0.8rem;
+  line-height: 1.25;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+
+  color: $black;
+
+  height: 30px;
+
+  @include flexbox;
+  align-items: center;
+
+  @include desktop-1600 {
+    height: 45px;
+  }
+
+  span,
+  a {
+    position: relative;
+
+    &:after {
+      @include wp5($icon-arrow-next);
+      font-size: 0.8rem;
+
+      width: 30px;
+      height: 30px;
+
+      @include absolute_center_y;
+      right: calc(-30px - 15px);
+
+      border: 1px solid $black;
+      border-radius: 50%;
+
+      @include flexbox;
+      align-items: center;
+      justify-content: center;
+
+      padding-top: 2px;
+
+      @include transition;
+
+      @include desktop-1600 {
+        font-size: 1.2rem;
+
+        width: 45px;
+        height: 45px;
+
+        right: calc(-45px - 20px);
+
+        padding: 0;
+      }
+    }
+  }
+
+  &:hover {
+
+    span:after,
+    a:after {
+      transform: translateY(-50%) translateX(4px);
+    }
+  }
+}
+
+.loadmore_posts {
+  @include flexbox;
+  justify-content: center;
+  text-align: center;
+
+  padding-top: 2px;
+
+  @include desktop {
+    padding-top: 68px;
+  }
+
+  .loader-plus {
+    position: relative;
+
+    @include font-bold;
+    font-size: 0.8rem;
+    line-height: 1.25;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+
+    color: $black;
+
+    margin-top: 65px;
+    cursor: pointer;
+
+    &:hover {
+      &:before {
+        transform: translateX(-50%) translateY(-50%) scale(1.1);
+      }
+    }
+
+    &:before {
+      @include wp5($icon-plus);
+      font-size: 17px;
+
+      @include absolute_center_xy;
+      top: -32px;
+
+      width: 45px;
+      height: 45px;
+
+      @include flexbox;
+      align-items: center;
+      justify-content: center;
+
+      border: 1px solid $black;
+      border-radius: 50%;
+
+      @include transition;
+    }
+  }
+}
+
+.cont__close {
+  position: relative;
+  width: 50px;
+  height: 50px;
+
+  cursor: pointer;
+
+  background-color: #fff;
+  border-radius: 50%;
+
+  margin-left: auto;
+
+  @include flexbox;
+  align-items: center;
+  justify-content: center;
+
+  @include desktop-1366 {
+    width: 60px;
+    height: 60px;
+  }
+
+  &:before {
+    @include wp5($icon-close);
+    color: $black;
+
+    @include transition;
+
+    @include desktop-1600 {
+      font-size: 26px;
+    }
+  }
+
+  &:hover {
+    &:before {
+      color: $grey;
+    }
+  }
+}
+
+lite-youtube {
+  max-width: 100%;
+}

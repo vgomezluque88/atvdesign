@@ -1,0 +1,238 @@
+.page-template-default {
+  .site-main {
+    max-width: 90%;
+    margin: auto !important;
+
+
+    @include desktop-1280 {
+      max-width: 80%;
+    }
+
+    @include desktop-1440 {
+      max-width: 70%;
+    }
+  }
+
+  .entry-content {
+    a {
+      @include hover_link_two;
+    }
+
+    ul {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+body {
+  #content-woo {
+    outline: none;
+  }
+
+  .site-main {
+    padding-top: 20px;
+    outline: none;
+
+    @include tablet-max {
+      padding-top: 15px !important;
+      //overflow-x: hidden;
+    }
+  }
+
+  &.home {
+    .site-main {
+      padding-top: 0;
+    }
+
+    .footer-options .cont__bottom .cont__features {
+      display: none;
+    }
+
+    #footer-wrapper .site-footer {
+      border-top: none;
+    }
+  }
+}
+
+.page-id-587 {
+  .section__text-full {
+    margin-top: 0;
+  }
+}
+
+img {
+  display: block;
+}
+
+.owl-dots {
+  .owl-dot {
+    margin-right: 5px;
+
+    @include desktop {
+      margin-right: 10px;
+    }
+
+    &.active,
+    &:hover {
+      span {
+        background-color: $black;
+      }
+    }
+
+    span {
+      display: block;
+
+      width: 10px;
+      height: 10px;
+
+      background-color: #cdcdcd;
+      border-radius: 50%;
+      border: 2.5px solid $white;
+
+      @include transition;
+
+      @include desktop {
+        width: 20px;
+        height: 20px;
+
+        border: 5px solid $white;
+      }
+    }
+  }
+}
+
+.cont__breadcrumbs {
+  @include Breadcrumbs-Mobile;
+
+  margin-bottom: 15px;
+
+  @include desktop {
+    @include Small-Mobile;
+  }
+
+  a {
+    &:hover {
+      color: $primary;
+    }
+  }
+}
+
+
+.swiper-pagination {
+  @include flexbox;
+  column-gap: 6px;
+
+  .swiper-pagination-bullet {
+    position: relative;
+
+    width: 16px;
+    height: 16px;
+    border: solid 1px $white;
+
+    margin: 0 !important;
+
+    background-color: transparent;
+    opacity: 1;
+
+    &:before {
+      content: '';
+      @include absolute_center_xy;
+
+      width: 8px;
+      height: 8px;
+
+      background-color: $white;
+      border-radius: 50%;
+
+      opacity: 0;
+      @include transition;
+    }
+
+    &.swiper-pagination-bullet-active,
+    &:hover {
+      &:before {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.swiper-navigation {
+  @include flexbox;
+  column-gap: 15px;
+
+  @include desktop {
+    column-gap: 10px;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    position: relative;
+    right: inherit;
+    left: inherit;
+    top: inherit;
+
+    width: 36px;
+    height: 36px;
+
+    background-color: $black;
+    border-radius: 50%;
+    border: 1px solid $black;
+
+    @include transition;
+
+    &:after {
+      font-size: 12px;
+      color: $white;
+      @include transition;
+    }
+
+    &:hover {
+      background-color: transparent;
+
+      &:after {
+        color: $black;
+      }
+    }
+  }
+}
+
+
+.trustpilot-widget {
+  background-color: $white;
+
+  width: 100vw;
+  padding: 5px 0 1px;
+}
+
+.grecaptcha-badge {
+  display: none;
+}
+
+.oculto {
+  position: absolute;
+  left: -9999px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $white;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $black;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $black;
+}

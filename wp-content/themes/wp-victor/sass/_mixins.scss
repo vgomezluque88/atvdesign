@@ -1,0 +1,357 @@
+@import "mixins/mixins_media";
+@import "mixins/mixins_fonts";
+
+@mixin img-opacity {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+}
+
+@mixin transition($time: 0.3s) {
+  -webkit-transition: all $time;
+  -moz-transition: all $time;
+  transition: all $time;
+}
+
+@mixin transition-background($time: 0.3s) {
+  -webkit-transition: background $time;
+  -moz-transition: background $time;
+  -o-transition: background $time;
+  transition: background $time;
+}
+
+@mixin center-element {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+@mixin border-radius($num) {
+  -webkit-border-radius: $num;
+  -moz-border-radius: $num;
+  border-radius: $num;
+}
+
+@mixin rotate($num) {
+  -ms-transform: rotate($num);
+  /* IE 9 */
+  -webkit-transform: rotate($num);
+  /* Chrome, Safari, Opera */
+  transform: rotate($num);
+}
+
+@mixin grayscale_element($value) {
+  -webkit-filter: #{"grayscale(#{$value})"};
+ -moz-filter: #{"grayscale(#{$value})"};
+ filter:#{"grayscale(#{$value})"};
+
+}
+
+@mixin flexbox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@mixin flexbox_wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@mixin absolute_center_x {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@mixin absolute_center_y {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@mixin absolute_center_xy {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+@mixin absolute_center_x_rotate($value) {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) rotate($value);
+}
+
+@mixin absolute_center_y_rotate($value) {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) rotate($value);
+}
+
+@mixin absolute_center_xy_rotate($value) {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%) rotate($value);
+}
+
+@mixin height-1080 {
+  @media screen and (min-height: 900px) {
+    @content;
+  }
+}
+
+
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+
+  &:before {
+    display: block;
+    content: " ";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+
+  >.wpb_wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+@mixin line-top($color) {
+  position: relative;
+  margin-top: 17px;
+
+  @include desktop-1600 {
+    margin-top: 28px;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -17px;
+    left: 0;
+    width: 22px;
+    height: 3px;
+    background: $color;
+
+    @include desktop-1600 {
+      top: -28px;
+      width: 32px;
+      height: 5px;
+    }
+  }
+}
+
+/* BUTTON */
+@mixin button {
+  display: block;
+  position: relative;
+
+  @include font-medium;
+  font-size: 1rem;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  text-decoration: none;
+
+  border: 1px solid $primary !important;
+  border-radius: 10px !important;
+
+  box-shadow: none;
+  background: $primary !important;
+  color: $white !important;
+
+  padding: 9px 19px;
+  @include transition;
+  outline: none;
+
+  cursor: pointer;
+
+  @include tablet {
+    min-width: 227px;
+  }
+
+  &:hover {
+    text-decoration: none;
+
+    background-color: $white;
+    color: $dark;
+  }
+
+  &:disabled {
+    opacity: 0.7;
+  }
+}
+
+/* BUTTON */
+@mixin button-white {
+  display: block;
+  position: relative;
+
+  @include font-medium;
+  font-size: 1rem;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  text-decoration: none;
+
+  border: 1px solid $dark;
+  border-radius: 100px;
+
+  box-shadow: none;
+  background: $white;
+  color: $dark;
+
+  padding: 9px 19px;
+  @include transition;
+  outline: none;
+
+  cursor: pointer;
+
+  @include tablet {
+    min-width: 227px;
+  }
+
+  &:hover {
+    text-decoration: none;
+
+    border-color: $white;
+    background-color: $dark;
+    color: $white;
+  }
+
+  &:disabled {
+    opacity: 0.7;
+  }
+}
+
+@mixin animationFadeIn($delay: 0.2s) {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-delay: $delay;
+  animation-fill-mode: backwards;
+  @include transition;
+}
+
+@mixin animationFadeInMove($delay: 0.2s) {
+  animation-name: fadeInMove;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-delay: $delay;
+  animation-fill-mode: backwards;
+  @include transition;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInMove {
+  0% {
+    opacity: 0;
+    transform: translateY(80px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@mixin underline-effect {
+  background-image: linear-gradient(120deg, $primary 0%, $primary 100%);
+  background-repeat: no-repeat;
+  background-size: 0 65%;
+  background-position: 0 110%;
+  transition: background-size 0.4s ease-in;
+
+  &:hover {
+    background-size: 100% 65%;
+  }
+}
+
+@mixin hover_link_one {
+  position: relative;
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+
+    bottom: -1px;
+    left: 0;
+
+    background-color: $dark;
+    @include transition(0.6s);
+  }
+
+  &:hover {
+    &:after {
+      width: 100%;
+    }
+  }
+}
+
+@mixin hover_link_two {
+  --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+
+  position: relative;
+
+  &::before,
+  &::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -0.1rem;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: $dark;
+    transition: 1.1s var(--ease-out-expo);
+  }
+
+  &::before {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+
+  &::after {
+    transform-origin: right;
+    transition-delay: 0.25s;
+  }
+
+  &:hover {
+    &::before {
+      transform: scaleX(1);
+      transition-delay: 0.25s;
+    }
+
+    &::after {
+      transform: scaleX(0);
+      transition-delay: 0s;
+    }
+  }
+}

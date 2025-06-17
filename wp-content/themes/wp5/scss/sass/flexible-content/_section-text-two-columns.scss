@@ -1,0 +1,25 @@
+.section__text-two-columns {
+  .cont__columns {
+    @include tablet {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 40px;
+
+      @include desktop-1280 {
+        column-gap: 80px;
+      }
+
+      @include desktop-1600 {
+        column-gap: 100px;
+      }
+    }
+
+    .cont__column {
+      p {
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

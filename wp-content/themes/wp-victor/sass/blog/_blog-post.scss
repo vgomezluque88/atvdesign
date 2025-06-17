@@ -1,0 +1,51 @@
+article {
+  background-color: $card-color;
+  border-radius: 50px;
+
+  .entry-title,
+  .entry-content {
+    width: 80%;
+    margin: auto;
+  }
+
+  h2 {
+    padding: 10px 0px;
+    margin: 0px;
+
+    a {
+      color: $primary;
+    }
+  }
+
+  .entry-content {
+
+    p {
+      margin: 0px !important;
+      padding: 10px 0px;
+    }
+
+    margin-bottom: 20px;
+  }
+
+  .post-categories {
+    margin: 0px;
+    padding: 0px;
+
+    display: flex;
+    gap: 15px;
+
+
+    li {
+      border: solid 1px $white;
+      background-color: $card-color-category;
+      width: auto;
+      padding: 5px;
+      border-radius: 50px;
+
+      a {
+        color: $white;
+      }
+    }
+
+  }
+}

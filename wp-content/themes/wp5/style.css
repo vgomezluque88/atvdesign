@@ -1,0 +1,13 @@
+/*
+ Theme Name:   wp5
+ Theme URI:    http://www.emfasi.com/
+ Description:  wp5 Theme
+ Author:       Emfasi
+ Author URI:   http://www.emfasi.com/
+ Template:     underscores
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  wp5
+*/
+@import url("../wp5/style.css");
+

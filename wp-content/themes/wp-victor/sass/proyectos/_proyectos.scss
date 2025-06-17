@@ -1,0 +1,45 @@
+.cont_cv-proyectos--title {
+    font-size: 50px !important;
+    margin-bottom: 20px;
+    color: $secondary;
+    text-align: center;
+}
+
+.cont__proyects {
+
+    @include desktop {
+     
+    }
+
+    .cont_cv-proyectos {
+        position: relative;
+
+        
+
+        @include desktop {}
+
+        @include tablet {}
+
+        &--content {
+
+
+            @include desktop {}
+
+            .cont_cv-experiencias--item {
+                img {}
+            }
+
+            .cont_cv-experiencias--item-link {
+
+
+                h3 {
+                    @include desktop {
+
+                        font-size: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+

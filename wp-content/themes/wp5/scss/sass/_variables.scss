@@ -1,0 +1,31 @@
+//Media Queries
+$Mobile-md: 480px;
+$tablet-sm: 768px;
+$tablet-md: 991px;
+$desktop-md: 1025px;
+$desktop-lg: 1279px;
+$desktop-lg2: 1366px;
+$desktop-xl: 1600px;
+$desktop-xxl: 1920px;
+$desktop-xxxl: 2048px;
+
+
+//$container-max: ;
+ 
+//Variable Colors 
+$primary: #293FFF;
+$secondary: #8F41F1;
+
+$black: #000000;
+$white: #fff;
+$grey: #444;
+
+$dark: #000000;
+
+$white: #fff;
+
+
+
+/* IMG */
+//background: url('#{$imgPath}/xxxx.png')
+$imgPath : "../../assets/";

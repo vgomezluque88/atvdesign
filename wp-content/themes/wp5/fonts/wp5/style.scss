@@ -1,0 +1,158 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?gnwnzm');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?gnwnzm#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff2?gnwnzm') format('woff2'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?gnwnzm') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?gnwnzm') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?gnwnzm##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-filter-icon {
+  &:before {
+    content: $icon-filter-icon; 
+  }
+}
+.icon-cart-icon {
+  &:before {
+    content: $icon-cart-icon; 
+  }
+}
+.icon-fast-shipping-icn {
+  &:before {
+    content: $icon-fast-shipping-icn; 
+  }
+}
+.icon-heart-icon {
+  &:before {
+    content: $icon-heart-icon; 
+  }
+}
+.icon-link-external-icon {
+  &:before {
+    content: $icon-link-external-icon; 
+  }
+}
+.icon-play-icon {
+  &:before {
+    content: $icon-play-icon; 
+  }
+}
+.icon-profile-icon {
+  &:before {
+    content: $icon-profile-icon; 
+  }
+}
+.icon-tick-icon {
+  &:before {
+    content: $icon-tick-icon; 
+  }
+}
+.icon-truck-icn {
+  &:before {
+    content: $icon-truck-icn; 
+  }
+}
+.icon-cart-idioma {
+  &:before {
+    content: $icon-cart-idioma;     
+    color: #666;
+  }
+}
+.icon-burger {
+  &:before {
+    content: $icon-burger; 
+  }
+}
+.icon-close {
+  &:before {
+    content: $icon-close; 
+  }
+}
+.icon-arrow-next {
+  &:before {
+    content: $icon-arrow-next; 
+  }
+}
+.icon-arrow-prev {
+  &:before {
+    content: $icon-arrow-prev; 
+  }
+}
+.icon-plus {
+  &:before {
+    content: $icon-plus; 
+  }
+}
+.icon-less {
+  &:before {
+    content: $icon-less; 
+  }
+}
+.icon-arrow {
+  &:before {
+    content: $icon-arrow; 
+  }
+}
+.icon-email {
+  &:before {
+    content: $icon-email; 
+  }
+}
+.icon-facebok {
+  &:before {
+    content: $icon-facebok; 
+  }
+}
+.icon-twitter {
+  &:before {
+    content: $icon-twitter; 
+  }
+}
+.icon-whatsaap {
+  &:before {
+    content: $icon-whatsaap;     
+    color: #666;
+  }
+}
+.icon-pinterest {
+  &:before {
+    content: $icon-pinterest; 
+  }
+}
+.icon-linkedin {
+  &:before {
+    content: $icon-linkedin; 
+  }
+}
+.icon-instagram {
+  &:before {
+    content: $icon-instagram; 
+  }
+}
+.icon-share {
+  &:before {
+    content: $icon-share; 
+  }
+}
+

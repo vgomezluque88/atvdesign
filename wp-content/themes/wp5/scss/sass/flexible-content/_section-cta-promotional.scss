@@ -1,0 +1,117 @@
+.section_cta_promotional {
+    //display: none;
+
+    .cta__fixed-button {
+        display: none;
+
+        @include font-bold;
+        font-size: 0.8rem;
+        line-height: 1.25;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+
+        position: fixed;
+        right: 0;
+        bottom: 100px;
+
+        padding: 11px 20px;
+
+        border-radius: 100px 0 0 100px;
+        background-image: linear-gradient(15deg, $primary 36%, $secondary 87%);
+        color: $white;
+
+        @include transition;
+        outline: none;
+
+        cursor: pointer;
+        z-index: 1;
+
+        @include desktop {
+            display: block;
+        }
+
+        @include desktop-1600 {
+            font-size: 0.867rem;
+            line-height: 1.14;
+            letter-spacing: 1.3px;
+
+            padding: 15px 24px 15px 26px;
+        }
+
+        &:hover {
+            text-decoration: none;
+            -webkit-transform: scale(1.03);
+            transform: scale(1.03);
+        }
+    }
+
+    .cta__fixed-overlay {
+        @include absolute_center_xy;
+        position: fixed;
+
+        background-color: $white;
+        z-index: -1;
+        visibility: hidden;
+        opacity: 0;
+
+        padding: 10px 50px 50px;
+
+        box-shadow: -10px 10px 20px 0 rgba(0, 0, 0, 0.1);
+
+        max-width: 90vw;
+        max-height: 90vh;
+
+        @include transition;
+
+        &.show {
+            z-index: 3;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .close-info-overlay {
+            position: relative;
+            width: 50px;
+            height: 50px;
+
+            cursor: pointer;
+
+            background-color: #fff;
+            border-radius: 50%;
+
+            margin-left: auto;
+
+            @include flexbox;
+            align-items: center;
+            justify-content: center;
+
+            @include desktop-1366 {
+                width: 60px;
+                height: 60px;
+            }
+
+            &:before {
+                @include wp5($icon-close);
+                color: $black;
+
+                @include transition;
+
+                @include desktop-1600 {
+                    font-size: 26px;
+                }
+            }
+
+            &:hover {
+                &:before {
+                    color: $grey;
+                }
+            }
+        }
+
+        iframe {
+            display: block;
+            max-width: 80vw;
+            max-height: 80vh;
+        }
+    }
+}

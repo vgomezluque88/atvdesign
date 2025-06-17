@@ -1,0 +1,57 @@
+.section__hero-image {
+  margin-bottom: 100px;
+  min-height:100vh;
+  overflow-x: hidden;
+
+  .cont__banners {
+
+    .owl-item {
+      font-size: 0;
+
+      &.active {
+        .image__product {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .image__product {
+        opacity: 0;
+        transform: translateY(20px);
+        @include transition(1s);
+        transition-delay: 1s;
+      }
+    }
+
+    .cont__banner {
+      max-height: 100vh;
+
+      .cont__image {
+        img {}
+      }
+    }
+  }
+
+  .owl-dots {
+    position: relative;
+    @extend .container;
+
+    margin-top: -25px;
+    margin-left: 60px;
+
+    @include tablet {
+      margin-top: -70px;
+    }
+
+    @include desktop {
+      margin-left: auto;
+      padding-left: 100px;
+      margin-top: -83px;
+    }
+
+    @include desktop-1600 {
+      padding-left: 80px;
+      margin-top: -130px;
+    }
+  }
+}

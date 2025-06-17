@@ -1,0 +1,266 @@
+.cont--post {
+  border-top: 2px solid $black;
+
+  padding: 20px 0 18px;
+
+  @include desktop-1600 {
+    padding: 24px 0 0;
+  }
+
+  .cont--inner {
+    @include flexbox;
+    flex-direction: column;
+    height: 100%;
+
+    .post-category {
+      padding-bottom: 5px;
+
+      @include desktop-1600 {
+        padding-bottom: 10px;
+      }
+
+      a {
+        @include font-bold;
+        font-size: 0.8rem;
+        line-height: 1.25;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+
+        color: $black;
+
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+    }
+
+    a {
+      text-decoration: none;
+
+      @include flexbox;
+      flex-direction: column;
+
+      height: 100%;
+
+      &:hover {
+        .cont--post-info .cont--post-title h3 {
+          color: $black;
+        }
+
+        .cont--post-image {
+          img {
+            transform: scale(1.1);
+          }
+
+          &:before {
+            opacity: 1;
+          }
+        }
+      }
+
+      .cont--post-image {
+        position: relative;
+        overflow: hidden;
+
+        img {
+          display: block;
+          @include transition;
+
+          max-height: 162px;
+          width: 100%;
+          object-fit: cover;
+
+          @include desktop-1600 {
+            max-height: 170px;
+          }
+        }
+
+        &:before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+
+          background-image: linear-gradient(289deg, rgba(122, 182, 57, 0.65) 100%, rgba(122, 182, 57, 0.74) 100%, rgba(122, 182, 57, 0.53));
+          z-index: 1;
+
+          opacity: 0;
+          @include transition;
+        }
+      }
+
+      .cont--post-info {
+        flex-grow: 1;
+
+        .cont--post-title {
+          h3 {
+            @include Title3-Mobile;
+
+            margin-bottom: 11px;
+            @include transition;
+
+            @include desktop-1600 {
+              font-size: 2rem;
+              line-height: 1.17;
+
+              margin-bottom: 8px;
+            }
+          }
+        }
+
+        .cont--post-description {
+          padding-bottom: 9px;
+
+          color: $grey;
+
+          @include desktop-1600 {
+            padding-bottom: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.blog,
+.category {
+  padding-bottom: 50px;
+
+  @include desktop-1600 {
+    padding-bottom: 130px;
+  }
+}
+
+.blog-grid.cont__posts,
+.archive-grid.cont__posts {
+  display: grid;
+  row-gap: 28px;
+
+  @include desktop {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 40px;
+    row-gap: 88px;
+  }
+
+  @include desktop-1280 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @include desktop-1600 {
+    column-gap: 107px;
+  }
+
+  .cont--post .cont--inner a .cont--post-info .cont--post-description {
+    display: none;
+
+    @include desktop {
+      display: block;
+    }
+  }
+}
+
+.blog-grid.cont__posts {
+
+  .cont--post:nth-child(1),
+  .cont--post:nth-child(2) {
+    @include desktop-1280 {
+      grid-column: span 2;
+    }
+
+    .cont--inner {
+      .post-category {
+        padding-bottom: 11px;
+
+        @include desktop-1600 {
+          padding-bottom: 9px;
+        }
+      }
+
+      a {
+        .cont--post-image img {
+          @include desktop-1600 {
+            max-height: 272px;
+          }
+        }
+
+        .cont--post-info {
+          .cont--post-title h3 {
+            font-size: 2rem;
+            line-height: 1.17;
+
+            @include desktop {
+              font-size: 2.667rem;
+              line-height: 1.13;
+
+              margin-bottom: 12px;
+            }
+          }
+
+          .cont--post-description {
+            display: block;
+
+            padding-bottom: 21px;
+
+            @include desktop-1600 {
+              font-size: 1.667rem;
+              line-height: 1.2;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.cont--menu-cat {
+  padding: 10px 0 18px;
+
+  @include desktop {
+    padding: 10px 0 37px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    @include flexbox_wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+
+    li {
+      &.current-cat {
+        a {
+          background-color: $black;
+          color: $white;
+        }
+      }
+
+      a {
+        display: block;
+
+        @include font-bold;
+        font-size: 0.8rem;
+        line-height: 1.25;
+        letter-spacing: 1.2px;
+        text-decoration: none;
+        text-transform: uppercase;
+
+        color: $black;
+        @include transition;
+
+        border: 1px solid $black;
+        border-radius: 20px;
+
+        padding: 4px 9px;
+
+        &:hover {
+          background-color: $black;
+          color: $white;
+        }
+      }
+    }
+  }
+}

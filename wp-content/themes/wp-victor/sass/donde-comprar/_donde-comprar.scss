@@ -1,0 +1,348 @@
+body.page-template-page-donde-comprar {
+  .entry-header h1 {
+    display: none;
+  }
+}
+
+.section-donde-comprar {
+  margin-bottom: 50px;
+
+  @include desktop {
+    margin-bottom: 100px;
+  }
+
+  .cont__top {
+    .cont__breadcrumbs {
+      @include desktop {
+        margin-bottom: 33px;
+      }
+    }
+
+    h1 {
+      margin-bottom: 5px;
+
+      @include desktop {
+        margin-bottom: 16px;
+      }
+    }
+  }
+
+  .cont__bottom {
+    @include desktop {
+      position: relative;
+
+      @include flexbox;
+      justify-content: space-between;
+    }
+  }
+
+  .form-points-of-sale {
+    @include desktop {
+      width: calc(42% - 22px);
+    }
+
+    form.points-of-sale {
+      margin-top: 30px;
+      margin-bottom: 19px;
+
+      @include desktop {
+        margin-top: 35px;
+        margin-bottom: 59px;
+      }
+
+      .form-points-of-sale-item {
+        @include flexbox;
+        column-gap: 5px;
+
+        @include desktop-1280 {
+          column-gap: 10px;
+        }
+
+        label {
+          display: none;
+        }
+
+        input[type="text"] {
+          font-size: 0.75rem;
+          line-height: 1.33;
+
+          border-radius: 30px;
+          border: solid 1px #000;
+
+          padding: 9px 18px;
+
+          @include desktop {
+            @include Small-Mobile;
+          }
+
+          @include desktop-1440 {
+            padding: 9px 38px;
+          }
+
+          &::placeholder {
+            font-size: 0.75rem;
+            line-height: 1.33;
+
+            @include desktop {
+              @include Small-Mobile;
+            }
+          }
+        }
+
+        input[type="submit"] {
+          font-size: 0.8rem;
+          line-height: 1.25;
+
+          margin-top: 0;
+
+          @include desktop {
+            font-size: 1rem;
+            line-height: 1.25;
+          }
+        }
+      }
+
+      .checkbox-wrapper {
+        display: none;
+      }
+    }
+
+  }
+
+  .points-of-sale-wrapper {
+    @include desktop {
+      width: 58%;
+    }
+
+
+    .points-of-sale-wrapper-map {
+
+      #map-points-of-sale {
+        @include desktop-1280 {
+          width: 100%;
+          min-height: 680px;
+        }
+      }
+    }
+  }
+}
+
+.single-distributor-ajax {
+  background: $white;
+  height: auto;
+}
+
+.single-post-ajax {
+  background: red;
+  height: 100vh;
+}
+
+.single-post-ajax,
+.single-distributor-ajax {
+  &.single-distributor-loading {
+    display: none !important;
+  }
+
+  display: block;
+  width: 100%;
+  opacity: 0;
+
+  z-index: 1;
+
+  @include transition;
+  transition-delay: 0s;
+
+  @include tablet {
+    max-width: 360px;
+  }
+
+  &.single-distributor-show {
+    opacity: 1;
+  }
+
+  &.single-post-loading,
+  &.single-distributor-loading {
+    opacity: 0;
+    z-index: 9;
+    overflow: hidden;
+    transition-delay: 0.6s;
+
+    .cont__right {
+      >div {
+        @include transition;
+        transform: translateY(40px);
+      }
+    }
+  }
+
+  &.single-post-animating,
+  &.single-distributor-animating {
+    .cont__left {
+      @include transition;
+      opacity: 0;
+
+      >div,
+      >header {
+        opacity: 0;
+        @include transition;
+        transition-delay: 0.1s;
+        transform: translateX(-100px);
+      }
+    }
+
+    .cont__right {
+      @include transition;
+      opacity: 0;
+      padding: 25px 35px;
+
+      >div,
+      >header {
+        opacity: 0;
+        @include transition;
+        transition-delay: 0.4s;
+        transform: translateY(40px);
+      }
+    }
+  }
+
+  .content-single-distributor {
+
+    //#point-of-sale-65 {
+    .cont__left {
+      @include transition;
+      opacity: 1;
+
+      >div,
+      >header {
+        opacity: 1;
+        @include transition;
+        transition-delay: 0.1s;
+        transform: translateX(0);
+      }
+    }
+
+    .cont__right {
+      @include transition;
+      opacity: 1;
+
+      #single-point-element-info {
+        margin-bottom: 31px;
+      }
+
+      h5 {
+        @include font-medium;
+        font-size: 1rem;
+        line-height: 1.25;
+
+        color: $dark;
+
+        margin-left: 37px;
+        margin-bottom: 4px;
+
+        @include desktop-1440 {
+          @include Title3-Mobile;
+
+          margin-left: 43px;
+        }
+      }
+
+      .cont__elements_info {
+        font-size: 1rem;
+        line-height: 1.25;
+
+        color: #909090;
+
+        @include desktop-1440 {
+          font-size: 1.25rem;
+        }
+
+        .cont__elements_info--item {
+          @include flexbox;
+          column-gap: 12px;
+
+          @include desktop-1440 {
+            column-gap: 10px;
+          }
+
+          span {
+            display: block;
+          }
+
+          .cont__icon {
+            min-width: 25px;
+            width: 25px;
+            height: 25px;
+
+            @include flexbox;
+            align-items: center;
+            justify-content: center;
+
+            @include desktop-1440 {
+              min-width: 33px;
+              width: 33px;
+              height: 33px;
+            }
+
+            img {
+              max-height: 25px;
+
+              @include desktop-1440 {
+                max-height: 32px;
+              }
+            }
+          }
+
+          &.cont__elements_info--address {
+            margin-bottom: 8px;
+
+            @include desktop-1440 {
+              margin-bottom: 10px;
+            }
+          }
+
+          &.cont__elements_info--telefono {
+            padding-bottom: 14px;
+
+            @include desktop {
+              padding-bottom: 13px;
+            }
+
+            a {
+              @include hover_link_one;
+              color: #909090;
+
+              &:after {
+                background-color: #909090;
+              }
+            }
+          }
+        }
+
+        .cont__link {
+          a {
+            font-size: 0.8rem;
+            line-height: 1.25;
+
+            width: fit-content;
+            min-width: auto;
+
+            @include desktop-1440 {
+              font-size: 1rem;
+              line-height: 1.25;
+
+              min-width: 190px;
+            }
+
+            &:hover {
+              &:before {
+                width: 50px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    //}
+  }
+}

@@ -1,0 +1,251 @@
+@import "mixins/mixins_media";
+@import "mixins/mixins_fonts";
+
+@mixin img-opacity {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+} 
+
+@mixin transition($time: 0.3s) {
+  -webkit-transition: all $time;
+  -moz-transition: all $time;
+  transition: all $time;
+}
+
+@mixin transition-background($time: 0.3s) {
+  -webkit-transition: background $time;
+  -moz-transition: background $time;
+  -o-transition: background $time;
+  transition: background $time;
+}
+ 
+@mixin center-element {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+@mixin border-radius($num) {
+  -webkit-border-radius: $num;
+  -moz-border-radius: $num;
+  border-radius: $num;
+}
+
+@mixin rotate($num) {
+  -ms-transform: rotate($num);
+  /* IE 9 */
+  -webkit-transform: rotate($num);
+  /* Chrome, Safari, Opera */
+  transform: rotate($num);
+}
+
+@mixin grayscale_element($value) {
+  -webkit-filter: #{"grayscale(#{$value})"};
+-moz-filter: #{"grayscale(#{$value})"};
+filter:#{"grayscale(#{$value})"};
+
+}
+
+@mixin flexbox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@mixin flexbox_wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@mixin absolute_center_x {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@mixin absolute_center_y {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@mixin absolute_center_xy {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+@mixin absolute_center_x_rotate($value) {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) rotate($value);
+}
+
+@mixin absolute_center_y_rotate($value) {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) rotate($value);
+}
+
+@mixin absolute_center_xy_rotate($value) {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%) rotate($value);
+}
+
+@mixin height-1080 {
+  @media screen and (min-height: 900px) {
+    @content;
+  }
+}
+
+
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+
+  &:before {
+    display: block;
+    content: " ";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+
+  >.wpb_wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+@mixin line-top($color) {
+  position: relative;
+  margin-top: 17px;
+
+  @include desktop-1600 {
+    margin-top: 28px;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -17px;
+    left: 0;
+    width: 22px;
+    height: 3px;
+    background: $color;
+
+    @include desktop-1600 {
+      top: -28px;
+      width: 32px;
+      height: 5px;
+    }
+  }
+}
+
+/* BUTTON */
+@mixin button {
+  display: inline-block;
+
+  @include font-bold;
+  font-size: 0.8rem;
+  line-height: 1.25;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+
+  border: none;
+  border-radius: 100px;
+
+  box-shadow: none;
+  background-image: linear-gradient(15deg, $primary 36%, $secondary 87%);
+  color: $white;
+
+  margin: 0 auto;
+  padding: 10px 42px;
+  @include transition;
+  outline: none;
+
+  cursor: pointer;
+
+  @include desktop {
+    min-width: 239px;
+  }
+
+  &:hover {
+    text-decoration: none;
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+  }
+
+  &:disabled {
+    opacity: 0.7;
+  }
+}
+
+@mixin animationFadeIn($delay: 0.2s) {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-delay: $delay;
+  animation-fill-mode: backwards;
+  @include transition;
+}
+
+@mixin animationFadeInMove($delay: 0.2s) {
+  animation-name: fadeInMove;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-delay: $delay;
+  animation-fill-mode: backwards;
+  @include transition;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInMove {
+  0% {
+    opacity: 0;
+    transform: translateY(80px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@mixin underline-effect {
+  background-image: linear-gradient(120deg, $primary 0%, $primary 100%);
+  background-repeat: no-repeat;
+  background-size: 0 65%;
+  background-position: 0 110%;
+  transition: background-size 0.4s ease-in;
+
+  &:hover {
+    background-size: 100% 65%;
+  }
+}

@@ -1,0 +1,82 @@
+// Breakpoints
+$breakpoints: (
+  'mobile': 'max-width: 767px',
+  'tablet': 'min-width: 768px',
+  'desktop': 'min-width: 1280px',
+);
+
+// Definición de variables para el sistema de grid
+$grid-columns: 12; // Número de columnas en el grid
+
+// Genera clases para el número de columnas con respuesta
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media (#{$breakpoint-value}) {
+    @for $i from 1 through $grid-columns {
+      .grid-#{$breakpoint-name}-#{$i} {
+        display: grid;
+        grid-template-columns: repeat($i, 1fr);
+      }
+    }
+  }
+}
+
+
+// Breakpoints GAP
+$breakpoint-tablet: 768px; // Ancho mínimo para tablets
+$breakpoint-desktop: 1280px; // Ancho mínimo para desktops
+
+// Genera clases para los gaps extendidos
+@for $i from 2 through 20 {
+  // Clases de gap base
+  .gap-#{5 * $i} {
+    gap: #{5 * $i}px;
+  }
+}
+
+@for $i from 2 through 20 {
+  // Clases de gap para tablet
+  @media (min-width: $breakpoint-tablet) {
+    .gap-tablet-#{5 * $i} {
+      gap: #{5 * $i}px;
+    }
+  }
+
+}
+
+@for $i from 2 through 20 {
+  // Clases de gap para desktop
+  @media (min-width: $breakpoint-desktop) {
+    .gap-desktop-#{5 * $i} {
+      gap: #{5 * $i}px;
+    }
+  }
+}
+
+@mixin grid-columns($columns) {
+  display: grid;
+  grid-template-columns: repeat($columns, 1fr);
+}
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media (#{$breakpoint-value}) {
+    @for $i from 1 through $grid-columns {
+      .grid-#{$breakpoint-name}-#{$i} {
+        @include grid-columns($i);
+      }
+    }
+  }
+}
+
+//Ejemplo de como aplicar las class
+//
+//  <div class="grid-mobile-1 grid-tablet-2 grid-desktop-4 gap-10 gap-tablet-20 gap-desktop-40">
+//    <div>Item 1</div>
+//    <div>Item 2</div>
+//    <div>Item 3</div>
+//    <div>Item 4</div>
+//  </div>
+//
+//.contenedor {
+//  @include grid-columns(2);
+//  column-gap: 50px;
+//}

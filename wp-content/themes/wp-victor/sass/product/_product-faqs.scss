@@ -1,0 +1,112 @@
+.product-faqs {
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+    @include desktop {
+        margin-top: 70px;
+        margin-bottom: 100px;
+    }
+
+    @include desktop-1600 {
+        margin-top: 50px;
+    }
+
+    .title-section {
+        text-align: center;
+
+        margin-bottom: 15px;
+
+        @include desktop {
+            margin-bottom: 30px;
+        }
+    }
+
+    .cont__questions {
+        border-top: 1px solid #d8d8d8;
+
+        max-width: 1250px;
+        margin: 0 auto;
+
+        .cont__question {
+            border-bottom: 1px solid #d8d8d8;
+
+            h3 {
+                position: relative;
+
+                font-size: 1.063rem;
+                line-height: 1.12;
+
+                margin: 14px 0;
+
+                padding-right: 45px;
+                cursor: pointer;
+                @include transition;
+
+                &:before {
+                    @include casualplay("\e912");
+                    font-size: 13px;
+                    top: -2px;
+                    right: 2px;
+
+                    @include desktop-1440 {
+                        @include absolute_center_y;
+                    }
+                }
+
+                @include desktop-1440 {
+                    @include Title3-Mobile;
+
+                    margin: 29px 0 28px;
+                    padding-right: 125px;
+                }
+
+                &.active {
+                    @include desktop-1440 {
+                        margin-bottom: 16px;
+                    }
+
+                    &:before {
+                        @include casualplay("\e912");
+                        transform: rotate(180deg);
+                        -ms-transform: rotate(180deg);
+
+                        @include desktop-1440 {
+                            @include absolute_center_y_rotate(180deg);
+                        }
+                    }
+                }
+
+                &:hover {
+                    color: $primary;
+                }
+            }
+
+            .cont__content {
+                display: none;
+
+                line-height: 1.13;
+                color: #696969;
+
+                margin-top: 20px;
+                padding-right: 45px;
+
+                @include desktop-1440 {
+                    line-height: 1.25;
+
+                    margin-top: 0;
+                    padding-right: 125px;
+                }
+
+                p {
+                    margin-bottom: 14px;
+
+                    &:last-child {
+                        @include desktop-1440 {
+                            margin-bottom: 28px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.section__cta {
+  width: 100%;
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  .cont__cta {
+    border-top: 2px solid $black;
+    border-bottom: 2px solid $black;
+
+    padding: 20px 0;
+
+    @include desktop {
+      padding: 40px 0 44px;
+    }
+
+    a {
+      @include desktop {
+        @include flexbox;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      &:hover {
+        .link__arrow span:after {
+          transform: translateY(-50%) translateX(4px);
+        }
+      }
+
+      .cont__description {
+        p {
+          @include Title3-Mobile;
+
+          @include desktop {
+            font-size: 1.5rem;
+            line-height: 1.17;
+
+            margin-bottom: 0;
+          }
+
+          @include desktop-1600 {
+            font-size: 2rem;
+          }
+        }
+      }
+
+      .link__arrow {
+        @include desktop {
+          padding-right: 65px;
+        }
+      }
+    }
+  }
+}

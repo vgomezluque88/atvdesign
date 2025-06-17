@@ -1,0 +1,3461 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GDPR Cookie Consent\n"
+"POT-Creation-Date: 2023-08-16 15:00+0530\n"
+"PO-Revision-Date: 2023-09-28 17:20+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: cookie-law-info.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-cookie-law-info-admin.php:235
+#: admin/class-cookie-law-info-admin.php:236
+#: admin/class-cookie-law-info-admin.php:266
+#: admin/partials/cookie-law-info-admin_settings.php:32
+msgid "Settings"
+msgstr "Configuració"
+
+#: admin/class-cookie-law-info-admin.php:267
+msgid "Support"
+msgstr "Suport"
+
+#: admin/class-cookie-law-info-admin.php:281
+#: admin/class-cookie-law-info-admin.php:294
+#: admin/class-cookie-law-info-admin.php:318
+#: admin/class-cookie-law-info-admin.php:391
+#: admin/class-cookie-law-info-admin.php:537
+#: admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php:22
+#: admin/modules/cli-themes/classes/class-htmlscanner.php:36
+#: admin/modules/cli-themes/cli-themes.ORI.php:421
+#: admin/modules/cli-themes/cli-themes.php:424
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:28
+#: admin/modules/settings-popup/settings-popup.php:130
+#: admin/modules/settings-popup/settings-popup.php:226
+#: admin/partials/cookie-law-info-privacy_overview.php:13
+#: includes/class-cookie-law-info-cookieyes.php:100
+#: includes/class-cookie-law-info-cookieyes.php:864
+#: public/modules/script-blocker/script-blocker.php:504
+#: public/modules/script-blocker/script-blocker.php:523
+#: public/modules/script-blocker/script-blocker.php:562
+#: public/modules/script-blocker/script-blocker.php:999
+msgid "You do not have sufficient permission to perform this operation"
+msgstr "No tens permisos suficients per a realitzar aquesta operació"
+
+#: admin/class-cookie-law-info-admin.php:422
+#: admin/modules/settings-popup/settings-popup.php:142
+#: admin/partials/cookie-law-info-privacy_overview.php:30
+msgid "Settings Updated."
+msgstr "Configuració actualitzada."
+
+#: admin/class-cookie-law-info-admin.php:443
+msgid "ERROR MIGRATING SETTINGS (ERROR: 2)"
+msgstr "CONFIGURACIÓ DE MIGRACIÓ D'ERRORS (ERROR: 2)"
+
+#: admin/class-cookie-law-info-admin.php:604
+msgid "Close Header"
+msgstr "Tancar capçalera"
+
+#: admin/class-cookie-law-info-admin.php:608
+msgid "Open URL"
+msgstr "Obrir URL"
+
+#: admin/class-cookie-law-info-admin.php:621
+msgid "Extra Large"
+msgstr "Extra gran"
+
+#: admin/class-cookie-law-info-admin.php:625
+msgid "Large"
+msgstr "Gran"
+
+#: admin/class-cookie-law-info-admin.php:629
+msgid "Medium"
+msgstr "Mitjà"
+
+#: admin/class-cookie-law-info-admin.php:633
+msgid "Small"
+msgstr "Petit"
+
+#: admin/class-cookie-law-info-admin.php:647
+msgid "Default theme font"
+msgstr "Font de tema predeterminada"
+
+#: admin/class-cookie-law-info-admin.php:651
+msgid "Sans Serif"
+msgstr "Sans Serif"
+
+#: admin/class-cookie-law-info-admin.php:655
+msgid "Serif"
+msgstr "Serif"
+
+#: admin/class-cookie-law-info-admin.php:659
+msgid "Arial"
+msgstr "Arial"
+
+#: admin/class-cookie-law-info-admin.php:663
+msgid "Arial Black"
+msgstr "Arial Black"
+
+#: admin/class-cookie-law-info-admin.php:667
+msgid "Georgia, serif"
+msgstr "Georgia, serif"
+
+#: admin/class-cookie-law-info-admin.php:671
+msgid "Helvetica"
+msgstr "Helvetica"
+
+#: admin/class-cookie-law-info-admin.php:675
+msgid "Lucida"
+msgstr "Lucida"
+
+#: admin/class-cookie-law-info-admin.php:679
+msgid "Tahoma"
+msgstr "Tahoma"
+
+#: admin/class-cookie-law-info-admin.php:683
+msgid "Times New Roman"
+msgstr "Times New Roman"
+
+#: admin/class-cookie-law-info-admin.php:687
+msgid "Trebuchet"
+msgstr "Trebuchet"
+
+#: admin/class-cookie-law-info-admin.php:691
+msgid "Verdana"
+msgstr "Verdana"
+
+#: admin/modules/ccpa/ccpa.ORI.php:121 admin/modules/ccpa/ccpa.php:121
+msgid "Do you really wish to opt out?"
+msgstr "Realment desitges optar per no participar?"
+
+#: admin/modules/ccpa/ccpa.ORI.php:122 admin/modules/ccpa/ccpa.php:122
+msgid "Confirm"
+msgstr "Confirmar"
+
+#: admin/modules/ccpa/ccpa.ORI.php:123 admin/modules/ccpa/ccpa.php:123
+#: admin/modules/cli-themes/views/theme_buttons.php:23
+#: admin/modules/cli-themes/views/themes_popup.php:109
+#: admin/modules/cookie-scaner/cookie-scaner.php:332
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: admin/modules/ccpa/ccpa.ORI.php:134 admin/modules/ccpa/ccpa.ORI.php:167
+#: admin/modules/ccpa/ccpa.php:134 admin/modules/ccpa/ccpa.php:169
+msgid "Sells Personal Information"
+msgstr "Ven informació personal"
+
+#: admin/modules/ccpa/ccpa.ORI.php:136 admin/modules/ccpa/ccpa.ORI.php:170
+#: admin/modules/ccpa/ccpa.php:136 admin/modules/ccpa/ccpa.php:173
+msgid ""
+"If you enable this option, scripts under this category will be considered as "
+"personal data collecting scripts and will be blocked if opted out from CCPA"
+msgstr ""
+"Si activa aquesta opció, els scripts d'aquesta categoria es consideraran "
+"scripts de recopilació de dades personals i es bloquejaran si s'exclou de "
+"CCPA"
+
+#: admin/modules/ccpa/ccpa.ORI.php:217 admin/modules/ccpa/ccpa.php:220
+msgid "Select the type of law"
+msgstr "Selecciona el tipus de llei"
+
+#: admin/modules/ccpa/ccpa.ORI.php:221 admin/modules/ccpa/ccpa.php:224
+msgid "GDPR"
+msgstr "GDPR"
+
+#: admin/modules/ccpa/ccpa.ORI.php:222 admin/modules/ccpa/ccpa.ORI.php:230
+#: admin/modules/ccpa/ccpa.php:225 admin/modules/ccpa/ccpa.php:233
+msgid ""
+"Customize the buttons, notice, themes from the relevant tabs to setup your "
+"cookie notice accordingly."
+msgstr ""
+"Personalitza els botons, avisos, temes de les pestanyes rellevants per a "
+"configurar el teu avís de cookies en conseqüència."
+
+#: admin/modules/ccpa/ccpa.ORI.php:225 admin/modules/ccpa/ccpa.php:228
+msgid "CCPA"
+msgstr "CCPA"
+
+#: admin/modules/ccpa/ccpa.ORI.php:226 admin/modules/ccpa/ccpa.php:229
+msgid ""
+"Most of the customizations from the tabs for buttons, notice or themes are "
+"not relevant especially if you choose to not show the notice, except the Do "
+"not sell within the buttons."
+msgstr ""
+"La majoria de les personalitzacions de les pestanyes per a botons, avisos o "
+"temes no són rellevants, especialment si tries no mostrar l'avís, excepte No "
+"vendre dins dels botons."
+
+#: admin/modules/ccpa/ccpa.ORI.php:229 admin/modules/ccpa/ccpa.php:232
+msgid "CCPA & GDPR"
+msgstr "CCPA i GDPR"
+
+#: admin/modules/ccpa/views/ccpa_settings.php:7
+msgid "CCPA Settings"
+msgstr "Configuració de CCPA"
+
+#: admin/modules/ccpa/views/ccpa_settings.php:7
+msgid ""
+"The right to opt out in the California Consumer Privacy Act gives consumers "
+"the ability to direct a business not to sell their personal information to a "
+"third party. If the user considers to not sell their personal information, "
+"all the scripts related to the categories which are configured to sell "
+"personal information will be blocked. The DO NOT SELL option is facilitated "
+"via a shortcode [wt_cli_ccpa_optout]."
+msgstr ""
+"El dret a optar per no participar en la Llei de Privacitat del Consumidor de "
+"Califòrnia brinda als consumidors la capacitat de dirigir una empresa perquè "
+"no venga la seua informació personal a un tercer. Si l'usuari considera no "
+"vendre la seua informació personal, es bloquejaran tots els scripts "
+"relacionats amb les categories configurades per a vendre informació "
+"personal. L'opció NO VENDRE es facilita mitjançant un shortcode "
+"[wt_cli_ccpa_optout]."
+
+#: admin/modules/ccpa/views/ccpa_settings.php:10
+msgid "Enable CCPA ?"
+msgstr "Activar CCPA?"
+
+#: admin/modules/ccpa/views/ccpa_settings.php:18
+msgid "Restrict CCPA to only California"
+msgstr "Restringeix CCPA sols a Califòrnia"
+
+#: admin/modules/ccpa/views/ccpa_settings.php:18
+msgid ""
+"When enabled this regulation will be applicable only to visits from "
+"California; applicable to all visitors when disabled."
+msgstr ""
+"Quan estiga activat, aquest reglament serà aplicable sols a les visites de "
+"Califòrnia; aplicable a tots els visitants quan està desactivat."
+
+#: admin/modules/ccpa/views/ccpa_settings.php:26
+msgid "Enable CCPA notice"
+msgstr "Activar avís de CCPA"
+
+#: admin/modules/ccpa/views/ccpa_settings.php:26
+msgid ""
+"Enabling the notice will display the banner with the relevant text as per "
+"your configuration. Use this option particularly to record prior consent "
+"from the website visitors."
+msgstr ""
+"En activar l'avís, es mostrarà el bàner amb el text rellevant segons la teua "
+"configuració. Utilitza aquesta opció particularment per a registrar el "
+"consentiment previ dels visitants del lloc web."
+
+#: admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php:26
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:33
+msgid "Unable to handle your request."
+msgstr "No es pot processar la teua sol·licitud."
+
+#: admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php:95
+#: admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php:133
+#: admin/modules/cli-policy-generator/cli-policy-generator.php:139
+#: admin/modules/cli-themes/cli-themes.ORI.php:805
+#: admin/modules/cli-themes/cli-themes.php:808
+#: admin/modules/cookie-scaner/cookie-scaner.php:320
+#: admin/modules/cookie-scaner/views/unable-to-start.php:9
+#: public/modules/visitor-report/visitor-report.php:136
+msgid "Error"
+msgstr "Error"
+
+#: admin/modules/cli-policy-generator/classes/class-preview-page.php:27
+msgid "Cookie Policy"
+msgstr "Política de cookies"
+
+#: admin/modules/cli-policy-generator/classes/class-preview-page.php:86
+msgid "Auto reload preview"
+msgstr "Vista prèvia de recàrrega automàtica"
+
+#: admin/modules/cli-policy-generator/cli-policy-generator.php:112
+#: admin/modules/cli-policy-generator/cli-policy-generator.php:113
+msgid "Policy generator"
+msgstr "Generador de polítiques"
+
+#: admin/modules/cli-policy-generator/cli-policy-generator.php:140
+#: admin/modules/cli-themes/cli-themes.ORI.php:806
+#: admin/modules/cli-themes/cli-themes.php:809
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:102
+#: admin/modules/cookie-scaner/cookie-scaner.php:340
+msgid "Success"
+msgstr "Fet"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:21
+msgid "Cookie Policy generator"
+msgstr "Generador de Política de Cookies"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:25
+msgid "Sample heading"
+msgstr "Capçalera d'exemple"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:26
+msgid "Sample content"
+msgstr "Contingut d'exemple"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:27
+#: public/modules/visitor-report/classes/class-visitor-history.php:101
+msgid "Delete"
+msgstr "Esborrar"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:49
+msgid "Add new"
+msgstr "Afegir nou"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:53
+msgid "Heading"
+msgstr "Capçalera"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:57
+#: admin/modules/cookie-scaner/cookie-scaner.php:996
+#: admin/modules/cookies/cookies.ORI.php:291
+#: admin/modules/cookies/cookies.php:291
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:153
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:227
+#: public/modules/script-blocker/views/admin_script_blocker.php:159
+#: public/modules/script-blocker/views/admin_script_blocker.php:236
+#: public/modules/shortcode/shortcode.ORI.php:348
+#: public/modules/shortcode/shortcode.ORI.php:451
+#: public/modules/shortcode/shortcode.php:348
+#: public/modules/shortcode/shortcode.php:451
+msgid "Description"
+msgstr "Descripció"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:78
+msgid "Update existing Cookie Policy page"
+msgstr "Actualitzar la pàgina de la Política de cookies existent"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:84
+msgid "Create Cookie Policy page"
+msgstr "Crear pàgina de Política de Cookies"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:88
+#: admin/modules/cli-themes/views/themes_popup.php:105
+msgid "Live preview"
+msgstr "Vista prèvia"
+
+#: admin/modules/cli-themes/cli-themes.ORI.php:235
+#: admin/modules/cli-themes/cli-themes.php:235
+msgid "Change GDPR cookie preview template"
+msgstr "Canviar la plantilla de vista prèvia de la cookie GDPR"
+
+#: admin/modules/cli-themes/cli-themes.php:398
+msgid "Themes"
+msgstr "Temes"
+
+#: admin/modules/cli-themes/views/theme_buttons.php:8
+msgid "Save & Publish"
+msgstr "Desar i publicar"
+
+#: admin/modules/cli-themes/views/theme_buttons.php:18
+msgid "Change Template"
+msgstr "Canviar plantilla"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:8
+msgid "Properties"
+msgstr "Propietats"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:15
+#: admin/views/admin-settings-buttons.php:35
+#: admin/views/admin-settings-buttons.php:107
+#: admin/views/admin-settings-buttons.php:174
+#: admin/views/admin-settings-buttons.php:244
+#: admin/views/admin-settings-buttons.php:307
+#: admin/views/admin-settings-buttons.php:418
+msgid "Text"
+msgstr "Text"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:21
+msgid "Text size"
+msgstr "Mida del text"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:26
+msgid "Text color"
+msgstr "Color de text"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:30
+msgid "Font weight"
+msgstr "Espessor de la font"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:47
+msgid "Background"
+msgstr "Fons"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:51
+msgid "Border width"
+msgstr "Ample de la vora"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:55
+msgid "Border Color"
+msgstr "Color de la vora"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:59
+msgid "Corner radius"
+msgstr "Radi de la vora"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:63
+msgid "Text style"
+msgstr "Estil del text"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:66
+msgid "Italic"
+msgstr "Cursiva"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:68
+msgid "Underline"
+msgstr "Subratllar"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:82
+msgid "Apply"
+msgstr "Aplicar"
+
+#: admin/modules/cli-themes/views/themes.php:40
+#: admin/modules/settings-popup/views/settings.php:36
+#: admin/views/admin-settings-general.php:33
+#: admin/views/admin-settings-messagebar.php:38
+#, php-format
+msgid ""
+"Your banner has been enabled with %s IAB TCF v2.2 support %s. This means "
+"that most of the text will be non-editable. The IAB TCF v2.2 enforces strict "
+"policies on the wording used in the first and second layers of a cookie "
+"banner to ensure clear and concise information for users about the "
+"collection and processing of their data."
+msgstr ""
+"El vostre bàner s'ha habilitat amb %s IAB TCF v2.2 suport %s. Això vol dir "
+"que la major part del text no serà editable. L'IAB TCF v2.2 aplica "
+"polítiques estrictes sobre la redacció utilitzada a la primera i la segona "
+"capes d'un banner de galetes per garantir que els usuaris tinguin informació "
+"clara i concisa sobre la recollida i el tractament de les seves dades."
+
+#: admin/modules/cli-themes/views/themes.php:47
+msgid "Cookie bar - Design editor"
+msgstr "Barra de cookies - Editor de disseny"
+
+#: admin/modules/cli-themes/views/themes.php:54
+msgid "Click on the elements to customize."
+msgstr "Fes clic als elements per a personalitzar-los."
+
+#: admin/modules/cli-themes/views/themes.php:58
+msgid "Cookie message - Text editor"
+msgstr "Missatge de cookie - Editor de text"
+
+#: admin/modules/cli-themes/views/themes.php:63
+msgid ""
+"Text on the selected theme may be different. Please update the cookie "
+"message accordingly in the above text view."
+msgstr ""
+"El text en el tema seleccionat pot ser diferent. Per favor, actualitza el "
+"missatge de cookie en la vista del text anterior."
+
+#: admin/modules/cli-themes/views/themes_popup.php:12
+#: admin/modules/cli-themes/views/themes_popup.php:23
+#: admin/views/admin-settings-messagebar.php:100
+msgid "Banner"
+msgstr "Bàner"
+
+#: admin/modules/cli-themes/views/themes_popup.php:13
+#: admin/modules/cli-themes/views/themes_popup.php:24
+#: admin/views/admin-settings-buttons.php:289
+#: admin/views/admin-settings-buttons.php:292
+#: admin/views/admin-settings-messagebar.php:101
+msgid "Popup"
+msgstr "Finestra emergent"
+
+#: admin/modules/cli-themes/views/themes_popup.php:14
+#: admin/modules/cli-themes/views/themes_popup.php:25
+#: admin/views/admin-settings-messagebar.php:102
+msgid "Widget"
+msgstr "Giny"
+
+#: admin/modules/cli-themes/views/themes_popup.php:18
+msgid "Templates"
+msgstr "Plantilles"
+
+#: admin/modules/cli-themes/views/themes_popup.php:102
+msgid "Customize"
+msgstr "Personalitzar"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:90
+msgid "Sorry..."
+msgstr "Ho lamente..."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:93
+msgid ""
+"Cookie Scanner API is not available now. Please try again later. <br />Do "
+"you want to report this to developer and get notified?"
+msgstr ""
+"L'API de l'escàner de cookies no està disponible ara. Per favor, torna a "
+"provar-ho de nou més tard. <br />Vols informar d'això al desenvolupador i "
+"rebre'n una notificació?"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:117
+msgid "Unable to handle your request"
+msgstr "No es pot processar la teua sol·licitud"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:121
+#: admin/modules/csv-export/csv-export.php:65
+#: admin/modules/csv-import/csv-import.php:118
+msgid "You do not have sufficient permissions to access this page."
+msgstr "No tens permisos suficients per a accedir a aquesta pàgina."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:213
+msgid "cookies added."
+msgstr "cookies afegide."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:216
+msgid "cookies skipped."
+msgstr "cookies omeses."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:220
+msgid "cookies deleted."
+msgstr "cookies esborrades."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:227
+msgid "No cookies found"
+msgstr "No s'han trobat cookies"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:436
+msgid "Could not initiate scan"
+msgstr "No s'ha pogut iniciar l'escaneig"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:450
+msgid "Scanning initiated successfully"
+msgstr "L'exploració s'ha iniciat correctament"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:451
+msgid ""
+"It might take a few minutes to a few hours to complete the scanning of your "
+"website. This depends on the number of pages to scan and the website speed. "
+"Once the scanning is complete, we will notify you by email."
+msgstr ""
+"Pot trigar des d'uns quants minuts a unes poques hores per a completar "
+"l'escaneig del teu lloc web. Això depèn del nombre de pàgines per a "
+"escanejar i de la velocitat del lloc web. Un cop finalitzat l'escaneig, t'ho "
+"notificarem per correu electrònic."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:515
+#: admin/modules/cookie-scaner/cookie-scaner.php:846
+msgid "Token mismatch"
+msgstr "El token no correspon"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:548
+msgid "Abort successfull"
+msgstr "S'ha interromput correctament"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:552
+msgid "Abort failed"
+msgstr "L'avortament ha fallat"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:35
+msgid "Incomplete"
+msgstr "Incomplet"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:36
+msgid "Completed"
+msgstr "Acabat"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:37
+msgid "Stopped"
+msgstr "Detés"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:38
+msgid "Failed"
+msgstr "Ha fallat"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:66
+msgid "Unknown"
+msgstr "Desconegut"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:280
+#: admin/modules/cookie-scaner/cookie-scaner.php:281
+msgid "Cookie Scanner"
+msgstr "Escàner de cookies"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:314
+msgid "Scanned"
+msgstr "Escanejat"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:315
+msgid "Scanning completed."
+msgstr "Escaneig completat."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:316
+msgid "Added to cookie list."
+msgstr "Afegit a la llista de cookies."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:317
+#, php-format
+msgid ""
+"Unable to connect. Try setting the URL per scan request to 1 or 2 under "
+"advanced settings tab <a href=\"%s\">click here.</a>"
+msgstr ""
+"No pot connectar. Prova de configurar l'URL per sol·licitud d'escaneig a 1 o "
+"2 a la pestanya de configuració avançada <a href=\"%s\">fes clic ací.</a>"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:318
+msgid "Finding pages..."
+msgstr "Buscant pàgines..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:319
+msgid "Scanning pages..."
+msgstr "Escanejant pàgines..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:321
+msgid "Stop"
+msgstr "Detenir"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:322
+#: admin/modules/cookie-scaner/cookie-scaner.php:1133
+msgid "Scan again"
+msgstr "Escanejar altra vegada"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:323
+#: admin/modules/cookie-scaner/views/scan-result.php:33
+msgid "Download cookies as CSV"
+msgstr "Descarregar cookies com a CSV"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:324
+#: admin/modules/cookie-scaner/views/scan-result.php:70
+msgid "Add to cookie list"
+msgstr "Afegir a la llista de cookies"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:325
+msgid "View scan result"
+msgstr "Veure resultat de l'escaneig"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:326
+msgid "Import options"
+msgstr "Opcions d'importació"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:327
+msgid "Replace old"
+msgstr "Substitueix vell"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:328
+msgid "Merge"
+msgstr "Unir"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:329
+msgid "Recommended"
+msgstr "Recomanat"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:330
+msgid "Append"
+msgstr "Adjuntar"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:331
+msgid "Not recommended"
+msgstr "No recomanat"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:333
+msgid "Start import"
+msgstr "Començar a importar"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:334
+msgid "Importing...."
+msgstr "Importador..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:335
+msgid "Refreshing...."
+msgstr "Actualitzant..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:336
+msgid "Error !!! Please reload the page to see cookie list."
+msgstr "Error!!! Torna a carregar la pàgina per a veure la llista de cookies."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:337
+msgid "Stopping..."
+msgstr "Detenint..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:338
+msgid "Scanning stopped."
+msgstr "L'exploració s'ha aturat."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:339
+msgid "Are you sure?"
+msgstr "Estàs segur?"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:341
+msgid "Thank you"
+msgstr "Gràcies"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:342
+msgid "Checking API"
+msgstr "Comprovant API"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:343
+msgid "Sending..."
+msgstr "Enviant..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:344
+msgid "Total URLs scanned"
+msgstr "Total d'URLs escanejades"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:345
+msgid "Total Cookies found"
+msgstr "Total de cookies trobades"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:346
+msgid "Could not fetch the URLs, please try again"
+msgstr "No s'han pogut obtenir els URL. Torna-ho a provar"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:347
+msgid "Aborting the scan..."
+msgstr "S'està anul·lant l'escaneig ..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:348
+msgid "Could not abort the scan, please try again"
+msgstr "No s'ha pogut avortar l'exploració, torna-ho a provar"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:390
+msgid "Unable to load cookie scanner."
+msgstr "No es pot carregar l'escàner de cookies."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:393
+msgid "Need `GDPR Cookie Consent` plugin version above 2.1.4"
+msgstr ""
+"La versió de l'extensió Consentiment de cookies GDPR ha de ser superior a la "
+"2.1.4"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:397
+msgid "Scanning will not work on local server."
+msgstr "L'escaneig no funcionarà en el servidor local."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:631
+msgid "Please activate your license in order to proceed with the scan."
+msgstr "Activa la teua llicència per a continuar amb l'escaneig."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:631
+msgid "Activate"
+msgstr "Activar"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:666
+#, php-format
+msgid ""
+"GDPR Cookie Consent now uses <a href=\"%s\" target=\"_blank\">CookieYes</a> "
+"to bring you enhanced scanning for cookies on your website! To further avail "
+"quick and accurate scanning of your website, connect with CookieYes, in just "
+"a click! By continuing, you agree to CookieYes's <a href=\"%s\" "
+"target=\"_blank\">Privacy Policy</a> & <a href=\"%s\" "
+"target=\"_blank\">Terms of service</a>."
+msgstr ""
+"Ara, Consentiment de cookies GDPR utilitza <a href=\"%s\" "
+"target=\"_blank\">CookieYes</a> per a oferir un escaneig millorat de les "
+"cookies al teu lloc web. Per a obtindre un escaneig més ràpid i precís del "
+"teu lloc web, connecta't amb CookieYes, amb només un clic. En continuar, "
+"acceptes les <a href=\"%s\" target=\"_blank\">Polítiques de privadesa</a> i "
+"les <a href=\"%s\" target=\"_blank\">Condicions del servei</a> de CookieYes."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:668
+msgid "Scan your website for cookies automatically with CookieYes!"
+msgstr "Analitza automàticament les cookies al teu lloc web amb CookieYes!"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:669
+#, php-format
+msgid ""
+"Connect with <a href=\"%s\" target=\"_blank\">CookieYes</a>, our scanning "
+"solution to get fast and accurate cookie scanning. By continuing, you agree "
+"to CookieYes's <a href=\"%s\" target=\"_blank\">Privacy Policy</a> & <a "
+"href=\"%s\" target=\"_blank\">Terms of service</a>."
+msgstr ""
+"Connecta't amb <a href=\"%s\" target=\"_blank\">CookieYes</a>, la nostra "
+"solució d'escaneig per a obtindre un escaneig ràpid i precís de les cookies. "
+"En continuar, acceptes les <a href=\"%s\" target=\"_blank\">Polítiques de "
+"privadesa </a> i les <a href=\"%s\" target=\"_blank\">Condicions del servei</"
+"a> de CookieYes."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:670
+#: admin/modules/cookie-scaner/cookie-scaner.php:1138
+msgid "Connect & scan"
+msgstr "Connecta i escaneja"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:710
+msgid "You haven't performed a site scan yet."
+msgstr "Encara no has realitzat un escaneig del lloc."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:719
+msgid "Scan failed"
+msgstr "L'escaneig ha fallat"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:720
+#: admin/modules/cookie-scaner/cookie-scaner.php:759
+msgid "Last scan:"
+msgstr "Darrer escaneig:"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:732
+#, php-format
+msgid "Last scan: %s"
+msgstr "Darrer escaneig: %s"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:734
+msgid "Scan complete"
+msgstr "Escaneig complet"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:758
+msgid "Scan aborted"
+msgstr "L'escaneig s'ha avortat"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:780
+msgid "Scan initiated..."
+msgstr "S'ha iniciat l'escaneig..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:783
+msgid "Abort scan"
+msgstr "Interromp l'escaneig"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:794
+msgid "Scan started at"
+msgstr "L'escaneig ha començat a les"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:802
+#: admin/modules/cookie-scaner/views/scan-result.php:44
+msgid "Total URLs"
+msgstr "Total d'URLs"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:810
+msgid "Total estimated time (Approx)"
+msgstr "Temps total estimat (aprox.)"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:818
+msgid ""
+"Your website is currently being scanned for cookies. This might take from a "
+"few minutes to a few hours, depending on your website speed and the number "
+"of pages to be scanned."
+msgstr ""
+"Actualment, el teu lloc web s'està escanejant per a trobar cookies. Això pot "
+"trigar entre uns quants minuts i algunes hores, en funció de la velocitat "
+"del lloc web i del nombre de pàgines que s'escanejaran."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:820
+msgid "Once the scanning is complete, we will notify you by email."
+msgstr "Un cop finalitzat l'escaneig, t'ho notificarem per correu electrònic."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:848
+msgid "Successfully inserted"
+msgstr "S'ha inserit correctament"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:851
+msgid "Failed to insert"
+msgstr "No s'ha pogut inserir"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:880
+msgid "Invalid scan token"
+msgstr "El token no és vàlid"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:992
+msgid "Sl.No:"
+msgstr "Sl.No:"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:993
+#: admin/modules/cookies/cookies.ORI.php:285
+#: admin/modules/cookies/cookies.php:285
+msgid "Cookie Name"
+msgstr "Nom de cookie"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:994
+#: admin/modules/cookies/cookies.ORI.php:288
+#: admin/modules/cookies/cookies.php:288 public/modules/iab-tcf/iab-tcf.php:134
+#: public/modules/shortcode/shortcode.ORI.php:345
+#: public/modules/shortcode/shortcode.ORI.php:448
+#: public/modules/shortcode/shortcode.php:345
+#: public/modules/shortcode/shortcode.php:448
+msgid "Duration"
+msgstr "Durada"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:995
+#: admin/modules/cookies/cookies.ORI.php:287
+#: admin/modules/cookies/cookies.php:287
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:154
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:228
+#: public/modules/script-blocker/views/admin_script_blocker.php:160
+#: public/modules/script-blocker/views/admin_script_blocker.php:237
+msgid "Category"
+msgstr "Categoria"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:1012
+msgid "Your cookie list is empty"
+msgstr "La teua llista de cookies està buida"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:1125
+msgid "Scan website for cookies"
+msgstr "Escanejar cookies del lloc web"
+
+#: admin/modules/cookie-scaner/views/scan-cookies.php:190
+msgid "Cookie scanner"
+msgstr "Escàner de cookies"
+
+#: admin/modules/cookie-scaner/views/scan-result.php:14
+msgid "Cookie scan result for your website"
+msgstr "Resultat d'escaneig de cookies del teu lloc web"
+
+#: admin/modules/cookie-scaner/views/scan-result.php:47
+msgid "Total cookies"
+msgstr "Total de cookies"
+
+#: admin/modules/cookie-scaner/views/scan-result.php:57
+#, php-format
+msgid ""
+"Clicking “Add to cookie list” will import the discovered cookies to the <a "
+"href=\"%s\" target=\"_blank\">Cookie List</a> and thus display them in the "
+"cookie declaration section of your consent banner."
+msgstr ""
+"En fer clic a \"Afegeix a la llista de cookies\", s'importaran les cookies "
+"descobertes a la <a href=\"%s\" target=\"_blank\">Llista de cookies</a> i, "
+"per tant, es mostraran a la secció de declaració de cookies del teu bàner de "
+"consentiment."
+
+#: admin/modules/cookie-scaner/views/unable-to-start.php:7
+msgid "Scan cookies"
+msgstr "Escanejar cookies"
+
+#: admin/modules/cookies/cookies.ORI.php:69
+#: admin/modules/cookies/cookies.php:69
+msgid "Term meta cannot be added to terms that are shared between taxonomies."
+msgstr ""
+"El terme meta no es pot afegir als termes que es comparteixen entre "
+"taxonomies."
+
+#: admin/modules/cookies/cookies.ORI.php:132
+#: admin/modules/cookies/cookies.php:132
+msgid "GDPR Cookie Consent"
+msgstr "Consentiment de cookies GDPR"
+
+#: admin/modules/cookies/cookies.ORI.php:133
+#: admin/modules/cookies/cookies.php:133
+msgid "Cookie List"
+msgstr "Llista de cookies"
+
+#: admin/modules/cookies/cookies.ORI.php:134
+#: admin/modules/cookies/cookies.php:134
+#: public/modules/shortcode/shortcode.ORI.php:339
+#: public/modules/shortcode/shortcode.ORI.php:442
+#: public/modules/shortcode/shortcode.php:339
+#: public/modules/shortcode/shortcode.php:442
+msgid "Cookie"
+msgstr "Cookie"
+
+#: admin/modules/cookies/cookies.ORI.php:135
+#: admin/modules/cookies/cookies.php:135
+msgid "Add New"
+msgstr "Afegir nou"
+
+#: admin/modules/cookies/cookies.ORI.php:136
+#: admin/modules/cookies/cookies.php:136
+msgid "Add New Cookie Type"
+msgstr "Afegir nou tipus de cookie"
+
+#: admin/modules/cookies/cookies.ORI.php:137
+#: admin/modules/cookies/cookies.php:137
+msgid "Edit Cookie Type"
+msgstr "Editar tipus de cookie"
+
+#: admin/modules/cookies/cookies.ORI.php:138
+#: admin/modules/cookies/cookies.php:138
+msgid "New Cookie Type"
+msgstr "Nou tipus de cookie"
+
+#: admin/modules/cookies/cookies.ORI.php:139
+#: admin/modules/cookies/cookies.php:139
+msgid "View Cookie Type"
+msgstr "Veure tipus de cookie"
+
+#: admin/modules/cookies/cookies.ORI.php:140
+#: admin/modules/cookies/cookies.php:140
+msgid "Search Cookies"
+msgstr "Cercar Cookies"
+
+#: admin/modules/cookies/cookies.ORI.php:141
+#: admin/modules/cookies/cookies.php:141
+msgid "Nothing found"
+msgstr "No s'ha trobat res"
+
+#: admin/modules/cookies/cookies.ORI.php:142
+#: admin/modules/cookies/cookies.php:142
+msgid "Nothing found in Trash"
+msgstr "No s'ha trobat res a la paperera"
+
+#: admin/modules/cookies/cookies.ORI.php:208
+#: admin/modules/cookies/cookies.ORI.php:221
+#: admin/modules/cookies/cookies.php:208 admin/modules/cookies/cookies.php:221
+msgid "Cookie ID"
+msgstr "Cookie ID"
+
+#: admin/modules/cookies/cookies.ORI.php:209
+#: admin/modules/cookies/cookies.php:209
+msgid "Cookie Type"
+msgstr "Tipus de cookie"
+
+#: admin/modules/cookies/cookies.ORI.php:210
+#: admin/modules/cookies/cookies.php:210
+msgid "Cookie Duration"
+msgstr "Durada de cookie"
+
+#: admin/modules/cookies/cookies.ORI.php:211
+#: admin/modules/cookies/cookies.php:211
+msgid "Cookie Sensitivity"
+msgstr "Sensibilitat de la cookie"
+
+#: admin/modules/cookies/cookies.ORI.php:212
+#: admin/modules/cookies/cookies.php:212
+msgid "Head Scripts"
+msgstr "Scripts de capçalera"
+
+#: admin/modules/cookies/cookies.ORI.php:213
+#: admin/modules/cookies/cookies.php:213
+msgid "Body Scripts"
+msgstr "Scripts del cos"
+
+#: admin/modules/cookies/cookies.ORI.php:232
+#: admin/modules/cookies/cookies.php:232
+msgid "Cookie Type: (persistent, session, third party )"
+msgstr "Tipus de cookie: (persistent, de sessió, de tercers)"
+
+#: admin/modules/cookies/cookies.ORI.php:244
+#: admin/modules/cookies/cookies.php:244
+msgid "Cookie Duration:"
+msgstr "Durada de la cookie:"
+
+#: admin/modules/cookies/cookies.ORI.php:255
+#: admin/modules/cookies/cookies.php:255
+msgid "Cookie Sensitivity: ( necessary , non-necessary )"
+msgstr "Sensibilitat de les cookies: (necessària, no necessària)"
+
+#: admin/modules/cookies/cookies.ORI.php:286
+#: admin/modules/cookies/cookies.php:286 public/modules/iab-tcf/iab-tcf.php:133
+#: public/modules/shortcode/shortcode.ORI.php:342
+#: public/modules/shortcode/shortcode.ORI.php:445
+#: public/modules/shortcode/shortcode.php:342
+#: public/modules/shortcode/shortcode.php:445
+msgid "Type"
+msgstr "Tipus"
+
+#: admin/modules/cookies/cookies.ORI.php:289
+#: admin/modules/cookies/cookies.php:289
+msgid "Sensitivity"
+msgstr "Sensibilitat"
+
+#: admin/modules/cookies/cookies.ORI.php:290
+#: admin/modules/cookies/cookies.php:290
+msgid "ID"
+msgstr "ID"
+
+#: admin/modules/cookies/cookies.ORI.php:345
+#: admin/modules/cookies/cookies.ORI.php:361
+#: admin/modules/cookies/cookies.ORI.php:373
+#: admin/modules/cookies/cookies.php:345 admin/modules/cookies/cookies.php:361
+#: admin/modules/cookies/cookies.php:373
+msgid "Priority"
+msgstr "Prioritat"
+
+#: admin/modules/cookies/cookies.ORI.php:346
+#: admin/modules/cookies/cookies.ORI.php:437
+#: admin/modules/cookies/cookies.ORI.php:454
+#: admin/modules/cookies/cookies.php:346 admin/modules/cookies/cookies.php:440
+#: admin/modules/cookies/cookies.php:459
+msgid "Load on start"
+msgstr "Cargar a l'inici"
+
+#: admin/modules/cookies/cookies.ORI.php:354
+#: admin/modules/cookies/cookies.php:354
+#: admin/views/admin-settings-buttons.php:28
+#: admin/views/admin-settings-buttons.php:84
+#: admin/views/admin-settings-buttons.php:155
+#: admin/views/admin-settings-buttons.php:226
+#: admin/views/admin-settings-buttons.php:385
+#: admin/views/admin-settings-buttons.php:393
+#: admin/views/admin-settings-buttons.php:400
+#: admin/views/admin-settings-general.php:68
+#: admin/views/admin-settings-general.php:82
+#: admin/views/admin-settings-general.php:91
+#: admin/views/admin-settings-general.php:108
+#: admin/views/admin-settings-general.php:116
+#: admin/views/admin-settings-general.php:123
+#: admin/views/admin-settings-messagebar.php:118
+#: admin/views/admin-settings-messagebar.php:142
+msgid "Yes"
+msgstr "Sí"
+
+#: admin/modules/cookies/cookies.ORI.php:354
+#: admin/modules/cookies/cookies.php:354
+#: admin/views/admin-settings-buttons.php:29
+#: admin/views/admin-settings-buttons.php:86
+#: admin/views/admin-settings-buttons.php:157
+#: admin/views/admin-settings-buttons.php:227
+#: admin/views/admin-settings-buttons.php:386
+#: admin/views/admin-settings-buttons.php:394
+#: admin/views/admin-settings-buttons.php:401
+#: admin/views/admin-settings-general.php:69
+#: admin/views/admin-settings-general.php:83
+#: admin/views/admin-settings-general.php:92
+#: admin/views/admin-settings-general.php:109
+#: admin/views/admin-settings-general.php:117
+#: admin/views/admin-settings-general.php:124
+#: admin/views/admin-settings-messagebar.php:119
+#: admin/views/admin-settings-messagebar.php:143
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:150
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:224
+#: public/modules/script-blocker/views/admin_script_blocker.php:156
+#: public/modules/script-blocker/views/admin_script_blocker.php:233
+msgid "No"
+msgstr "No"
+
+#: admin/modules/cookies/cookies.ORI.php:363
+#: admin/modules/cookies/cookies.ORI.php:377
+#: admin/modules/cookies/cookies.php:363 admin/modules/cookies/cookies.php:377
+msgid "Numeric - Higher the value, higher the priority"
+msgstr "Numèric - A major siga el valor, major és la prioritat"
+
+#: admin/modules/cookies/cookies.ORI.php:398
+#: admin/modules/cookies/cookies.ORI.php:416
+#: admin/modules/cookies/cookies.php:398 admin/modules/cookies/cookies.php:418
+msgid "Make this as stricly necessary category"
+msgstr "Feu que siga una categoria estrictament necessària"
+
+#: admin/modules/cookies/cookies.ORI.php:400
+#: admin/modules/cookies/cookies.ORI.php:419
+#: admin/modules/cookies/cookies.php:400 admin/modules/cookies/cookies.php:422
+msgid ""
+"The underlying scripts are assumed to be absolutely essential for the "
+"website to function properly. They will be rendered irrespective of user "
+"consent."
+msgstr ""
+"Se suposa que els scripts subjacents són essencials perquè el lloc web "
+"funcione correctament. Es prestaran independentment del consentiment de "
+"l'usuari."
+
+#: admin/modules/cookies/cookies.ORI.php:439
+#: admin/modules/cookies/cookies.ORI.php:457
+#: admin/modules/cookies/cookies.php:442 admin/modules/cookies/cookies.php:463
+msgid ""
+"If you enable this option, scripts under this category will be rendered "
+"without waiting for user consent on first page visit. Use this option "
+"discreetly, only if you are sure that no user sensitive data is being "
+"obtained via these scripts."
+msgstr ""
+"Si actives aquesta opció, els scripts d'aquesta categoria es processaran "
+"sense esperar el consentiment de l'usuari en la primera visita. Utilitza "
+"aquesta opció de manera discreta, sols si estàs segur que no s'estan "
+"obtenint dades confidencials de l'usuari a través d'aquets scripts."
+
+#: admin/modules/cookies/cookies.ORI.php:478
+#: admin/modules/cookies/cookies.php:484
+msgid "Cookie Category"
+msgstr "Categories de cookies"
+
+#: admin/modules/cookies/cookies.ORI.php:479
+#: admin/modules/cookies/cookies.php:485
+msgid "Add cookie category"
+msgstr "Afegir categoria de cookie"
+
+#: admin/modules/cookies/cookies.ORI.php:480
+#: admin/modules/cookies/cookies.php:486
+msgid "Edit cookie category"
+msgstr "Editar categoria de cookie"
+
+#: admin/modules/cookies/cookies.ORI.php:868
+#: admin/modules/cookies/cookies.ORI.php:894
+#: admin/modules/cookies/cookies.php:874 admin/modules/cookies/cookies.php:900
+msgid "Category default state"
+msgstr "Estat per defecte de la categoria"
+
+#: admin/modules/cookies/cookies.ORI.php:869
+#: admin/modules/cookies/cookies.ORI.php:896
+#: admin/modules/cookies/cookies.php:875 admin/modules/cookies/cookies.php:902
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:4
+#: admin/modules/settings-popup/views/cookie_settings.ORI.php:5
+#: admin/modules/settings-popup/views/cookie_settings.php:5
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:152
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:181
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:226
+#: public/modules/script-blocker/views/admin_script_blocker.php:158
+#: public/modules/script-blocker/views/admin_script_blocker.php:187
+#: public/modules/script-blocker/views/admin_script_blocker.php:235
+msgid "Enabled"
+msgstr "Activat"
+
+#: admin/modules/cookies/cookies.ORI.php:870
+#: admin/modules/cookies/cookies.ORI.php:897
+#: admin/modules/cookies/cookies.php:876 admin/modules/cookies/cookies.php:903
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:5
+#: admin/modules/settings-popup/views/cookie_settings.ORI.php:6
+#: admin/modules/settings-popup/views/cookie_settings.php:6
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:183
+#: public/modules/script-blocker/views/admin_script_blocker.php:189
+msgid "Disabled"
+msgstr "Desactivat"
+
+#: admin/modules/cookies/cookies.ORI.php:871
+#: admin/modules/cookies/cookies.ORI.php:898
+#: admin/modules/cookies/cookies.php:877 admin/modules/cookies/cookies.php:904
+msgid ""
+"If you enable this option, the category toggle button will be in the active "
+"state for cookie consent."
+msgstr ""
+"Si actives aquesta opció, el botó d'alternància de categoria estarà en "
+"l'estat actiu per al consentiment de la cookie."
+
+#: admin/modules/cookies/cookies.ORI.php:925
+#: admin/modules/cookies/cookies.ORI.php:948
+#: admin/modules/cookies/cookies.php:931 admin/modules/cookies/cookies.php:960
+msgid "Head scripts"
+msgstr "Scripts de capçalera"
+
+#: admin/modules/cookies/cookies.ORI.php:932
+#: admin/modules/cookies/cookies.ORI.php:956
+#: admin/modules/cookies/cookies.php:941 admin/modules/cookies/cookies.php:968
+msgid "Body scripts"
+msgstr "Scripts del cos"
+
+#: admin/modules/cookies/cookies.php:934 admin/modules/cookies/cookies.php:944
+#: admin/modules/cookies/cookies.php:1021
+#: admin/modules/cookies/cookies.php:1039
+msgid "Script: eg:-  &lt;script&gt; enableGoogleAnalytics(); &lt;/script&gt;"
+msgstr "Script: ex:-  &lt;script&gt; enableGoogleAnalytics(); &lt;/script&gt;"
+
+#: admin/modules/csv-export/csv-export.php:29
+msgid "Download as CSV"
+msgstr "Descarregar com a CSV"
+
+#: admin/modules/csv-import/csv-import.php:46
+msgid "Import from CSV"
+msgstr "Importar des de CSV"
+
+#: admin/modules/csv-import/csv-import.php:67
+#: admin/modules/csv-import/csv-import.php:68
+msgid "Import Cookie"
+msgstr "Importar Cookie"
+
+#: admin/modules/csv-import/csv-import.php:301
+#, php-format
+msgid "BEGIN %s"
+msgstr "COMENÇA %s"
+
+#: admin/modules/csv-import/csv-import.php:306
+#, php-format
+msgid "[Line %1$s] %2$s"
+msgstr "[Línia %1$s] %2$s"
+
+#: admin/modules/csv-import/views/import_cookies.php:2
+msgid "Import from a CSV file"
+msgstr "Importar des d'un fitxer CSV"
+
+#: admin/modules/csv-import/views/import_cookies.php:12
+#, php-format
+msgid ""
+"Notice: please make the directory %s writable so that you can see the error "
+"log."
+msgstr ""
+"Avís: fes que en la carpeta %s es puga escriure perquè pugues veure el "
+"registre d'errors."
+
+#: admin/modules/csv-import/views/import_cookies.php:25
+#, php-format
+msgid ", please <a href=\"%s\">check the error log</a>"
+msgstr ", per favor <a href=\"%s\">comprova el registre d'errors</a>"
+
+#: admin/modules/csv-import/views/import_cookies.php:29
+msgid "Error during file upload."
+msgstr "Error durant la càrrega del fitxer."
+
+#: admin/modules/csv-import/views/import_cookies.php:32
+msgid "Cannot extract data from uploaded file or no file was uploaded."
+msgstr ""
+"No es poden extraure dades del fitxer pujat o no es va pujar cap fitxer."
+
+#: admin/modules/csv-import/views/import_cookies.php:35
+#, php-format
+msgid "No posts was successfully imported%s."
+msgstr "No s'ha importat correctament cap entrada %s."
+
+#: admin/modules/csv-import/views/import_cookies.php:38
+#, php-format
+msgid "Some posts were successfully imported but some were not%s."
+msgstr "Algunes entrades s'ha importat correctament però altres no %s."
+
+#: admin/modules/csv-import/views/import_cookies.php:41
+msgid "Post import was successful."
+msgstr "S'ha importat l'entrada satisfactòriament."
+
+#: admin/modules/csv-import/views/import_cookies.php:52
+msgid "CSV file"
+msgstr "Fitxer CSV"
+
+#: admin/modules/csv-import/views/import_cookies.php:55
+#, php-format
+msgid "You may want to see <a href=\"%s\">the example of the CSV file</a>."
+msgstr ""
+"Es possible que desitges veure <a href=\"%s\">l'exemple del fitxer CSV</a> ."
+
+#: admin/modules/csv-import/views/import_cookies.php:60
+msgid "Import"
+msgstr "Importar"
+
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:3
+#: admin/modules/settings-popup/views/cookie_settings.ORI.php:4
+#: admin/modules/settings-popup/views/cookie_settings.php:4
+msgid "Always Enabled"
+msgstr "Sempre activat"
+
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:6
+msgid "Legitimate Interest"
+msgstr "Interès legítim"
+
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:7
+#: admin/modules/settings-popup/views/cookie_settings.ORI.php:7
+#: admin/modules/settings-popup/views/cookie_settings.php:7
+msgid "Show more"
+msgstr "Mostrar més"
+
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:7
+#: admin/modules/settings-popup/views/cookie_settings.ORI.php:7
+#: admin/modules/settings-popup/views/cookie_settings.php:7
+msgid "Show less"
+msgstr "Mostrar menys"
+
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:12
+msgid ""
+"Customize your consent preferences for Cookie Categories and advertising "
+"tracking preferences for Purposes & Features and Vendors below. You can give "
+"granular consent for each <button class=\"wt-cli-link\" id=\"wt-cli-iab-"
+"preference-toggle\">Third Party Vendor</button>. Most vendors require "
+"explicit consent for personal data processing, while some rely on legitimate "
+"interest. However, you have the right to object to their use of legitimate "
+"interest."
+msgstr ""
+"Personalitzeu les vostres preferències de consentiment per a les categories "
+"de galetes i les preferències de seguiment de publicitat per a propòsits i "
+"funcions i proveïdors a continuació. Podeu donar un consentiment granular "
+"per a cada <button class=\"wt-cli-link\" id=\"wt-cli-iab-preference-"
+"toggle\">proveïdor de tercers</button>. La majoria de proveïdors requereixen "
+"un consentiment explícit per al tractament de dades personals, mentre que "
+"alguns es basen en un interès legítim. Tanmateix, tens dret a oposar-te al "
+"seu ús d'interès legítim."
+
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:38
+msgid "Cookie Categories"
+msgstr "Categories de galetes"
+
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:39
+msgid "Purposes & Features"
+msgstr "Finalitats i característiques"
+
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:40
+msgid "Vendors"
+msgstr "Proveïdors"
+
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:150
+#: public/modules/iab-tcf/iab-tcf.php:136
+msgid "Purposes"
+msgstr "Propòsits"
+
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:155
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:301
+msgid "Special Features"
+msgstr "Característiques especials"
+
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:195
+msgid "Special purposes"
+msgstr "Propòsits especials"
+
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:200
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:296
+msgid "Features"
+msgstr "Característiques"
+
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:266
+msgid "Third Party Vendors"
+msgstr "Proveïdors de tercers"
+
+#: admin/modules/settings-popup/settings-for-iab/cookie_settings_for_iab.php:316
+#: admin/modules/settings-popup/views/cookie_settings.ORI.php:139
+#: admin/modules/settings-popup/views/cookie_settings.php:142
+msgid "Powered by"
+msgstr "Desenvolupat per"
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:55
+msgid "Number of Vendors seeking consent:"
+msgstr "Nombre de proveïdors que demanen el consentiment:"
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:65
+msgid "Number of Vendors seeking consent or relying on legitimate interest:"
+msgstr ""
+"Nombre de proveïdors que demanen el consentiment o confien en un interès "
+"legítim:"
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:92
+msgid "Illustrations"
+msgstr "Il·lustracions"
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:257
+msgid "Privacy Policy : "
+msgstr "Política de privacitat: "
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:266
+msgid "Legitimate Interest Claim : "
+msgstr "Reclamació d'interès legítim: "
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:275
+msgid "  Data Retention Period : "
+msgstr " Període de conservació de dades: "
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:276
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:528
+msgid " days"
+msgstr " dies"
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:286
+msgid "Purposes (Consent)"
+msgstr "Finalitats (consentiment)"
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:291
+msgid "Special Purposes"
+msgstr "Propòsits especials"
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:306
+msgid "Data categories"
+msgstr "Categories de dades"
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:311
+msgid "Purposes (Legitimate interest)"
+msgstr "Finalitats (interès legítim)"
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:356
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:402
+msgid " ( Data Retention Period : "
+msgstr " (Període de conservació de dades: "
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:358
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:404
+msgid " days )"
+msgstr " dies)"
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:505
+msgid "Device storage overview"
+msgstr "Visió general de l'emmagatzematge del dispositiu"
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:511
+msgid "Cookies"
+msgstr "Cookies"
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:514
+msgid " and others."
+msgstr " i altres."
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:519
+msgid "Tracking method : "
+msgstr "Mètode de seguiment: "
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:528
+msgid "Maximum duration of cookies : "
+msgstr "Durada màxima de les cookies: "
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:536
+msgid "Cookie lifetime is being refreshed"
+msgstr "S'està actualitzant la vida útil de les galetes"
+
+#: admin/modules/settings-popup/settings-for-iab/views/wt-cli-iab-settings.php:540
+msgid "Cookie lifetime is not being refreshed"
+msgstr "La vida útil de les galetes no s'està actualitzant"
+
+#: admin/modules/settings-popup/settings-popup.php:104
+msgid "Save & Accept"
+msgstr "Desar i acceptar"
+
+#: admin/modules/settings-popup/settings-popup.php:108
+msgid "Accept all"
+msgstr "Acceptar totes"
+
+#: admin/modules/settings-popup/settings-popup.php:119
+#: admin/modules/settings-popup/settings-popup.php:120
+#: admin/modules/settings-popup/views/settings.php:24
+#: admin/partials/cookie-law-info-privacy_overview.php:36
+#: admin/partials/cookie-law-info-privacy_overview.php:37
+#: admin/partials/cookie-law-info-privacy_overview.php:55
+msgid "Privacy Overview"
+msgstr "Resumen de privacitat"
+
+#: admin/modules/settings-popup/views/cookie_settings.ORI.php:131
+#: admin/modules/settings-popup/views/cookie_settings.php:134
+msgid "SAVE & ACCEPT"
+msgstr "DESAR I ACCEPTAR"
+
+#: admin/modules/settings-popup/views/settings.php:46
+#: admin/partials/cookie-law-info-privacy_overview.php:68
+msgid "Privacy Overview Title"
+msgstr "Títol del Resumen de privacitat"
+
+#: admin/modules/settings-popup/views/settings.php:52
+#: admin/modules/settings-popup/views/settings.php:67
+#: admin/partials/cookie-law-info-privacy_overview.php:74
+#: admin/partials/cookie-law-info-privacy_overview.php:89
+msgid "This will be shown in the settings visible for user on consent screen."
+msgstr ""
+"Açò es mostrarà en la configuració. Visible per a l'usuari en la pantalla de "
+"consentiment."
+
+#: admin/modules/settings-popup/views/settings.php:76
+#: admin/partials/cookie-law-info-privacy_overview.php:98
+msgid "Save Settings"
+msgstr "Desar configuració"
+
+#: admin/partials/cookie-law-info-admin_settings.php:24
+msgid "Settings updated."
+msgstr "Configuració actualitzada."
+
+#: admin/partials/cookie-law-info-admin_settings.php:25
+msgid "Unable to update Settings."
+msgstr "No es pot actualitzar la configuració."
+
+#: admin/partials/cookie-law-info-admin_settings.php:26
+msgid "Settings reset to defaults."
+msgstr "Restablir la configuració als valors predeterminats."
+
+#: admin/partials/cookie-law-info-admin_settings.php:27
+msgid "Unable to reset settings."
+msgstr "No es pot restablir la configuració."
+
+#: admin/partials/cookie-law-info-admin_settings.php:28
+msgid "Consent has renewed."
+msgstr "El consentiment ha estat renovat."
+
+#: admin/partials/cookie-law-info-admin_settings.php:29
+msgid "Unable to renew consent."
+msgstr "No es pot renovar el consentiment."
+
+#: admin/partials/cookie-law-info-admin_settings.php:42
+msgid "Cookie bar is currently active"
+msgstr "La barra de cookies està activa actualment"
+
+#: admin/partials/cookie-law-info-admin_settings.php:50
+msgid "Cookie bar is currently inactive"
+msgstr "La barra de cookies està inactiva actualment"
+
+#: admin/partials/cookie-law-info-admin_settings.php:62
+msgid "Cookie Compliance Made Easy"
+msgstr "Cookie Compliance Made Easy"
+
+#: admin/partials/cookie-law-info-admin_settings.php:64
+#, php-format
+msgid "Plugin Developed By <a href=\"%s\" target=\"_blank\">WebToffee</a>"
+msgstr ""
+"Connector desenvolupat per <a href=\"%s\" target=\"_blank\">WebToffee</a>"
+
+#: admin/partials/cookie-law-info-admin_settings.php:88
+#: admin/views/admin-settings-general.php:9
+msgid "General"
+msgstr "General"
+
+#: admin/partials/cookie-law-info-admin_settings.php:89
+msgid "Customise Cookie Bar"
+msgstr "Personalitzar barra de cookies"
+
+#: admin/partials/cookie-law-info-admin_settings.php:90
+msgid "Customise Buttons"
+msgstr "Personalitzar botons"
+
+#: admin/partials/cookie-law-info-admin_settings.php:91
+#: admin/views/admin-settings-advanced.php:8
+msgid "Advanced"
+msgstr "Avançat"
+
+#: admin/partials/cookie-law-info-admin_settings.php:92
+msgid "Licence"
+msgstr "Llicència"
+
+#: admin/partials/cookie-law-info-admin_settings.php:93
+msgid "Help Guide"
+msgstr "Guia d'ajuda"
+
+#: admin/partials/cookie-law-info-privacy_overview.php:62
+msgid "Privacy Overview Menu Title"
+msgstr "Títol del menú del Resumen de privacitat"
+
+#: admin/views/admin-settings-advanced.php:9
+msgid ""
+"Sometimes themes apply settings that clash with plugins. If that happens, "
+"try adjusting these settings."
+msgstr ""
+"A vegades els temes apliquen configuracions que xoquen amb les extensions. "
+"Si això succeeix, intenta ajustar aquestes configuracions."
+
+#: admin/views/admin-settings-advanced.php:13
+msgid "Renew user consent"
+msgstr "Renovar el consentiment de l'usuari"
+
+#: admin/views/admin-settings-advanced.php:15
+msgid "Renew consent"
+msgstr "Renovar consentiment"
+
+#: admin/views/admin-settings-advanced.php:16
+msgid ""
+"Clicking this will renew the existing user consents on your website. The "
+"existing users will be prompted with the consent banner irrespective of "
+"their previous consent."
+msgstr ""
+"Al fer clic aquí, es renovaran els consentiments d'usuari existents al teu "
+"lloc web. Se'ls demanarà als usuaris existents amb el bàner de consentiment "
+"independentment del seu consentiment previ."
+
+#: admin/views/admin-settings-advanced.php:20
+msgid "Reset all values"
+msgstr "Restablir tots els valors"
+
+#: admin/views/admin-settings-advanced.php:22
+msgid "Delete settings and reset"
+msgstr "Eliminar configuració i restablir"
+
+#: admin/views/admin-settings-advanced.php:22
+msgid "Are you sure you want to delete all your settings?"
+msgstr "Estàs segur que desitges eliminar tota la teua configuració?"
+
+#: admin/views/admin-settings-advanced.php:23
+msgid "Warning: this will actually delete your current settings."
+msgstr "Advertència: açò eliminarà la teua configuració actual."
+
+#: admin/views/admin-settings-buttons.php:10
+msgid "Accept Button"
+msgstr "Botó \"Acceptar\""
+
+#: admin/views/admin-settings-buttons.php:11
+msgid "Accept All Button"
+msgstr "Botó \"Acceptar totes\""
+
+#: admin/views/admin-settings-buttons.php:12
+#: admin/views/admin-settings-buttons.php:171
+msgid "Reject Button"
+msgstr "Botó \"Rebutjar\""
+
+#: admin/views/admin-settings-buttons.php:13
+#: admin/views/admin-settings-buttons.php:241
+msgid "Settings Button"
+msgstr "Botó \"Configuració\""
+
+#: admin/views/admin-settings-buttons.php:14
+#: admin/views/admin-settings-buttons.php:303
+msgid "Read More Link"
+msgstr "Enllaç \"Llegir més\""
+
+#: admin/views/admin-settings-buttons.php:15
+msgid "Save My Preferences"
+msgstr "Desa les meves preferències"
+
+#: admin/views/admin-settings-buttons.php:16
+#: admin/views/admin-settings-buttons.php:442
+msgid "Do not sell link"
+msgstr "Enllaç No vendre"
+
+#: admin/views/admin-settings-buttons.php:22
+#: admin/views/admin-settings-buttons.php:103
+#: admin/views/admin-settings-buttons.php:415
+msgid "Main Button"
+msgstr "Botó \"Acceptar\""
+
+#: admin/views/admin-settings-buttons.php:23
+#: admin/views/admin-settings-buttons.php:104
+msgid ""
+"This button/link can be customised to either simply close the cookie bar, or "
+"follow a link. You can also customise the colours and styles, and show it as "
+"a link or a button."
+msgstr ""
+"Aquest botó/enllaç es pot personalitzar perquè simplement tanque la barra de "
+"cookies o seguisca un enllaç. També pots personalitzar els colors i estils, "
+"i mostrar-los com un enllaç o un botó."
+
+#: admin/views/admin-settings-buttons.php:26
+msgid "Enable accept all feature?"
+msgstr "Activar funció \"Acceptar totes”?"
+
+#: admin/views/admin-settings-buttons.php:30
+msgid ""
+"This will enable accept-all functionality for the plugin’s main accept "
+"button where all the categories will be enabled irrespective of it being "
+"enabled/disabled. Set it as NO to accept only the enabled categories "
+"(default behaviour of accept button)"
+msgstr ""
+"Això habilitarà la funcionalitat \"Acceptar-ho tot\" per al botó principal "
+"d'acceptació de l'extensió, on s'activaran totes les categories "
+"independentment que estiga activat/desactivat. Estableix-lo com a NO per a "
+"acceptar només les categories activades (comportament predeterminat del botó "
+"\"Acceptar\")"
+
+#: admin/views/admin-settings-buttons.php:31
+msgid ""
+"Please note that you will not be able to extend the cookie consent bar with "
+"cookie settings once this option is enabled."
+msgstr ""
+"Tingues en compte que no podràs ampliar la barra de consentiment de cookies "
+"amb la configuració de cookies una vegada que aquesta opció estiga activada."
+
+#: admin/views/admin-settings-buttons.php:41
+#: admin/views/admin-settings-buttons.php:113
+#: admin/views/admin-settings-buttons.php:180
+#: admin/views/admin-settings-buttons.php:250
+#: admin/views/admin-settings-buttons.php:313
+#: admin/views/admin-settings-buttons.php:424
+#: admin/views/admin-settings-buttons.php:462
+msgid "Text colour"
+msgstr "Color del text"
+
+#: admin/views/admin-settings-buttons.php:49
+#: admin/views/admin-settings-buttons.php:121
+#: admin/views/admin-settings-buttons.php:188
+#: admin/views/admin-settings-buttons.php:258
+#: admin/views/admin-settings-buttons.php:321
+#: admin/views/admin-settings-buttons.php:451
+msgid "Show as"
+msgstr "Mostrar com a"
+
+#: admin/views/admin-settings-buttons.php:51
+#: admin/views/admin-settings-buttons.php:123
+#: admin/views/admin-settings-buttons.php:190
+#: admin/views/admin-settings-buttons.php:260
+#: admin/views/admin-settings-buttons.php:323
+msgid "Button"
+msgstr "Botó"
+
+#: admin/views/admin-settings-buttons.php:53
+#: admin/views/admin-settings-buttons.php:125
+#: admin/views/admin-settings-buttons.php:192
+#: admin/views/admin-settings-buttons.php:262
+#: admin/views/admin-settings-buttons.php:325
+#: admin/views/admin-settings-buttons.php:453
+msgid "Link"
+msgstr "Enllaç"
+
+#: admin/views/admin-settings-buttons.php:57
+#: admin/views/admin-settings-buttons.php:129
+#: admin/views/admin-settings-buttons.php:196
+#: admin/views/admin-settings-buttons.php:266
+#: admin/views/admin-settings-buttons.php:329
+#: admin/views/admin-settings-buttons.php:432
+msgid "Background colour"
+msgstr "Color de fons"
+
+#: admin/views/admin-settings-buttons.php:66
+#: admin/views/admin-settings-buttons.php:137
+#: admin/views/admin-settings-buttons.php:204
+msgid "Action"
+msgstr "Acció"
+
+#: admin/views/admin-settings-buttons.php:74
+#: admin/views/admin-settings-buttons.php:145
+#: admin/views/admin-settings-buttons.php:216
+#: admin/views/admin-settings-buttons.php:339
+#: admin/views/admin-settings-buttons.php:346
+msgid "URL"
+msgstr "URL"
+
+#: admin/views/admin-settings-buttons.php:77
+#: admin/views/admin-settings-buttons.php:148
+#: admin/views/admin-settings-buttons.php:219
+msgid "Button will only link to URL if Action = Open URL"
+msgstr "El botó sols enllaçarà a la URL si Acció = Obrir URL"
+
+#: admin/views/admin-settings-buttons.php:82
+#: admin/views/admin-settings-buttons.php:153
+#: admin/views/admin-settings-buttons.php:224
+msgid "Open URL in new window?"
+msgstr "Obrir URL en nova finestra?"
+
+#: admin/views/admin-settings-buttons.php:93
+#: admin/views/admin-settings-buttons.php:161
+#: admin/views/admin-settings-buttons.php:231
+#: admin/views/admin-settings-buttons.php:274
+#: admin/views/admin-settings-buttons.php:405
+msgid "Size"
+msgstr "Mida"
+
+#: admin/views/admin-settings-buttons.php:283
+msgid "Cookie Settings Layout"
+msgstr "Disseny de configuració de cookies"
+
+#: admin/views/admin-settings-buttons.php:290
+#: admin/views/admin-settings-buttons.php:293
+msgid "Extended Banner / Widget"
+msgstr "Bàner/Giny estès"
+
+#: admin/views/admin-settings-buttons.php:297
+msgid ""
+"When the cookie settings layout configured as extended banner/widget, "
+"customization options for settings popup and widget will be disabled."
+msgstr ""
+"Quan el disseny de configuració de cookies es configure com a giny o bàner "
+"ampliat, es desactivaran les opcions de personalització de la finestra "
+"emergent i el giny de configuració."
+
+#: admin/views/admin-settings-buttons.php:304
+msgid ""
+"This button/link can be used to provide a link out to your Privacy & Cookie "
+"Policy. You can customise it any way you like."
+msgstr ""
+"Aquest botó/enllaç es pot utilitzar per a proporcionar un enllaç a la teua "
+"Política de privacitat i cookies. Pots personalitzar-ho com vulgues."
+
+#: admin/views/admin-settings-buttons.php:337
+msgid "URL or Page?"
+msgstr "URL o pàgina?"
+
+#: admin/views/admin-settings-buttons.php:341
+#: admin/views/admin-settings-buttons.php:352
+msgid "Page"
+msgstr "Pàgina"
+
+#: admin/views/admin-settings-buttons.php:355
+msgid "Select One"
+msgstr "Selecciona una"
+
+#: admin/views/admin-settings-buttons.php:375
+msgid "The currently selected page does not exist. Please select a new page."
+msgstr ""
+"La pàgina seleccionada actualment no existeix. Per favor, selecciona una "
+"nova pàgina."
+
+#: admin/views/admin-settings-buttons.php:383
+msgid "No Follow"
+msgstr "No seguir"
+
+#: admin/views/admin-settings-buttons.php:387
+msgid "Tells search engine crawlers not to follow this link"
+msgstr ""
+"Li diu als rastrejadors de motors de cerca que no seguisquen aquest enllaç"
+
+#: admin/views/admin-settings-buttons.php:391
+msgid "Minimize Cookie Bar in this page/URL?"
+msgstr "Minimitzar la barra de cookies en aqueta pàgina/URL?"
+
+#: admin/views/admin-settings-buttons.php:398
+msgid "Open in new window?"
+msgstr "Obrir en nova finestra?"
+
+#: admin/views/admin-settings-buttons.php:445
+msgid "CCPA Text"
+msgstr "Text CCPA"
+
+#: admin/views/admin-settings-buttons.php:454
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#: admin/views/admin-settings-buttons.php:456
+msgid "The shortcode will be represented as a link whereever used."
+msgstr "El shortcode es representarà com un enllaç sempre que s'utilitze."
+
+#: admin/views/admin-settings-buttons.php:457
+msgid ""
+"The shortcode will be represented as a checkbox with select option to record "
+"consent."
+msgstr ""
+"El shortcode es representarà com un checkbox amb l'opció de seleccionar per "
+"a registrar el consentiment."
+
+#: admin/views/admin-settings-general.php:10
+#: admin/views/admin-settings-general.php:103
+msgid "Other"
+msgstr "Altre"
+
+#: admin/views/admin-settings-general.php:17
+msgid "Enable cookie bar"
+msgstr "Activar la barra de cookies"
+
+#: admin/views/admin-settings-general.php:19
+#: admin/views/admin-settings-general.php:48
+msgid "On"
+msgstr "Sí"
+
+#: admin/views/admin-settings-general.php:20
+#: admin/views/admin-settings-general.php:49
+msgid "Off"
+msgstr "No"
+
+#: admin/views/admin-settings-general.php:25
+#: admin/views/admin-settings-general.php:28
+msgid "Enable IAB TCF 2.2 support"
+msgstr "Activeu el suport IAB TCF 2.2"
+
+#: admin/views/admin-settings-general.php:43
+msgid "GDPR Settings"
+msgstr "Configuració GDPR"
+
+#: admin/views/admin-settings-general.php:43
+msgid ""
+"GDPR regulation lays down rules relating to the protection of natural "
+"persons with regard to the processing of personal data and rules relating to "
+"the free movement of personal data."
+msgstr ""
+"La regulació GDPR estableix regles relacionades amb la protecció de les "
+"persones físiques pel que fa al processament de dades personals i regles "
+"relacionades amb la lliure circulació de dades personals."
+
+#: admin/views/admin-settings-general.php:46
+msgid "Show only for EU Countries ( GeoIP )"
+msgstr "Mostrar sols per a països de la UE (GeoIP)"
+
+#: admin/views/admin-settings-general.php:60
+msgid "More"
+msgstr "Més"
+
+#: admin/views/admin-settings-general.php:66
+msgid "Auto-hide(Accept) cookie bar after delay?"
+msgstr ""
+"Ocultar automàticament (Acceptar) la barra de cookies després del retard?"
+
+#: admin/views/admin-settings-general.php:73
+msgid "Milliseconds until hidden"
+msgstr "Mil·lisegons fins que s'oculte"
+
+#: admin/views/admin-settings-general.php:76
+msgid "Specify milliseconds (not seconds)"
+msgstr "Especifica mil·lisegons (no segons)"
+
+#: admin/views/admin-settings-general.php:76
+msgid "seconds"
+msgstr "segons"
+
+#: admin/views/admin-settings-general.php:80
+msgid "Auto-hide cookie bar if the user scrolls ( Accept on Scroll )?"
+msgstr ""
+"Ocultar automàticament la barra de cookies si l'usuari es desplaça (acceptar "
+"en desplaçament)"
+
+#: admin/views/admin-settings-general.php:84
+msgid ""
+"As per latest GDPR policies it is required to take an explicit consent for "
+"the cookies. Use this option with discretion especially if you serve EU"
+msgstr ""
+"Segons les últimes polítiques de GDPR, es requereix un consentiment explícit "
+"per a les cookies. Utilitza aquesta opció amb discreció, especialment si "
+"exerceix a l'EU"
+
+#: admin/views/admin-settings-general.php:85
+msgid "This option will not work along with `Popup overlay`."
+msgstr "Aquesta opció no funcionarà juntament amb \"Popup overlay\"."
+
+#: admin/views/admin-settings-general.php:89
+msgid "Auto-hide(Accept) cookie bar on-page navigation."
+msgstr ""
+"Amaga automàticament (Acceptar) la navegació a la pàgina de la barra de "
+"cookies."
+
+#: admin/views/admin-settings-general.php:93
+msgid "Auto accept the cookie consent if the user navigates to other pages"
+msgstr ""
+"Accepta automàticament el consentiment de cookies si l'usuari navega a "
+"altres pàgines"
+
+#: admin/views/admin-settings-general.php:106
+msgid "Reload after \"scroll accept\" event?"
+msgstr "Recarregar després de l'esdeveniment \"scroll accept”?"
+
+#: admin/views/admin-settings-general.php:114
+msgid "Reload after Accept button click"
+msgstr "Recarregar després de fer clic en el botó \"Acceptar\""
+
+#: admin/views/admin-settings-general.php:121
+msgid "Reload after Reject button click"
+msgstr "Recarregar després de fer clic en el botó \"Refusar\""
+
+#: admin/views/admin-settings-help.ORI.php:9
+#: admin/views/admin-settings-help.php:9
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: admin/views/admin-settings-help.ORI.php:10
+#: admin/views/admin-settings-help.ORI.php:100
+#: admin/views/admin-settings-help.php:10
+#: admin/views/admin-settings-help.php:103
+msgid "Help Links"
+msgstr "Enllaços d'ajuda"
+
+#: admin/views/admin-settings-help.ORI.php:16
+#: admin/views/admin-settings-help.php:16
+msgid "Cookie bar shortcodes"
+msgstr "Shortcodes de la barra de cookies"
+
+#: admin/views/admin-settings-help.ORI.php:17
+#: admin/views/admin-settings-help.php:17
+msgid ""
+"You can enter the shortcodes in the \"message\" field of the Cookie Law Info "
+"bar. They add nicely formatted buttons and/or links into the cookie bar, "
+"without you having to add any HTML."
+msgstr ""
+"Pots utilitzar els shortcodes al camp \"missatge\" de la barra d'informació "
+"de la Llei de cookies. Afegeixen botons o enllaços ben formatats a la barra "
+"de cookies, sense que hages d'afegir cap HTML.\v\vPuede usar los shortcodes "
+"en el campo \"mensaje\" de la barra de información de la Ley de cookies. "
+"Añaden botones y/o enlaces bien formateados en la barra de cookies, sin que "
+"tenga que agregar ningún HTML."
+
+#: admin/views/admin-settings-help.ORI.php:18
+#: admin/views/admin-settings-help.ORI.php:50
+#: admin/views/admin-settings-help.php:18
+#: admin/views/admin-settings-help.php:50
+msgid ""
+"You can use `do_shortcode` function to add shortcodes inside the template "
+"file."
+msgstr ""
+"Pots fer servir la funció \"do_shortcode\" per a afegir shortcodes dins el "
+"fitxer de plantilla."
+
+#: admin/views/admin-settings-help.ORI.php:23
+#: admin/views/admin-settings-help.php:23
+msgid ""
+"If you just want a standard green \"Accept\" button that closes the header "
+"and nothing more, use this shortcode. It is already styled, you don't need "
+"to customise it."
+msgstr ""
+"Si sols desitges un botó verd estàndard \"Acceptar\" que tanque la capçalera "
+"i res més, utilitza aquest shortcode. Ja està dissenyat, no necessites "
+"personalitzar-lo."
+
+#: admin/views/admin-settings-help.ORI.php:27
+#: admin/views/admin-settings-help.php:27
+msgid ""
+"Alternatively you can add a colour value. Choose from: red, blue, orange, "
+"yellow, green or pink."
+msgstr ""
+"Alternativament, pots afegir un valor de color. Tria entre: roig, blau, "
+"taronja, groc, verd o rosa."
+
+#: admin/views/admin-settings-help.ORI.php:27
+#: admin/views/admin-settings-help.php:27
+msgid "Careful to use the British spelling of \"colour\" for the attribute."
+msgstr ""
+"Ves amb compte de no utilitzar l'ortografia britànica de \"colour\" per a "
+"l'atribut."
+
+#: admin/views/admin-settings-help.ORI.php:31
+#: admin/views/admin-settings-help.php:31
+msgid "This is the \"main button\" you can customise."
+msgstr "Aquest es el \"botó principal\" que pots personalitzar."
+
+#: admin/views/admin-settings-help.ORI.php:36
+#: admin/views/admin-settings-help.php:36
+msgid "This is the cookie settings button rendering shortcode."
+msgstr "Aquest és el shortcode del botó de configuració de cookies."
+
+#: admin/views/admin-settings-help.ORI.php:40
+#: admin/views/admin-settings-help.php:40
+msgid "This is the cookie reject button shortcode."
+msgstr "Aquest és el shortcode del botó de refusar cookies."
+
+#: admin/views/admin-settings-help.ORI.php:44
+#: admin/views/admin-settings-help.php:44
+msgid "This is the \"read more\" link you can customise."
+msgstr "Aquest és l'enllaç \"llegir més\" que pots personalitzar."
+
+#: admin/views/admin-settings-help.ORI.php:48
+#: admin/views/admin-settings-help.php:48
+msgid "Other shortcodes"
+msgstr "Altres shortcodes"
+
+#: admin/views/admin-settings-help.ORI.php:49
+#: admin/views/admin-settings-help.php:49
+msgid ""
+"These shortcodes can be used in pages and posts on your website. It is not "
+"recommended to use these inside the cookie bar itself."
+msgstr ""
+"Aquests shortcodes es poden utilitzar en pàgines i entrades al teu lloc web. "
+"No es recomana utilitzar-los dins de la barra de cookies."
+
+#: admin/views/admin-settings-help.ORI.php:56
+#: admin/views/admin-settings-help.php:56
+msgid ""
+"This prints out a nice table of cookies, in line with the guidance given by "
+"the ICO."
+msgstr ""
+"Això imprimeix una taula de cookies, en línia amb l'orientació proporcionada "
+"per l'ICO."
+
+#: admin/views/admin-settings-help.ORI.php:56
+#: admin/views/admin-settings-help.php:56
+msgid ""
+"You need to enter the cookies your website uses via the Cookie Law Info menu "
+"in your WordPress dashboard."
+msgstr ""
+"Cal ingressar les cookies que utilitza el teu lloc web a través de menú "
+"d'informació de la Llei de cookies al seu tauler de WordPress."
+
+#: admin/views/admin-settings-help.ORI.php:68
+#: admin/views/admin-settings-help.php:71
+msgid "This prints out a nice table of cookies by category."
+msgstr "Això imprimeix una taula de cookies per categoria."
+
+#: admin/views/admin-settings-help.ORI.php:72
+#: admin/views/admin-settings-help.php:75
+msgid "This prints the settings popup of cookie category."
+msgstr ""
+"Això imprimeix la finestra emergent de configuració de la categoria de "
+"cookies."
+
+#: admin/views/admin-settings-help.ORI.php:76
+#: admin/views/admin-settings-help.php:79
+msgid ""
+"This shortcode will display a normal HTML link which when clicked, will "
+"delete the cookie set by Cookie Law Info (this cookie is used to remember "
+"that the cookie bar is closed)."
+msgstr ""
+"Aquest shortcode mostrarà un enllaç HTML normal que, al fer clic, eliminarà "
+"la cookie establerta per la Informació de la Llei de Cookies (aquesta cookie "
+"s'utilitza per a recordar que la barra de cookies està tancada)."
+
+#: admin/views/admin-settings-help.ORI.php:80
+#: admin/views/admin-settings-help.php:83
+msgid "Add any text you like useful if you want to add another language"
+msgstr ""
+"Afegeix qualsevol text que et semble útil si vols afegir un altre idioma"
+
+#: admin/views/admin-settings-help.ORI.php:84
+#: admin/views/admin-settings-help.php:87
+msgid ""
+"Add content after accepting the cookie notice. Category wise checking allowed"
+msgstr ""
+"Afegeix contingut després d'acceptar l'avís de cookies. Comprovació "
+"intel·ligent de categoria permesa"
+
+#: admin/views/admin-settings-help.ORI.php:87
+#: admin/views/admin-settings-help.php:90
+msgid ""
+"Add content only if the consent has been obtained for the specified category."
+msgstr ""
+"Afegeix contingut sols si s'ha obtingut el consentiment per a la categoria "
+"especificada."
+
+#: admin/views/admin-settings-help.ORI.php:90
+#: admin/views/admin-settings-help.php:93
+msgid ""
+"Add content if consent has been obtained for all/or any of the specified "
+"categories."
+msgstr ""
+"Afegeix contingut si s'ha obtingut el consentiment per a totes o qualsevol "
+"de les categories especificades."
+
+#: admin/views/admin-settings-help.ORI.php:104
+#: admin/views/admin-settings-help.ORI.php:107
+#: admin/views/admin-settings-help.php:107
+#: admin/views/admin-settings-help.php:110
+msgid "Documentation"
+msgstr "Documentació"
+
+#: admin/views/admin-settings-help.ORI.php:105
+#: admin/views/admin-settings-help.php:108
+msgid "Refer to our documentation to set and get started"
+msgstr "Consulta la nostra documentació per a configurar i començar"
+
+#: admin/views/admin-settings-help.ORI.php:112
+#: admin/views/admin-settings-help.php:115
+msgid "Help and Support"
+msgstr "Ajuda i suport"
+
+#: admin/views/admin-settings-help.ORI.php:113
+#: admin/views/admin-settings-help.php:116
+msgid "We would love to help you on any queries or issues."
+msgstr "Ens encantaria ajudar-te en qualsevol consulta o problema."
+
+#: admin/views/admin-settings-help.ORI.php:115
+#: admin/views/admin-settings-help.php:118
+msgid "Contact Us"
+msgstr "Contacta'ns"
+
+#: admin/views/admin-settings-help.php:65
+msgid ""
+"Styles included:    simple, classic, modern, rounded, elegant, winter. "
+"Default is classic."
+msgstr ""
+"Estils inclosos: senzill, clàssic, modern, arrodonit, elegant, hivernal. El "
+"valor per defecte és \"Clàssic\"."
+
+#: admin/views/admin-settings-messagebar.php:9
+msgid "Cookie bar"
+msgstr "Barra de cookies"
+
+#: admin/views/admin-settings-messagebar.php:10
+msgid "Revisit consent"
+msgstr "Revisar el consentiment"
+
+#: admin/views/admin-settings-messagebar.php:15
+msgid "Cookie Bar"
+msgstr "Barra de cookies"
+
+#: admin/views/admin-settings-messagebar.php:18
+msgid "Message Heading"
+msgstr "Capçalera de missatge"
+
+#: admin/views/admin-settings-messagebar.php:21
+msgid "Leave it blank, If you do not need a heading"
+msgstr "Deixa-ho en blanc, si no necessites una capçalera"
+
+#: admin/views/admin-settings-messagebar.php:26
+msgid "Message"
+msgstr "Missatge"
+
+#: admin/views/admin-settings-messagebar.php:26
+msgid ""
+"All the elements defined within the class `wt-cli-ccpa-element` will be "
+"removed if CCPA does not apply to the visitors country."
+msgstr ""
+"Tots els elements definits dins de la classe \"wt-cli-ccpa-element\" seran "
+"eliminats si CCPA no s'aplica al país del visitant."
+
+#: admin/views/admin-settings-messagebar.php:50
+#: admin/views/admin-settings-messagebar.php:62
+msgid "Shortcodes allowed: see the Help guide"
+msgstr "Es permeten shortcodes: consulta la guia d'ajuda"
+
+#: admin/views/admin-settings-messagebar.php:50
+#: admin/views/admin-settings-messagebar.php:62
+msgid ""
+"Examples: \"We use cookies on this website [cookie_accept] to find out how "
+"to delete cookies [cookie_link].\""
+msgstr ""
+"Exemple: \"Utilitzem cookies en aquest lloc web [cookie_accept] per a "
+"esbrinar com eliminar les cookies [cookie_link]\"."
+
+#: admin/views/admin-settings-messagebar.php:71
+msgid "Cookie Bar Colour"
+msgstr "Color de la barra de cookies"
+
+#: admin/views/admin-settings-messagebar.php:79
+msgid "Text Colour"
+msgstr "Color del text"
+
+#: admin/views/admin-settings-messagebar.php:87
+msgid "Font"
+msgstr "Font"
+
+#: admin/views/admin-settings-messagebar.php:95
+msgid "Show cookie bar as"
+msgstr "Mostrar barra de cookies com a"
+
+#: admin/views/admin-settings-messagebar.php:106
+msgid "Position"
+msgstr "Posició"
+
+#: admin/views/admin-settings-messagebar.php:110
+#: admin/views/admin-settings-messagebar.php:200
+#: admin/views/admin-settings-messagebar.php:203
+msgid "Left"
+msgstr "Esquerra"
+
+#: admin/views/admin-settings-messagebar.php:111
+#: admin/views/admin-settings-messagebar.php:199
+#: admin/views/admin-settings-messagebar.php:202
+msgid "Right"
+msgstr "Dreta"
+
+#: admin/views/admin-settings-messagebar.php:116
+msgid "Add overlay?"
+msgstr "Afegir superposició?"
+
+#: admin/views/admin-settings-messagebar.php:120
+msgid ""
+"When the popup is active, an overlay will block the user from browsing the "
+"site."
+msgstr ""
+"Quan la finestra emergent està activa, una superposició impedirà que "
+"l'usuari navegue pel lloc."
+
+#: admin/views/admin-settings-messagebar.php:121
+msgid "`Accept on scroll` will not work along with this option."
+msgstr ""
+"\"Acceptar en desplaçament\" no funcionarà juntament amb aquesta opció."
+
+#: admin/views/admin-settings-messagebar.php:125
+msgid "Position:"
+msgstr "Posició:"
+
+#: admin/views/admin-settings-messagebar.php:130
+msgid "Header"
+msgstr "Capçalera"
+
+#: admin/views/admin-settings-messagebar.php:131
+msgid "Footer"
+msgstr "Peu de pàgina"
+
+#: admin/views/admin-settings-messagebar.php:140
+msgid "Fix Cookie Bar to Header?"
+msgstr "Fixar la barra de cookies a la capçalera?"
+
+#: admin/views/admin-settings-messagebar.php:144
+msgid ""
+"If you select \"Header\" then you can optionally stick the cookie bar to the "
+"header. Will not have any effect if you select \"Footer\"."
+msgstr ""
+"Si selecciones \"Capçalera\", opcionalment pots enganxar la barra de cookies "
+"a la capçalera. No tindrà cap efecte si selecciones \"Peu de pàgina\".\v\vSi "
+"selecciona \"Encabezado\", opcionalmente puede pegar la barra de cookies en "
+"el encabezado. No tendrá ningún efecto si selecciona \"Pie de página\"."
+
+#: admin/views/admin-settings-messagebar.php:152
+msgid "On load"
+msgstr "Carregant"
+
+#: admin/views/admin-settings-messagebar.php:157
+#: admin/views/admin-settings-messagebar.php:167
+msgid "Animate"
+msgstr "Animar"
+
+#: admin/views/admin-settings-messagebar.php:158
+#: admin/views/admin-settings-messagebar.php:168
+msgid "Sticky"
+msgstr "Fixe"
+
+#: admin/views/admin-settings-messagebar.php:162
+msgid "On hide"
+msgstr "A l'ocultar"
+
+#: admin/views/admin-settings-messagebar.php:176
+msgid "Revisit consent (Show again tab)"
+msgstr "Revisar el consentiment (pestanya \"Mostrar de nou\")"
+
+#: admin/views/admin-settings-messagebar.php:178
+msgid ""
+"Revisit consent will allow the visitors to view/edit/revoke their prior "
+"preferences. This can be done via a widget and/or a shortcode. A small "
+"privacy widget is automatically displayed at the footer of your website if "
+"the widget option is enabled. You can also manually insert a link to manage "
+"consent by adding the shortcode <b>[wt_cli_manage_consent]</b> to your "
+"website."
+msgstr ""
+"El consentiment de revisió permetrà als visitants veure/editar/revocar les "
+"seus preferències anteriors. Això es pot fer mitjançant un giny o un codi "
+"curt. Un petit giny de privadesa es mostra automàticament al peu del lloc "
+"web si l'opció del giny està activada. També pots inserir manualment un "
+"enllaç per a gestionar el consentiment afegint el shortcode "
+"<b>[wt_cli_manage_consent]</b> al teu lloc web."
+
+#: admin/views/admin-settings-messagebar.php:183
+msgid "Enable revisit consent widget"
+msgstr "Activar el giny \"Revisar el consentiment\""
+
+#: admin/views/admin-settings-messagebar.php:183
+msgid ""
+"By enabling this option a small privacy widget is automatically displayed at "
+"the footer of your website."
+msgstr ""
+"Si activea aquesta opció, es mostrarà automàticament un petit giny de "
+"privadesa al peu del lloc web."
+
+#: admin/views/admin-settings-messagebar.php:194
+msgid "Widget Position"
+msgstr "Posició del giny"
+
+#: admin/views/admin-settings-messagebar.php:211
+msgid "Tab Position"
+msgstr "Posició de pestanya"
+
+#: admin/views/admin-settings-messagebar.php:218
+msgid "Bottom Right"
+msgstr "Baix a la dreta"
+
+#: admin/views/admin-settings-messagebar.php:221
+msgid "Bottom Left"
+msgstr "Baix a l'esquerra"
+
+#: admin/views/admin-settings-messagebar.php:224
+msgid "Top Right"
+msgstr "Dalt a la dreta"
+
+#: admin/views/admin-settings-messagebar.php:227
+msgid "Top Left"
+msgstr "Dalt a l'esquerra"
+
+#: admin/views/admin-settings-messagebar.php:233
+msgid "From Right Margin"
+msgstr "Des del marge dret"
+
+#: admin/views/admin-settings-messagebar.php:233
+msgid "From Left Margin"
+msgstr "Marge esquerra"
+
+#: admin/views/admin-settings-messagebar.php:236
+msgid "Specify"
+msgstr "Especificar"
+
+#: admin/views/admin-settings-messagebar.php:243
+msgid "Title"
+msgstr "Títol"
+
+#: admin/views/admin-settings-save-button.php:12
+msgid "Update Settings"
+msgstr "Actualitzar configuració"
+
+#: cookie-law-info.php:77
+msgid ""
+"Oops! You tried installing the premium version without deactivating and "
+"deleting the basic version. Kindly deactivate and delete GDPR Cookie Consent "
+"(BASIC) and then try again"
+msgstr ""
+"Ui! Has intentat instal·lar la versió premium sense desactivar i eliminar la "
+"versió bàsica. Per favor, inhabilita i eliminael Consentiment de Cookies "
+"GDPR (BÀSIC) i intenta-ho novament"
+
+#: cookie-law-info.php:99
+msgid ""
+"The pre-defined script blocker services are enabled by default. Hence "
+"activating the plugin blocks these services which may affect the web layout. "
+"For e.g, if you have embedded any youtube or Vimeo services the plugin will "
+"block these by default since they collect user information. Hence the videos "
+"will not render wherever it is placed. Therefore you may want to review the "
+"website w.r.t the blocked scripts. <a href=\"edit.php?post_type="
+msgstr ""
+"Els serveis predefinits del bloquejador de scripts estan habilitats per "
+"defecte. Per tant, l'activació del connector bloqueja aquests serveis que "
+"poden afectar el disseny web. Per exemple, si s'ha incrustat algun servei de "
+"YouTube o Vimeo, l'extensió els bloquejarà per defecte ja que recopilen "
+"informació de l'usuari. Per tant, els vídeos no es mostraran on es "
+"col·loquen. Per tant, és possible que vulgues revisar el lloc web amb els "
+"scripts bloquejats. <a href = \"edit.php? post_type ="
+
+#: includes/class-cookie-law-info-cookieyes.php:128
+#: includes/class-cookie-law-info-cookieyes.php:912
+#: public/modules/script-blocker/script-blocker.php:622
+msgid "Invalid request"
+msgstr "Sol·licitud no vàlida"
+
+#: includes/class-cookie-law-info-cookieyes.php:140
+msgid "Connected to Cookieyes"
+msgstr "Connectat a CookieYes"
+
+#: includes/class-cookie-law-info-cookieyes.php:142
+msgid "Disconnect"
+msgstr "Desconnectar"
+
+#: includes/class-cookie-law-info-cookieyes.php:150
+msgid "Disconnected from Cookieyes"
+msgstr "Desconnectat de CookieYes"
+
+#: includes/class-cookie-law-info-cookieyes.php:215
+#, php-format
+msgid ""
+"Looks like you already have an account with CookieYes for email id %s, "
+"please login to continue."
+msgstr ""
+"Sembla que ja tens un compte amb CookieYes per a l'identificador de correu "
+"electrònic %s, per favor inicia la sessió per a continuar."
+
+#: includes/class-cookie-law-info-cookieyes.php:221
+msgid ""
+"Please check if you have received an email with your password from CookieYes."
+msgstr ""
+"Comprova si has rebut un correu electrònic amb la teua contrasenya de "
+"CookieYes."
+
+#: includes/class-cookie-law-info-cookieyes.php:222
+msgid ""
+"If you did not get the email, click “Reset password” to create a new "
+"password."
+msgstr ""
+"Si no has rebut el correu electrònic, fes clic a \"Restableix la "
+"contrasenya\" per a crear una contrasenya nova."
+
+#: includes/class-cookie-law-info-cookieyes.php:225
+msgid "Reset password"
+msgstr "Restablir la contrasenya"
+
+#: includes/class-cookie-law-info-cookieyes.php:228
+msgid "Login"
+msgstr "Accedir"
+
+#: includes/class-cookie-law-info-cookieyes.php:236
+msgid "Reset Password"
+msgstr "Restablir la contrasenya"
+
+#: includes/class-cookie-law-info-cookieyes.php:242
+msgid "Send password reset email"
+msgstr "Envia un correu electrònic per a restablir la contrasenya"
+
+#: includes/class-cookie-law-info-cookieyes.php:258
+msgid "Could not establish connection with scanner! please try again later"
+msgstr ""
+"No s'ha pogut establir la connexió amb l'escàner. Per favor, intenta-ho més "
+"tard"
+
+#: includes/class-cookie-law-info-cookieyes.php:261
+msgid "Invalid credentials"
+msgstr "Credencials no vàlides"
+
+#: includes/class-cookie-law-info-cookieyes.php:264
+msgid "You already have an account with CookieYes."
+msgstr "Ja teniu un compte a CookieYes."
+
+#: includes/class-cookie-law-info-cookieyes.php:267
+msgid "License is not activated, please activate your license and try again"
+msgstr ""
+"La llicència no està activada, activa la teua llicència i torna-ho a provar"
+
+#: includes/class-cookie-law-info-cookieyes.php:270
+msgid "Disconnected with cookieyes, please connect and scan again"
+msgstr "Desconnectat de CookieYes, connecta't i torna a escanejar"
+
+#: includes/class-cookie-law-info-cookieyes.php:273
+msgid "Your monthly scan limit is reached please try again later"
+msgstr "S'ha assolit el límit mensual d'escaneig. Torna-ho a provar més tard"
+
+#: includes/class-cookie-law-info-cookieyes.php:276
+msgid "A scanning is already in progress please try again after some time"
+msgstr "L'exploració ja està en curs. Torna-ho a provar després d'un temps"
+
+#: includes/class-cookie-law-info-cookieyes.php:279
+msgid "Successfully connected with CookieYes"
+msgstr "S'ha connectat correctament amb CookieYes"
+
+#: includes/class-cookie-law-info-cookieyes.php:282
+msgid ""
+"A password reset message has been sent to your email address. Click the link "
+"in the email to reset your password"
+msgstr ""
+"S'ha enviat un missatge de restabliment de la contrasenya a la teua adreça "
+"de correu electrònic. Fes clic a l'enllaç del correu electrònic per a "
+"restablir la contrasenya"
+
+#: includes/class-cookie-law-info-cookieyes.php:285
+msgid "License validation has failed, please try reactivating your license"
+msgstr "La validació de la llicència ha fallat; prova de reactivar-la"
+
+#: includes/class-cookie-law-info-cookieyes.php:390
+msgid "Invalid json token"
+msgstr "El token json no és vàlid"
+
+#: includes/class-cookie-law-info-cookieyes.php:393
+msgid "Invalid token format"
+msgstr "Format de token no vàlid"
+
+#: includes/class-cookie-law-info-cookieyes.php:752
+msgid "Successfully disconnected with Cookieyes"
+msgstr "S'ha desconnectat correctament de CookieYes"
+
+#: includes/class-cookie-law-info-cookieyes.php:755
+msgid "Could not identify the action"
+msgstr "No s'ha pogut identificar l'acció"
+
+#: includes/class-cookie-law-info-cookieyes.php:760
+msgid "Successfully connected with Cookieyes"
+msgstr "S'ha connectat correctament amb CookieYes"
+
+#: includes/class-cookie-law-info-cookieyes.php:837
+msgid "Delete site data from CookieYes\t"
+msgstr "Suprimir les dades del lloc de CookieYes\t"
+
+#: includes/class-cookie-law-info-cookieyes.php:843
+msgid "Disable WebToffee branding"
+msgstr "Desactivar la marca WebToffee"
+
+#: includes/class-cookie-law-info-cookieyes.php:843
+msgid ""
+"By enabling this option, a small link is automatically displayed at the "
+"bottom left of the cookie settings pop-up"
+msgstr ""
+"Si actives aquesta opció, es mostrarà automàticament un petit enllaç a la "
+"part inferior esquerra de la finestra emergent de configuració de cookies"
+
+#: includes/class-cookie-law-info-cookieyes.php:851
+msgid "Do you really want to delete your website from CookieYes"
+msgstr "Estàs segur que vols suprimir el teu lloc web de CookieYes"
+
+#: includes/class-cookie-law-info-cookieyes.php:853
+msgid ""
+"This action will clear all your website data from CookieYes. If you have "
+"multiple websites added to your CookieYes account, then only the data "
+"associated with this website get deleted. Otherwise, your entire account "
+"will be deleted."
+msgstr ""
+"Aquesta acció esborrarà de CookieYes totes les dades del teu lloc web. Si "
+"tens diversos llocs web afegits al teu compte de CookieYes, només se "
+"suprimiran les dades associades a aquest lloc web. En cas contrari, se "
+"suprimirà tot el compte."
+
+#: includes/class-cookie-law-info-cookieyes.php:854
+msgid "Delete this website"
+msgstr "Suprimir aquest lloc web"
+
+#: includes/class-cookie-law-info-cookieyes.php:913
+msgid "Successfully deleted!"
+msgstr "S'ha suprimit correctament!"
+
+#: includes/class-cookie-law-info-cookieyes.php:914
+msgid "Delete failed, please try again later"
+msgstr "La supressió ha fallat, per favor torna-ho a provar més tard"
+
+#: includes/class-cookie-law-info.php:485
+msgid "Consent Preferences"
+msgstr "Preferències de consentiment"
+
+#: includes/class-cookie-law-info.php:1152
+msgid "Page number"
+msgstr "Número de pàgina"
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:141
+msgid "GDPR Cookie Consent Pro"
+msgstr "Consentiment de cookies GDPR Pro"
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:310
+#: includes/license_manager/class-cookie-law-info-license-handler.php:347
+msgid "Request failed, Please try again"
+msgstr "La sol·licitud ha fallat. Torna-ho a provar"
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:335
+msgid "License activation successfull"
+msgstr "Activació de la llicència realitzada correctament"
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:366
+#: includes/license_manager/class-cookie-law-info-license-handler.php:531
+msgid "License deactivation successfull"
+msgstr "La desactivació de la llicència s'ha realitzat correctament"
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:420
+#: includes/license_manager/class-cookie-law-info-license-handler.php:597
+#: includes/license_manager/class-cookie-law-info-license-handler.php:659
+msgid "The product license has either expired or not been activated."
+msgstr "La llicència del producte ha caducat o no s'ha activat."
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:424
+msgid "Your license key has been disabled."
+msgstr "La teua clau de llicència s'ha desactivat."
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:428
+msgid "Invalid license."
+msgstr "Llicència no vàlida."
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:434
+msgid "Your license is not active for this URL."
+msgstr "La teua llicència no està activa per a aquest URL."
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:438
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr "Sembla que és una clau de llicència no vàlida per a %s."
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:442
+msgid "Your license key has reached its activation limit."
+msgstr "La teua clau de llicència ha assolit el límit d'activació."
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:446
+msgid "License is not valid for this product"
+msgstr "La llicència no és vàlida per a aquest producte"
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:450
+msgid "An error occurred, please try again."
+msgstr "S'ha produït un error, torna-ho a provar."
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:600
+#, php-format
+msgid ""
+"The product license has expired. Please <a href=\"%s\" "
+"target=\"_blank\">renew</a> to continue receiving updates."
+msgstr ""
+"La llicència del producte ha caducat. <a href=\"%s\" "
+"target=\"_blank\">Renova</a> per continuar rebent actualitzacions."
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:603
+msgid "Failed to retrieve license information from server please try again"
+msgstr ""
+"No s'ha pogut recuperar la informació de llicència del servidor, torna-ho a "
+"provar"
+
+#: includes/license_manager/class-cookie-law-info-license-handler.php:656
+#, php-format
+msgid ""
+"The plugin license is not activated. You will not receive compatibility and "
+"security updates if the plugin license is not activated. <a href=\"%s\" "
+"target=\"_blank\">Activate now</a>"
+msgstr ""
+"La llicència de l'extensió no està activada. No rebràs actualitzacions de "
+"compatibilitat i seguretat si la llicència de l'extensió no està activada. "
+"<a href=\"%s\" target=\"_blank\">Activa ara</a>"
+
+#: includes/license_manager/html/html-wf-activation-window.php:107
+msgid "License Activation"
+msgstr "Activació de llicència"
+
+#: public/class-cookie-law-info-public.php:291
+msgid ""
+"<div class=\"cli-bar-container cli-style-v2\"><div class=\"cli-bar-"
+"message\">We and <button class=\"wt-cli-link\" id=\"wt-cli-iab-notice-"
+"toggle\">our {{count}} partners</button> use cookies and other tracking "
+"technologies to improve your experience on our website. We may store and/or "
+"access information on a device and process personal data, such as your IP "
+"address and browsing data, for personalised advertising and content, "
+"advertising and content measurement, audience research and services "
+"development. Additionally, we may utilize precise geolocation data and "
+"identification through device scanning.</p><p>Please note that your consent "
+"will be valid across all our subdomains. You can change or withdraw your "
+"consent at any time by clicking the “Consent Preferences” button at the "
+"bottom of your screen. We respect your choices and are committed to "
+"providing you with a transparent and secure browsing experience.</p></"
+"div><div class=\"cli-bar-btn_container\">[cookie_settings][cookie_reject]"
+"[cookie_accept_all]</div></div>"
+msgstr ""
+"<div class=\"cli-bar-container cli-style-v2\"><div class=\"cli-bar-"
+"message\">Nosaltres i <button class=\"wt-cli-link\" id=\"wt-cli-iab -notice-"
+"toggle\">els nostres {{count}} socis</button> utilitzem galetes i altres "
+"tecnologies de seguiment per millorar la vostra experiència al nostre lloc "
+"web. Podem emmagatzemar i/o accedir a la informació en un dispositiu i "
+"processar dades personals, com ara la vostra adreça IP i dades de navegació, "
+"per a publicitat i contingut personalitzats, publicitat i mesura de "
+"contingut, investigació d'audiències i desenvolupament de serveis. A més, "
+"podem utilitzar dades de geolocalització i identificació precises mitjançant "
+"l'escaneig del dispositiu.</p><p>Tingueu en compte que el vostre "
+"consentiment serà vàlid en tots els nostres subdominis. Podeu canviar o "
+"retirar el vostre consentiment en qualsevol moment fent clic al botó "
+"\"Preferències de consentiment\" a la part inferior de la pantalla. "
+"Respectem les vostres eleccions i ens comprometem a oferir-vos una "
+"experiència de navegació transparent i segura.</p></div><div class=\"cli-bar-"
+"btn_container\">[cookie_settings][cookie_reject][cookie_accept_all]</div ></"
+"div>"
+
+#: public/class-cookie-law-info-public.php:292
+msgid ""
+"<div class=\"cli-bar-container cli-style-v2\"> <div class=\"cli-bar-"
+"message\">We and <button class=\"wt-cli-link\" id=\"wt-cli-iab-notice-"
+"toggle\">our {{count}} partners</button> use cookies and other tracking "
+"technologies to improve your experience on our website. We may store and/or "
+"access information on a device and process personal data, such as your IP "
+"address and browsing data, for personalised advertising and content, "
+"advertising and content measurement, audience research and services "
+"development. Additionally, we may utilize precise geolocation data and "
+"identification through device scanning.</p> <p>Please note that your consent "
+"will be valid across all our subdomains. You can change or withdraw your "
+"consent at any time by clicking the “Consent Preferences” button at the "
+"bottom of your screen. We respect your choices and are committed to "
+"providing you with a transparent and secure browsing experience.</p><div "
+"class=\"wt-cli-ccpa-element\"> In case of sale of your personal information, "
+"you may opt out by using the link [wt_cli_ccpa_optout].</div> </div> <div "
+"class=\"cli-bar-btn_container\">[cookie_settings][cookie_reject]"
+"[cookie_accept_all]</div> </div>"
+msgstr ""
+"<div class=\"cli-bar-container cli-style-v2\"> <div class=\"cli-bar-"
+"message\">Nosaltres i <button class=\"wt-cli-link\" id=\"wt-cli-iab -notice-"
+"toggle\">els nostres {{count}} socis</button> utilitzem galetes i altres "
+"tecnologies de seguiment per millorar la vostra experiència al nostre lloc "
+"web. Podem emmagatzemar i/o accedir a la informació en un dispositiu i "
+"processar dades personals, com ara la vostra adreça IP i dades de navegació, "
+"per a publicitat i contingut personalitzats, publicitat i mesura de "
+"contingut, investigació d'audiències i desenvolupament de serveis. A més, "
+"podem utilitzar dades de geolocalització i identificació precises mitjançant "
+"l'escaneig del dispositiu.</p> <p>Tingueu en compte que el vostre "
+"consentiment serà vàlid en tots els nostres subdominis. Podeu canviar o "
+"retirar el vostre consentiment en qualsevol moment fent clic al botó "
+"\"Preferències de consentiment\" a la part inferior de la pantalla. "
+"Respectem les vostres eleccions i ens comprometem a oferir-vos una "
+"experiència de navegació transparent i segura.</p><div class=\"wt-cli-ccpa-"
+"element\"> En cas de venda de la vostra informació personal, podeu "
+"desactivar-lo mitjançant utilitzant l'enllaç [wt_cli_ccpa_optout].</div> </"
+"div> <div class=\"cli-bar-btn_container\">[cookie_settings][cookie_reject]"
+"[cookie_accept_all]</div> </div>"
+
+#: public/modules/iab-tcf/iab-tcf.php:130
+msgid "Device Storage Disclosure"
+msgstr "Divulgació d'emmagatzematge del dispositiu"
+
+#: public/modules/iab-tcf/iab-tcf.php:132
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:151
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:225
+#: public/modules/script-blocker/views/admin_script_blocker.php:157
+#: public/modules/script-blocker/views/admin_script_blocker.php:234
+msgid "Name"
+msgstr "Nom"
+
+#: public/modules/iab-tcf/iab-tcf.php:135
+msgid "Domain"
+msgstr "Domini"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:183
+msgid "Accept consent to view this"
+msgstr "Acceptar consentiment per a veure això"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:203
+#, php-format
+msgid ""
+"Accept <a class='cli_manage_current_consent'>%s</a> cookies to view the "
+"content."
+msgstr ""
+"Accepta les cookies <a class='cli_manage_current_consent'>%s</a> per a veure "
+"el contingut."
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:491
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:507
+msgid "Facebook Pixel Code"
+msgstr "Facebook Pixel Code"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:522
+msgid "Google Tag Manager"
+msgstr "Google Tag Manager"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:530
+msgid "Hotjar"
+msgstr "Hotjar"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:537
+msgid "Google Publisher Tag"
+msgstr "Google Publisher Tag"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:554
+msgid "Youtube embed"
+msgstr "Youtube embed"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:583
+msgid "Vimeo embed"
+msgstr "Vimeo embed"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:595
+msgid "Libsyn"
+msgstr "Libsyn"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:607
+msgid "Google maps"
+msgstr "Google maps"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:624
+msgid "Addthis widget"
+msgstr "Addthis widget"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:631
+msgid "Sharethis widget"
+msgstr "Sharethis widget"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:638
+msgid "Twitter widget"
+msgstr "Twitter widget"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:645
+msgid "Soundcloud embed"
+msgstr "Soundcloud embed"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:662
+msgid "Slideshare embed"
+msgstr "Slideshare embed"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:675
+msgid "Linkedin widget/Analytics"
+msgstr "Linkedin widget/Analytics"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:688
+msgid "Instagram embed"
+msgstr "Instagram embed"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:701
+msgid "Pinterest widget"
+msgstr "Pinterest widget"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:707
+msgid "Google Adsense"
+msgstr "Google Adsense"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:713
+msgid "Hubspot Analytics"
+msgstr "Hubspot Analytics"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:720
+msgid "Matomo Analytics"
+msgstr "Matomo Analytics"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:726
+msgid "Google Recaptcha"
+msgstr "Google Recaptcha"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:740
+#, php-format
+msgid ""
+"Invalid index found in the thirdparties array. Index should be of type "
+"'string'. Index found: %d."
+msgstr ""
+"Índex no vàlid trobat en l'array de tercers. L'índex ha de ser del tipus "
+"\"string\". Índex trobat: %d."
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:1048
+msgid "Action is unknown."
+msgstr "L'acció es desconeguda."
+
+#: public/modules/script-blocker/integrations/facebook-feed.php:10
+msgid "Smash Balloon Custom Facebook Feed"
+msgstr "Smash Balloon Custom Facebook Feed"
+
+#: public/modules/script-blocker/integrations/facebook-for-woocommerce.php:9
+msgid "Facebook for Woocommerce"
+msgstr "Facebook per a Woocommerce"
+
+#: public/modules/script-blocker/integrations/facebook-for-wordpress.php:9
+msgid "Facebook for Wordpress"
+msgstr "Facebook per a Wordpress"
+
+#: public/modules/script-blocker/integrations/google-analytics-for-wordpress.php:9
+msgid "MonsterInsights"
+msgstr "MonsterInsights"
+
+#: public/modules/script-blocker/integrations/instagram-feed.php:10
+msgid "Smash Balloon Instagram Feed"
+msgstr "Smash Balloon Instagram Feed"
+
+#: public/modules/script-blocker/integrations/pixel-your-site.php:10
+msgid "PixelYourSite"
+msgstr "PixelYourSite"
+
+#: public/modules/script-blocker/integrations/twitter-feed.php:10
+msgid "Custom Twitter Feeds"
+msgstr "Custom Twitter Feeds"
+
+#: public/modules/script-blocker/integrations/youtube-feed.php:10
+msgid "Feeds for YouTube"
+msgstr "Feeds per a YouTube"
+
+#: public/modules/script-blocker/script-blocker.php:202
+msgid "Output buffer type"
+msgstr "Tipus de buffer d'eixida"
+
+#: public/modules/script-blocker/script-blocker.php:204
+msgid "Multi"
+msgstr "Multi"
+
+#: public/modules/script-blocker/script-blocker.php:205
+msgid "Single"
+msgstr "Individual"
+
+#: public/modules/script-blocker/script-blocker.php:206
+msgid "Caution: This may break the site."
+msgstr "Precaució: Açò pot trencar el lloc."
+
+#: public/modules/script-blocker/script-blocker.php:502
+#: public/modules/script-blocker/script-blocker.php:521
+msgid "Invalid script id"
+msgstr "ID d'script no vàlid"
+
+#: public/modules/script-blocker/script-blocker.php:548
+#: public/modules/script-blocker/script-blocker.php:549
+msgid "Script Blocker"
+msgstr "Bloquejador de scripts"
+
+#: public/modules/script-blocker/script-blocker.php:621
+msgid "Status updated"
+msgstr "Estat actualitzat"
+
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:8
+#: public/modules/script-blocker/views/admin_script_blocker.php:11
+msgid "disable"
+msgstr "desactivar"
+
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:8
+#: public/modules/script-blocker/views/admin_script_blocker.php:11
+msgid "enable"
+msgstr "activar"
+
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:10
+#: public/modules/script-blocker/views/admin_script_blocker.php:15
+#, php-format
+msgid "Script blocker is currently %s"
+msgstr "El bloquejador de scripts està actualment %s"
+
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:11
+#: public/modules/script-blocker/views/admin_script_blocker.php:17
+#, php-format
+msgid "<a href=\"javascript: submitform()\">click here</a> to %s "
+msgstr "<a href=\"javascript: submitform()\">fes clic ací</a> per a %s "
+
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:122
+#: public/modules/script-blocker/views/admin_script_blocker.php:128
+msgid "Manage Script Blocking"
+msgstr "Configurar bloquejador de scripts"
+
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:128
+#: public/modules/script-blocker/views/admin_script_blocker.php:134
+msgid ""
+"Enabled services/plugins will be blocked by default in the front-end of your "
+"website and will be rendered respectively only based on user consent."
+msgstr ""
+"Els serveis/extensions habilitats es bloquejaran de manera predeterminada a "
+"la part frontal del teu lloc web i es mostraran respectivament només en "
+"funció del consentiment de l'usuari."
+
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:130
+#: public/modules/script-blocker/views/admin_script_blocker.php:136
+#, php-format
+msgid ""
+"Apart from the below-listed pre-defined scripts you can also block your "
+"custom scripts by using plugin filters hooks. Please refer the <a "
+"target=\"_blank\" href=\"%s\">article</a> for more."
+msgstr ""
+"A part dels scripts predefinits que es mostren a continuació, també pots "
+"bloquejar els teus scripts personalitzats utilitzant hooks de filtres "
+"d'extensions. Consulta <a target=\"_blank\" href=\"%s\">l'article</a> per a "
+"obtenir més informació."
+
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:142
+#: public/modules/script-blocker/views/admin_script_blocker.php:148
+msgid "Scripts"
+msgstr "Scripts"
+
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:143
+#: public/modules/script-blocker/views/admin_script_blocker.php:149
+msgid "Plugins"
+msgstr "Extensions"
+
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:155
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:229
+#: public/modules/script-blocker/views/admin_script_blocker.php:161
+#: public/modules/script-blocker/views/admin_script_blocker.php:238
+msgid "Key"
+msgstr "Clau"
+
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:166
+#: public/modules/script-blocker/views/admin_script_blocker.php:172
+msgid "via code filter"
+msgstr "mitjançant filtre de codi"
+
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:207
+#: public/modules/script-blocker/views/admin_script_blocker.php:216
+msgid "Uncategorized"
+msgstr "Sense categoria"
+
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:226
+#: public/modules/script-blocker/views/admin_script_blocker.php:235
+msgid ""
+"Enabled: Plugins will be blocked by default prior to obtaining user consent."
+msgstr ""
+"Habilitat: les extensions es bloquejaran per defecte abans d'obtenir el "
+"consentiment de l'usuari."
+
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:226
+#: public/modules/script-blocker/views/admin_script_blocker.php:235
+msgid "Disabled: Plugins will be rendered prior to obtaining consent."
+msgstr ""
+"Desactivat: les extensions es renderitzaran abans d'obtenir el consentiment."
+
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:240
+#: public/modules/script-blocker/views/admin_script_blocker.php:249
+msgid "Inactive"
+msgstr "Inactiu"
+
+#: public/modules/script-blocker/views/admin_script_blocker.ORI.php:250
+#: public/modules/script-blocker/views/admin_script_blocker.php:259
+msgid ""
+"Plugins marked inactive are either not installed or activated on your website"
+msgstr ""
+"Les extensions marcades com a inactives no s'instal·len ni s'activen al teu "
+"lloc web"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:9
+msgid "enabled"
+msgstr "activat"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:9
+msgid "disabled"
+msgstr "desactivat"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:201
+#: public/modules/script-blocker/views/admin_script_blocker.php:276
+msgid "Select Category"
+msgstr "Selecciona categoria"
+
+#: public/modules/shortcode/shortcode.ORI.php:226
+#: public/modules/shortcode/shortcode.php:226
+msgid "Delete Cookies"
+msgstr "Eliminar las cookies"
+
+#: public/modules/shortcode/shortcode.ORI.php:641
+#: public/modules/shortcode/shortcode.php:656
+msgid "Close and Accept"
+msgstr "Tancar i acceptar"
+
+#: public/modules/shortcode/shortcode.ORI.php:809
+#: public/modules/shortcode/shortcode.php:824
+msgid "Your current state:"
+msgstr "El teu estat actual:"
+
+#: public/modules/shortcode/shortcode.ORI.php:827
+#: public/modules/shortcode/shortcode.php:842
+msgid "Allowed cookies "
+msgstr "Cookies permeses "
+
+#: public/modules/shortcode/shortcode.ORI.php:827
+#: public/modules/shortcode/shortcode.php:842
+msgid "Allowed all cookies "
+msgstr "Totes les cookies permeses "
+
+#: public/modules/shortcode/shortcode.ORI.php:831
+#: public/modules/shortcode/shortcode.php:846
+msgid "Not allowed cookies "
+msgstr "Cookies no permeses "
+
+#: public/modules/shortcode/shortcode.ORI.php:834
+#: public/modules/shortcode/shortcode.php:849
+msgid "Consent accepted. "
+msgstr "Consentiment acceptat. "
+
+#: public/modules/shortcode/shortcode.ORI.php:836
+#: public/modules/shortcode/shortcode.php:851
+msgid "Consent rejected."
+msgstr "Consentiment refusat."
+
+#: public/modules/shortcode/shortcode.ORI.php:838
+#: public/modules/shortcode/shortcode.php:853
+msgid "No consent given."
+msgstr "No hi ha consentiment donat."
+
+#: public/modules/shortcode/shortcode.ORI.php:840
+#: public/modules/shortcode/shortcode.php:855
+msgid "Manage your consent."
+msgstr "Gestiona el teu consentiment."
+
+#: public/modules/visitor-report/classes/class-visitor-history.php:26
+msgid "No Consent History"
+msgstr "Sense historial de consentiment"
+
+#: public/modules/visitor-report/classes/class-visitor-history.php:75
+msgid "IP Address"
+msgstr "Adreça IP"
+
+#: public/modules/visitor-report/classes/class-visitor-history.php:76
+msgid "Visited Date"
+msgstr "Data de visita"
+
+#: public/modules/visitor-report/classes/class-visitor-history.php:77
+msgid "Cookie Details"
+msgstr "Detalls de cookies"
+
+#: public/modules/visitor-report/classes/class-visitor-history.php:78
+msgid "User ID"
+msgstr "ID d'usuari"
+
+#: public/modules/visitor-report/views/visitor_report.ORI.php:12
+#: public/modules/visitor-report/views/visitor_report.php:12
+msgid "GDPR Consent History"
+msgstr "Historial de consentiment de GDPR"
+
+#: public/modules/visitor-report/views/visitor_report.ORI.php:14
+#: public/modules/visitor-report/views/visitor_report.php:14
+msgid "Export Report"
+msgstr "Exportar registre"
+
+#: public/modules/visitor-report/views/visitor_report.ORI.php:16
+#: public/modules/visitor-report/views/visitor_report.php:16
+msgid "Enable consent logging"
+msgstr "Habilitar registre de consentiment"
+
+#: public/modules/visitor-report/views/visitor_report.ORI.php:19
+#: public/modules/visitor-report/views/visitor_report.php:19
+msgid "Enable"
+msgstr "Activar"
+
+#: public/modules/visitor-report/views/visitor_report.php:34
+msgid "Search Report"
+msgstr "Cercar informe"
+
+#: public/modules/visitor-report/visitor-report.php:133
+msgid "Event Logged Successfully"
+msgstr "Esdeveniment registrat satisfactòriament"
+
+#: public/modules/visitor-report/visitor-report.php:142
+msgid "Logging is not enabled"
+msgstr "El registre no està habilitat"
+
+#: public/modules/visitor-report/visitor-report.php:174
+#: public/modules/visitor-report/visitor-report.php:175
+msgid "Consent Report"
+msgstr "Informe de consentiment"
+
+#: public/views/cookie-law-info_bar.ORI.php:16
+#: public/views/cookie-law-info_bar.ORI.php:18
+#: public/views/cookie-law-info_bar.php:16
+msgid "Close"
+msgstr "Tancar"
+
+#~ msgid "sample msg"
+#~ msgstr "missatge d'exemple"
+
+#~ msgid "API License Key:"
+#~ msgstr "Clau de llicència API:"
+
+#~ msgid "Email:"
+#~ msgstr "Correu electrònic:"
+
+#~ msgid ""
+#~ "Check <a href=\"https://www.webtoffee.com/my-account/my-api-keys/\" "
+#~ "target=\"_blank\">My Account</a> for API Keys and API Downloads."
+#~ msgstr ""
+#~ "Comprova <a href=\"https://www.webtoffee.com/my-account/my-api-keys/\" "
+#~ "target=\"_blank\">El meu compte</a> per a obtindre claus d'API i baixades "
+#~ "d'API."
+
+#~ msgid "License:"
+#~ msgstr "Llicència:"
+
+#~ msgid "Mail:"
+#~ msgstr "Correu electrònic:"
+
+#~ msgid "Status:"
+#~ msgstr "Estat:"
+
+#, php-format
+#~ msgid ""
+#~ "The license key for %1$s has expired. You can reactivate or purchase a "
+#~ "license key from your account <a href=\"%2$s\" "
+#~ "target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "La clau de llicència per a %1$s ha caducat. Pots reactivar o comprar una "
+#~ "clau de llicència des del <a href=\"%2$s\" target=\"_blank\">panell</a> "
+#~ "del teu compte."
+
+#, php-format
+#~ msgid ""
+#~ "The subscription for %1$s is on-hold. You can reactivate the subscription "
+#~ "from your account <a href=\"%2$s\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "La subscripció de %1$s està en espera. Pots reactivar la subscripció des "
+#~ "del <a href=\"%2$s\" target=\"_blank\">panell</a> del teu compte."
+
+#, php-format
+#~ msgid ""
+#~ "The subscription for %1$s has been cancelled. You can renew the "
+#~ "subscription from your account <a href=\"%2$s\" "
+#~ "target=\"_blank\">dashboard</a>. A new license key will be emailed to you "
+#~ "after your order has been completed."
+#~ msgstr ""
+#~ "La subscripció de %1$s ha estat cancel·lada. Pots reactivar la "
+#~ "subscripció des del <a href=\"%2$s\" target=\"_blank\">panell</a> del teu "
+#~ "compte. Se t'enviarà una nova clau de llicència una vegada que s'haja "
+#~ "completat la teua comanda."
+
+#, php-format
+#~ msgid ""
+#~ "The subscription for %1$s has expired. You can reactivate the "
+#~ "subscription from your account <a href=\"%2$s\" "
+#~ "target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "La subscripció de %1$s ha expirat. Pots reactivar la subscripció des del "
+#~ "<a href=\"%2$s\" target=\"_blank\">panell</a> del teu compte."
+
+#, php-format
+#~ msgid ""
+#~ "The subscription for %1$s has been suspended. You can reactivate the "
+#~ "subscription from your account <a href=\"%2$s\" "
+#~ "target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "La subscripció de %1$s ha estat suspesa. Pots reactivar la subscripció "
+#~ "des del <a href=\"%2$s\" target=\"_blank\">panell</a> del teu compte."
+
+#, php-format
+#~ msgid ""
+#~ "The subscription for %1$s is still pending. You can check on the status "
+#~ "of the subscription from your account <a href=\"%2$s\" "
+#~ "target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "La subscripció de %1$s encara està pendent. Pots verificar l'estat de la "
+#~ "subscripció des del <a href=\"%2$s\" target=\"_blank\">panell</a> del teu "
+#~ "compte."
+
+#, php-format
+#~ msgid ""
+#~ "The subscription for %1$s has been placed in the trash and will be "
+#~ "deleted soon. You can purchase a new subscription from your account <a "
+#~ "href=\"%2$s\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "La subscripció de %1$s s'ha enviat a la paperera i s'eliminarà prompte. "
+#~ "Pots comprar una nova subscripció des del <a href=\"%2$s\" "
+#~ "target=\"_blank\">panell</a> del teu compte."
+
+#, php-format
+#~ msgid ""
+#~ "A subscription for %1$s could not be found. You can purchase a "
+#~ "subscription from your account <a href=\"%2$s\" "
+#~ "target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "No s'ha pogut trobar una subscripció per a %1$s. Pots comprar una "
+#~ "subscripció des del <a href=\"%2$s\" target=\"_blank\">panell</a> del teu "
+#~ "compte."
+
+#, php-format
+#~ msgid ""
+#~ "A license key for %1$s could not be found. Maybe you forgot to enter a "
+#~ "license key when setting up %2$s, or the key was deactivated in your "
+#~ "account. You can reactivate license key at your plugin <a href=\"%3$s\" "
+#~ "target=\"_blank\">settings page</a>."
+#~ msgstr ""
+#~ "No s'ha pogut trobar una clau de llicència per a %1$s. Potser vas oblidar "
+#~ "d'introduir una clau de llicència al configurar %2$s, o la clau es va "
+#~ "desactivar en el teu compte. Pots reactivar la clau de llicència a la <a "
+#~ "href=\"%3$s\" target=\"_blank\">pàgina de configuració</a> de la teua "
+#~ "extensió."
+
+#, php-format
+#~ msgid ""
+#~ "Download permission for %1$s has been revoked possibly due to a license "
+#~ "key or subscription expiring. You can reactivate or purchase a license "
+#~ "key from your account <a href=\"%2$s\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "S'ha revocat el permís de descàrrega de %1$s possiblement a causa que una "
+#~ "clau de llicència o subscripció ha caducat. Pots reactivar o comprar una "
+#~ "clau de llicència des del <a href=\"%2$s\" target=\"_blank\">panell</a> "
+#~ "del teu compte."
+
+#, php-format
+#~ msgid ""
+#~ "%1$s has not been activated. Go to the plugin <a href=\"%2$s\" "
+#~ "target=\"_blank\">settings page</a> and enter the license key and license "
+#~ "email to activate %3$s."
+#~ msgstr ""
+#~ "%1$s no ha estat activat. Ves a la <a href=\"%2$s\" "
+#~ "target=\"_blank\">pàgina de configuració</a> de l'extensió i introdueix "
+#~ "la clau de llicència i el correu electrònic de llicència per a activar "
+#~ "%3$s."
+
+#, php-format
+#~ msgid ""
+#~ "You changed the subscription for %1$s, so you will need to enter your new "
+#~ "API License Key in the settings page. The License Key should have arrived "
+#~ "in your email inbox, if not you can get it by logging into your account "
+#~ "<a href=\"%2$s\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "Has canviat la subscripció de %1$s, per la qual cosa hauràs d'ingressar "
+#~ "la teua nova clau de llicència d'API a la pàgina de configuració. La clau "
+#~ "de llicència hauria d'haver arribat a la safata d'entrada del teu correu "
+#~ "electrònic, en cas contrari, pots obtenir-la iniciant-vos al <a "
+#~ "href=\"%2$s\" target=\"_blank\">panell</a> del teu compte."
+
+#~ msgid "Licence Key"
+#~ msgstr "Clau de llicència"
+
+#~ msgid "Licence Email"
+#~ msgstr "Correu electrònic de llicència"
+
+#~ msgid "Check"
+#~ msgstr "Comprovar"
+
+#~ msgid "Deactivate"
+#~ msgstr "Desactivar"
+
+#~ msgid "My Account"
+#~ msgstr "El meu compte"
+
+#~ msgid "for API Keys and API Downloads."
+#~ msgstr "per a claus API i descàrregues API."
+
+#~ msgid ""
+#~ "A simple way to show your website complies with the EU Cookie Law / GDPR."
+#~ msgstr ""
+#~ "Una manera senzilla de mostrar que el teu lloc web compleix la Llei de "
+#~ "cookies de la UE / GDPR."
+
+#~ msgid "Cookie Law Settings"
+#~ msgstr "Configuració de la Llei de Cookies"
+
+#~ msgid "Cookie scanner URL per request"
+#~ msgstr "URLs per sol·licitud de l'escàner de cookies"
+
+#~ msgid ""
+#~ "Reduce/control the number of URLs scanned per request depending on the "
+#~ "server limitation. E.g if you see an error \"Unable to connect..retrying "
+#~ "\" during a scan try reducing this number to '2'."
+#~ msgstr ""
+#~ "Redueix/controla el nombre d'URLs escanejades per sol·licitud segons la "
+#~ "limitació del servidor. Per exemple, si veus un error \"No es pot "
+#~ "connectar... reintentant\" durant una exploració, intents reduir aquest "
+#~ "nombre a '2'."
+
+#~ msgid "Unable to connect. Retrying..."
+#~ msgstr "No es pot connectar... reintentant"
+
+#~ msgid "Please do not leave this page until the progress bar reaches 100%"
+#~ msgstr ""
+#~ "No abandones aquesta pàgina fins que la barra de progrés arribe al 100%"
+
+#~ msgid "View result"
+#~ msgstr "Veure resultat"
+
+#~ msgid "Scan Now"
+#~ msgstr "Escanejar ara"
+
+#~ msgid "Scan result"
+#~ msgstr "Resultat de l'escaneig"
+
+#~ msgid "Summary"
+#~ msgstr "Resumen"
+
+#~ msgid "First found URL"
+#~ msgstr "Primera URL trobada"
+
+#~ msgid "No cookies"
+#~ msgstr "No hi ha cookies"
+
+#~ msgid "URLs"
+#~ msgstr "URLs"
+
+#~ msgid "No URLs"
+#~ msgstr "No hi ha URLs"
+
+#~ msgid "Your Cookie Law Info bar is switched on"
+#~ msgstr "La barra d'informació de la Llei de cookies està activada"
+
+#~ msgid "Your Cookie Law Info bar is switched off"
+#~ msgstr "La barra d'informació de la Llei de cookies està desactivada"
+
+#~ msgid ""
+#~ "This will enable all cookie categories on clicking the accept button, no "
+#~ "matter whether they are in the enabled or disabled state."
+#~ msgstr ""
+#~ "Això activarà totes les categories de cookies al fer clic al botó "
+#~ "Acceptar, independentment de si estan en estat activat o desactivat."
+
+#~ msgid "Show Again Tab"
+#~ msgstr "Pestanya Mostrar de nou"
+
+#~ msgid "Use Show Again Tab?"
+#~ msgstr "Utilitzar la pestanya Mostrar de nou?"
+
+#~ msgid "Show More Text"
+#~ msgstr "Mostrar més text"
+
+#~ msgid "No."
+#~ msgstr "No."
+
+#~ msgid "Show Border?"
+#~ msgstr "¿Mostrar borde?"
+
+#~ msgid "Border Colour"
+#~ msgstr "Color del borde"
+
+#~ msgid "Cookie Bar will be shown in:"
+#~ msgstr "Cookie Bar se mostrará en:"
+
+#~ msgid "Disappear"
+#~ msgstr "Desaparecer"
+
+#, php-format
+#~ msgid "Accept %s cookies to view the content."
+#~ msgstr "Acepte %s cookies para ver el contenido."
+
+#~ msgid ""
+#~ "This option will renew consents for all the existing users. if the "
+#~ "consent has renewed returning users will be prompted for a new consent."
+#~ msgstr ""
+#~ "Esta opción renovará los consentimientos para todos los usuarios "
+#~ "existentes. Si el consentimiento se ha renovado, se solicitará a los "
+#~ "usuarios que regresan un nuevo consentimiento."
+
+#~ msgid "Override caching"
+#~ msgstr "Ohita välimuisti"
+
+#~ msgid ""
+#~ "Enable this option only if you are experiencing issues with loading "
+#~ "cached versions especially if you are using a server-side caching or any "
+#~ "caching plugins that may not be compatible with our plugin. When enabled, "
+#~ "the GDPR plugin overrides the cached webpages to show the webpage with "
+#~ "respective user consent. "
+#~ msgstr ""
+#~ "Ota tämä vaihtoehto käyttöön vain, jos sinulla on ongelmia välimuistiin "
+#~ "tallennettujen versioiden lataamisessa erityisesti, jos käytät "
+#~ "palvelinpuolen välimuistia tai välimuistin laajennuksia, jotka eivät "
+#~ "välttämättä ole yhteensopivia laajennuksen kanssa. Kun tämä asetus on "
+#~ "käytössä, GDPR-laajennus ohittaa välimuistissa olevat sivut, jotta "
+#~ "verkkosivut näkyvät vastaavan käyttäjän suostumuksella."
+
+#~ msgid "Inside bar"
+#~ msgstr "Sisäpalkki"
