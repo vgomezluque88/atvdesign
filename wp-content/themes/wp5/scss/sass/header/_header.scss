@@ -152,6 +152,12 @@ body.page-template-page-recommender {
 }
 
 .menu--right {
+  display: none;
+
+  @include desktop {
+    display: block;
+  }
+
   ul {
     li {
       list-style: none;
@@ -164,4 +170,13 @@ body.page-template-page-recommender {
       }
     }
   }
+}
+
+#site-navigation-right {
+  display: none;
+
+  &.show {
+    display: block;
+  }
+
 }

@@ -64,7 +64,7 @@ $post_id = get_the_ID();
             <div class="container" id="content" tabindex="-1">
 
                 <header id="masthead" class="site-header">
-                    <nav id="site-navigation" class="main-navigation">
+                    <div id="site-navigation" class="main-navigation">
                         <div class="cont--menu container">
                             <div class="menu--right">
                                 <a href="/" class="logo-menu">
@@ -106,7 +106,7 @@ $post_id = get_the_ID();
 
                             </div>
                         </div>
-                    </nav>
+                    </div>
                     <div class="site-branding">
                         <div class="cont--logo">
                             <?php
@@ -118,27 +118,55 @@ $post_id = get_the_ID();
                             <?php endif; ?>
                         </div>
                     </div> <!-- .site-branding -->
-                    <nav id="site-navigation-right" class="main-navigation">
+                    <nav id="site-navigation-right" class="main-navigation mobile">
                         <div class="cont--menu container">
-                            <div class="menu--right">
+                            <div class="menu">
 
                                 <?php
-                                $menu_id = '16';
+                                $menu_id = '4';
+                                $menu_id_2 = '16';
                                 $menu = wp_get_nav_menu_object($menu_id);
-
+                                $menu = wp_get_nav_menu_object($menu_id);
+                                $menu_2 = wp_get_nav_menu_object($menu_id_2);
                                 if ($menu) {
                                     $menu_args = array(
                                         'menu' => $menu->slug,
-                                        'menu_class' => 'menu__footer-center', // Agrega la clase menu__footer aquí
+                                        'menu_class' => 'menu__moible', // Agrega la clase menu__footer aquí
                                     );
 
                                     wp_nav_menu($menu_args);
+                                }
+
+                                if ($menu_2) {
+                                    $menu_args_2 = array(
+                                        'menu' => $menu_2->slug,
+                                        'menu_class' => 'menu__moible', // Agrega la clase menu__footer aquí
+                                    );
+
+                                    wp_nav_menu($menu_args_2);
                                 }
                                 ?>
 
                             </div>
                         </div>
                     </nav>
+                    <div class="menu--right">
+
+                        <?php
+                        $menu_id = '16';
+                        $menu = wp_get_nav_menu_object($menu_id);
+
+                        if ($menu) {
+                            $menu_args = array(
+                                'menu' => $menu->slug,
+                                'menu_class' => 'menu__footer-center', // Agrega la clase menu__footer aquí
+                            );
+
+                            wp_nav_menu($menu_args);
+                        }
+                        ?>
+
+                    </div>
                     <div class="cont--menu__open">
                         <label class="burger" for="burger1">
                             <input class="hidden" id="burger1" type="checkbox" /><span></span>

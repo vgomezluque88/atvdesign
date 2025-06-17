@@ -2,7 +2,7 @@
 
     $(document).ready(function () {
         $('#header-wrapper .cont--menu__open input').change(function () {
-            var selector = '.main-navigation';
+            var selector = '.main-navigation.mobile';
 
             if (this.checked) {
                 $('body').addClass('menu-open');

@@ -1146,13 +1146,23 @@ body.single-product #header-wrapper,
 body.page-template-page-recommender #header-wrapper {
   position: fixed; }
 
-.menu--right ul li {
-  list-style: none; }
-  .menu--right ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-    text-transform: uppercase; }
+.menu--right {
+  display: none; }
+  @media only screen and (min-width: 1025px) {
+    .menu--right {
+      display: block; } }
+  .menu--right ul li {
+    list-style: none; }
+    .menu--right ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      text-transform: uppercase; }
+
+#site-navigation-right {
+  display: none; }
+  #site-navigation-right.show {
+    display: block; }
 
 #footer-wrapper {
   position: relative;
@@ -1540,8 +1550,7 @@ body.home.menu-open #header-wrapper header.site-header .cont--menu__open .burger
         position: relative;
         margin-top: 10px;
         padding-top: 11px;
-        padding-bottom: 7px;
-        padding-left: 10px; }
+        padding-bottom: 7px; }
         @media only screen and (min-width: 768px) {
           .main-navigation .cont--menu .menu--right .menu-menu-header-container,
           .main-navigation .cont--menu .menu--right .menu-menu-principal-container {
@@ -3919,7 +3928,13 @@ body.error404 section.error-404 {
       height: 100px;
       margin: 0 20px;
       vertical-align: middle;
-      display: inline-block; }
+      display: inline-block;
+      max-width: 110px;
+      max-height: 31px; }
+      @media only screen and (min-width: 1025px) {
+        .galeria_de_la_secion_de_logos .galeria-logos img {
+          max-width: 400px;
+          max-height: 100%; } }
 
 @keyframes scroll {
   0% {
