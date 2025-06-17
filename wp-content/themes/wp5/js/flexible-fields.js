@@ -50,13 +50,13 @@
     $('#play-video').on('click', function (ev) {
       var iframe_src = $(this).closest('.cont--media-inner').find('iframe')[0].src;
       var id_embed = iframe_src.split('/embed/').pop().split('?')[0];
-      $(this).closest('.cont--media-inner').find('iframe')[0].src += "?autoplay=1&loop=1&playlist="+id_embed;
+      $(this).closest('.cont--media-inner').find('iframe')[0].src += "?autoplay=1&loop=1&playlist=" + id_embed;
       $(this).closest('.cont--media-inner').find(".cont--video--iframe").fadeIn();
       $(this).closest('.cont--media-inner').find(".cont--video--iframe").addClass('active');
       $(this).closest('.cont--media-inner').find(".button--play").css('display', 'none');
       $(this).closest('.cont--media-inner').find(".cont--video--image img").addClass('video-play');
 
-      ev.preventDefault(); 
+      ev.preventDefault();
     });
 
 
@@ -68,6 +68,11 @@
     );
     //END ---- Section hero image video
 
-
+    document.addEventListener("DOMContentLoaded", function () {
+      const galeria = document.querySelector(".galeria-logos");
+      if (galeria) {
+        galeria.innerHTML += galeria.innerHTML; // Duplica imágenes para efecto infinito
+      }
+    });
   });
 })(jQuery);
