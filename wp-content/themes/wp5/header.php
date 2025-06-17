@@ -131,7 +131,7 @@ $post_id = get_the_ID();
                                 if ($menu) {
                                     $menu_args = array(
                                         'menu' => $menu->slug,
-                                        'menu_class' => 'menu__moible', // Agrega la clase menu__footer aquí
+                                        'menu_class' => 'menu__mobile', // Agrega la clase menu__footer aquí
                                     );
 
                                     wp_nav_menu($menu_args);
@@ -140,7 +140,7 @@ $post_id = get_the_ID();
                                 if ($menu_2) {
                                     $menu_args_2 = array(
                                         'menu' => $menu_2->slug,
-                                        'menu_class' => 'menu__moible', // Agrega la clase menu__footer aquí
+                                        'menu_class' => 'menu__mobile', // Agrega la clase menu__footer aquí
                                     );
 
                                     wp_nav_menu($menu_args_2);
