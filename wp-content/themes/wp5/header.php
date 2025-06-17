@@ -67,9 +67,6 @@ $post_id = get_the_ID();
                     <div id="site-navigation" class="main-navigation">
                         <div class="cont--menu container">
                             <div class="menu--right">
-                                <a href="/" class="logo-menu">
-                                    <img src="/wp-content/uploads/logo.png" alt="wp5">
-                                </a>
 
                                 <?php
                                 wp_nav_menu(
@@ -81,28 +78,7 @@ $post_id = get_the_ID();
                                 );
                                 ?>
 
-                                <div class="menu--right-bottom">
-                                    <?php
-                                    $phone = get_field('phone', 'option');
-                                    $mail = get_field('mail', 'option');
-                                    $address = get_field('address', 'option');
-                                    ?>
 
-                                    <div class="cont__info">
-                                        <div class="cont__item cont__item--phone">
-                                            <i class="icon-phone"></i>
-                                            <a href="tel:+34<?php echo $phone; ?>"><?php echo $phone; ?></a>
-                                        </div>
-                                        <div class="cont__item cont__item--mail">
-                                            <i class="icon-mail"></i>
-                                            <a href="mailto:<?php echo $mail; ?>"><?php echo $mail; ?></a>
-                                        </div>
-                                        <div class="cont__item cont__item--address">
-                                            <i class="icon-house"></i>
-                                            <?php echo $address; ?>
-                                        </div>
-                                    </div>
-                                </div>
 
                             </div>
                         </div>

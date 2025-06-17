@@ -1292,7 +1292,8 @@ body.home.menu-open #header-wrapper header.site-header .cont--menu__open .burger
         padding: 0;
         background: none; } }
     .main-navigation .cont--menu .menu__mobile {
-      margin: 0px; }
+      margin: 0px;
+      padding: 0px; }
       .main-navigation .cont--menu .menu__mobile li {
         list-style: none;
         text-align: center;
@@ -1303,6 +1304,9 @@ body.home.menu-open #header-wrapper header.site-header .cont--menu__open .burger
           font-weight: 700;
           text-transform: uppercase;
           font-size: 50px; }
+    .main-navigation .cont--menu .menu--right .menu-menu-principal-container ul {
+      display: flex;
+      gap: 10px; }
 
 .cta__fixed {
   display: none; }
@@ -3451,11 +3455,11 @@ body.error404 section.error-404 {
 
 .galeria_de_la_secion_de_logos {
   overflow: hidden;
-  padding: 30px 0;
-  margin: 30px 0px; }
+  margin-bottom: 40px; }
   @media only screen and (min-width: 1025px) {
     .galeria_de_la_secion_de_logos {
-      margin: 100px 0px; } }
+      margin: 100px 0px;
+      padding: 30px 0; } }
   .galeria_de_la_secion_de_logos .container, .galeria_de_la_secion_de_logos .section__hero-image .owl-dots, .section__hero-image .galeria_de_la_secion_de_logos .owl-dots {
     overflow: hidden;
     mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, black 25%, black 75%, rgba(0, 0, 0, 0) 100%);

@@ -149,6 +149,7 @@ body {
 
     .menu__mobile {
       margin: 0px;
+      padding: 0px;
 
       li {
         list-style: none;
@@ -165,6 +166,14 @@ body {
 
       }
     }
-   
+
+    .menu--right {
+      .menu-menu-principal-container {
+        ul {
+          display: flex;
+          gap: 10px;
+        }
+      }
+    }
   }
 }
