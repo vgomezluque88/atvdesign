@@ -1,7 +1,11 @@
 .galeria_de_la_secion_de_logos {
   overflow: hidden;
   padding: 30px 0;
-  margin: 100px 0px;
+  margin: 30px 0px;
+
+  @include desktop {
+    margin: 100px 0px;
+  }
 
   .container {
     overflow: hidden;

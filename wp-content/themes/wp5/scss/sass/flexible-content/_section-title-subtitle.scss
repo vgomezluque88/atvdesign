@@ -1,4 +1,13 @@
 .section__title-subtitle {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @include desktop {
+        height: 70vh;
+    }
+
     .container {
         padding: 0px;
         max-width: 100%;
