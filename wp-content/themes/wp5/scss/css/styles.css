@@ -20,7 +20,7 @@
 **/
 html {
   font-size: 15px;
-  background-color: white; }
+  background-color: #000000; }
 
 body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -29,8 +29,9 @@ body {
   font-size: 1rem;
   line-height: 1.33;
   text-align: left;
-  color: #000000;
-  overflow-y: overlay; }
+  color: #fff;
+  overflow-y: overlay;
+  background-color: #000000; }
   @media only screen and (min-width: 1600px) {
     body {
       font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -39,7 +40,7 @@ body {
       font-size: 1.2rem;
       line-height: 1.39;
       text-align: left;
-      color: #000000; } }
+      color: #fff; } }
 
 h1,
 h2,
@@ -63,7 +64,7 @@ h1 {
   font-size: 1.333rem;
   line-height: 1.25;
   text-align: left;
-  color: #000000; }
+  color: #fff; }
   @media only screen and (min-width: 1600px) {
     .title-h1,
     .title-1,
@@ -73,7 +74,7 @@ h1 {
       font-style: normal;
       font-size: 2rem;
       text-align: left;
-      color: #000000; } }
+      color: #fff; } }
 
 .title-h2,
 .title-2,
@@ -84,7 +85,7 @@ h2 {
   font-size: 1.067rem;
   line-height: 1.25;
   text-align: left;
-  color: #000000; }
+  color: #fff; }
   @media only screen and (min-width: 1600px) {
     .title-h2,
     .title-2,
@@ -94,7 +95,7 @@ h2 {
       font-style: normal;
       font-size: 1.333rem;
       text-align: left;
-      color: #000000; } }
+      color: #fff; } }
 
 .title-h3,
 .title-3,
@@ -106,7 +107,7 @@ h3 {
   line-height: 1.18;
   letter-spacing: 1.1px;
   text-align: left;
-  color: #000000; }
+  color: #fff; }
   @media only screen and (min-width: 1600px) {
     .title-h3,
     .title-3,
@@ -117,7 +118,7 @@ h3 {
       font-size: 0.933rem;
       letter-spacing: 1.4px;
       text-align: left;
-      color: #000000; } }
+      color: #fff; } }
 
 .title-h4,
 .title-4,
@@ -129,7 +130,7 @@ h4 {
   line-height: 1.18;
   letter-spacing: 1.1px;
   text-align: left;
-  color: #000000; }
+  color: #fff; }
   @media only screen and (min-width: 1600px) {
     .title-h4,
     .title-4,
@@ -140,7 +141,7 @@ h4 {
       font-size: 0.933rem;
       letter-spacing: 1.4px;
       text-align: left;
-      color: #000000; } }
+      color: #fff; } }
 
 .text-small {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -149,7 +150,7 @@ h4 {
   font-size: 0.733rem;
   line-height: 1.64;
   text-align: left;
-  color: #000000; }
+  color: #fff; }
   @media only screen and (min-width: 1600px) {
     .text-small {
       font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -158,7 +159,7 @@ h4 {
       font-size: 0.8rem;
       line-height: 1.25;
       text-align: left;
-      color: #000000; } }
+      color: #fff; } }
 
 .text-important {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -167,7 +168,7 @@ h4 {
   font-size: 1.2rem;
   line-height: 1.22;
   text-align: left;
-  color: #000000; }
+  color: #fff; }
   @media only screen and (min-width: 1600px) {
     .text-important {
       font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -176,7 +177,7 @@ h4 {
       font-size: 1.667rem;
       line-height: 1.4;
       text-align: left;
-      color: #000000; } }
+      color: #fff; } }
 
 .text-medium {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -185,7 +186,7 @@ h4 {
   font-size: 1.2rem;
   line-height: 1.22;
   text-align: left;
-  color: #000000; }
+  color: #fff; }
   @media only screen and (min-width: 1600px) {
     .text-medium {
       font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -194,7 +195,7 @@ h4 {
       font-size: 1.2rem;
       line-height: 1.22;
       text-align: left;
-      color: #000000; } }
+      color: #fff; } }
 
 table {
   border-collapse: collapse;
@@ -1885,7 +1886,7 @@ body.home.menu-open #header-wrapper header.site-header .cont--menu__open .burger
         font-size: 1rem;
         line-height: 1.33;
         text-align: left;
-        color: #000000; } }
+        color: #fff; } }
     @media only screen and (min-width: 1600px) {
       .single-content-ajax > .wrapper,
       .overlay-info-product > .wrapper {
@@ -1895,7 +1896,7 @@ body.home.menu-open #header-wrapper header.site-header .cont--menu__open .burger
         font-size: 1.2rem;
         line-height: 1.39;
         text-align: left;
-        color: #000000; } }
+        color: #fff; } }
     .single-content-ajax > .wrapper .title-1,
     .overlay-info-product > .wrapper .title-1 {
       margin-bottom: 13px; }
@@ -2100,7 +2101,7 @@ body.overlay-open {
     font-size: 1rem;
     line-height: 1.33;
     text-align: left;
-    color: #000000;
+    color: #fff;
     padding-bottom: 21px; }
     @media only screen and (min-width: 1025px) {
       .wt-cli-cookie-bar-container #cookie-law-info-bar .cli-bar-message {
@@ -2469,7 +2470,7 @@ body.error404 section.error-404 {
           line-height: 1.18;
           letter-spacing: 1.1px;
           text-align: left;
-          color: #000000;
+          color: #fff;
           margin-bottom: 11px;
           -webkit-transition: all 0.3s;
           -moz-transition: all 0.3s;
@@ -2750,7 +2751,7 @@ body.error404 section.error-404 {
       font-size: 1.067rem;
       line-height: 1.25;
       text-align: left;
-      color: #000000;
+      color: #fff;
       padding-bottom: 28px; }
       @media only screen and (min-width: 1025px) {
         #single-post .related-posts .title {
@@ -2760,7 +2761,7 @@ body.error404 section.error-404 {
           font-size: 1.333rem;
           line-height: 1.25;
           text-align: left;
-          color: #000000;
+          color: #fff;
           padding-bottom: 38px; } }
 
 .section_cta_promotional .cta__fixed-button {
@@ -2893,7 +2894,7 @@ body.error404 section.error-404 {
       line-height: 1.18;
       letter-spacing: 1.1px;
       text-align: left;
-      color: #000000; }
+      color: #fff; }
       @media only screen and (min-width: 1025px) {
         .section__cta .cont__cta a .cont__description p {
           font-size: 1.5rem;
@@ -3018,7 +3019,7 @@ body.error404 section.error-404 {
         font-size: 1.067rem;
         line-height: 1.25;
         text-align: left;
-        color: #000000;
+        color: #fff;
         margin-bottom: 5px; }
         @media only screen and (min-width: 1600px) {
           .section_info_parallax .cont__parallax .cont__info .cont__description .title-1 {
@@ -3027,7 +3028,7 @@ body.error404 section.error-404 {
             font-style: normal;
             font-size: 2rem;
             text-align: left;
-            color: #000000;
+            color: #fff;
             margin-bottom: 9px; } }
       .section_info_parallax .cont__parallax .cont__info .cont__description .text-important {
         position: relative;
@@ -3037,7 +3038,7 @@ body.error404 section.error-404 {
         font-size: 1.2rem;
         line-height: 1.22;
         text-align: left;
-        color: #000000;
+        color: #fff;
         padding-bottom: 20px; }
         @media only screen and (min-width: 1600px) {
           .section_info_parallax .cont__parallax .cont__info .cont__description .text-important {
@@ -3047,7 +3048,7 @@ body.error404 section.error-404 {
             font-size: 1.2rem;
             line-height: 1.22;
             text-align: left;
-            color: #000000;
+            color: #fff;
             margin-bottom: 30px; } }
         @media only screen and (min-width: 1920px) {
           .section_info_parallax .cont__parallax .cont__info .cont__description .text-important {
@@ -3057,7 +3058,7 @@ body.error404 section.error-404 {
             font-size: 1.667rem;
             line-height: 1.4;
             text-align: left;
-            color: #000000; } }
+            color: #fff; } }
         .section_info_parallax .cont__parallax .cont__info .cont__description .text-important:before {
           content: '';
           position: absolute;
@@ -3094,7 +3095,7 @@ body.error404 section.error-404 {
     font-size: 1.333rem;
     line-height: 1.25;
     text-align: left;
-    color: #000000;
+    color: #fff;
     margin-bottom: 16px; }
     @media only screen and (min-width: 1025px) {
       .section__last-articles .cont__title h2 {
@@ -3107,7 +3108,7 @@ body.error404 section.error-404 {
         font-size: 1.333rem;
         line-height: 1.25;
         text-align: left;
-        color: #000000;
+        color: #fff;
         margin-bottom: 42px; } }
     @media only screen and (min-width: 1920px) {
       .section__last-articles .cont__title h2 {
@@ -3116,7 +3117,7 @@ body.error404 section.error-404 {
         font-style: normal;
         font-size: 2rem;
         text-align: left;
-        color: #000000; } }
+        color: #fff; } }
   .section__last-articles .owl-carousel .owl-stage {
     display: flex; }
   .section__last-articles .cont--post {
@@ -3170,7 +3171,7 @@ body.error404 section.error-404 {
           font-size: 1.067rem;
           line-height: 1.25;
           text-align: left;
-          color: #000000;
+          color: #fff;
           margin-bottom: 4px; }
           @media only screen and (min-width: 1600px) {
             .section__links .cont__links .cont__link .cont__inner a .cont__title h3 {
@@ -3180,7 +3181,7 @@ body.error404 section.error-404 {
               font-size: 1.333rem;
               line-height: 1.25;
               text-align: left;
-              color: #000000;
+              color: #fff;
               margin-bottom: 10px; } }
         .section__links .cont__links .cont__link .cont__inner a .cont__description {
           font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -3190,7 +3191,7 @@ body.error404 section.error-404 {
           line-height: 1.18;
           letter-spacing: 1.1px;
           text-align: left;
-          color: #000000; }
+          color: #fff; }
           @media only screen and (min-width: 1600px) {
             .section__links .cont__links .cont__link .cont__inner a .cont__description {
               font-size: 2rem;
@@ -3400,7 +3401,7 @@ body.error404 section.error-404 {
             font-size: 1rem;
             line-height: 1.33;
             text-align: left;
-            color: #000000; } }
+            color: #fff; } }
         @media only screen and (min-width: 1600px) {
           .section__overlay_information .overlay__info .cont__overlay .cont__overlay--inner .cont__description,
           .section__overlay_information .cont__inner .cont__overlay .cont__overlay--inner .cont__description,
@@ -3412,7 +3413,7 @@ body.error404 section.error-404 {
             font-size: 1.2rem;
             line-height: 1.39;
             text-align: left;
-            color: #000000; } }
+            color: #fff; } }
         .section__overlay_information .overlay__info .cont__overlay .cont__overlay--inner .cont__description .title-1,
         .section__overlay_information .cont__inner .cont__overlay .cont__overlay--inner .cont__description .title-1,
         .tax-cat_product .page-header .overlay__info .cont__overlay .cont__overlay--inner .cont__description .title-1,
@@ -3503,7 +3504,7 @@ body.error404 section.error-404 {
     font-size: 1.067rem;
     line-height: 1.25;
     text-align: left;
-    color: #000000;
+    color: #fff;
     border-top: 2px solid #293FFF;
     margin-top: 63px;
     padding-top: 29px; }
@@ -3514,7 +3515,7 @@ body.error404 section.error-404 {
         font-style: normal;
         font-size: 1.333rem;
         text-align: left;
-        color: #000000;
+        color: #fff;
         margin-top: 47px;
         padding-top: 39px; } }
   .section__faq .section__faq--inner .cont__left {
@@ -3526,7 +3527,7 @@ body.error404 section.error-404 {
       font-size: 1.333rem;
       line-height: 1.25;
       text-align: left;
-      color: #000000;
+      color: #fff;
       margin-bottom: 20px; }
       @media only screen and (min-width: 1600px) {
         .section__faq .section__faq--inner .cont__left .cont__title {
@@ -3535,7 +3536,7 @@ body.error404 section.error-404 {
           font-style: normal;
           font-size: 1.333rem;
           text-align: left;
-          color: #000000;
+          color: #fff;
           margin-bottom: 23px; } }
     .section__faq .section__faq--inner .cont__left .cont__description {
       margin-bottom: -15px; }
@@ -3558,7 +3559,7 @@ body.error404 section.error-404 {
     font-size: 1.067rem;
     line-height: 1.25;
     text-align: left;
-    color: #000000;
+    color: #fff;
     margin: 50px 0 22px;
     padding-right: 45px;
     cursor: pointer;
@@ -3589,7 +3590,7 @@ body.error404 section.error-404 {
         font-size: 0.933rem;
         letter-spacing: 1.4px;
         text-align: left;
-        color: #000000;
+        color: #fff;
         margin: 53px 0 22px; } }
     .section__faq .section__faq--inner .cont__right .cont__questions .cont__question h3.active:before {
       content: "";
@@ -3875,7 +3876,8 @@ body.error404 section.error-404 {
 
 .galeria_de_la_secion_de_logos {
   overflow: hidden;
-  padding: 30px 0; }
+  padding: 30px 0;
+  margin: 100px 0px; }
   .galeria_de_la_secion_de_logos .container, .galeria_de_la_secion_de_logos .section__hero-image .owl-dots, .section__hero-image .galeria_de_la_secion_de_logos .owl-dots {
     overflow: hidden;
     mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, black 25%, black 75%, rgba(0, 0, 0, 0) 100%);
@@ -3901,5 +3903,62 @@ body.error404 section.error-404 {
     transform: translateX(0); }
   100% {
     transform: translateX(-50%); } }
+.section-work {
+  display: flex;
+  flex-wrap: wrap; }
+  .section-work .proyecto {
+    width: 100%;
+    transition: background-color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px !important;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #141414; }
+    @media only screen and (min-width: 768px) {
+      .section-work .proyecto {
+        width: 48%;
+        margin: 5px; } }
+    @media only screen and (min-width: 1025px) {
+      .section-work .proyecto {
+        width: 32%; } }
+    .section-work .proyecto:hover {
+      background-color: var(--hover-color); }
+      .section-work .proyecto:hover .contenido-proyecto {
+        transform: rotateX(-90deg);
+        opacity: 0;
+        z-index: 1; }
+      .section-work .proyecto:hover .contenido-proyecto-hover {
+        transform: rotateX(0deg);
+        opacity: 1;
+        z-index: 2; }
+    .section-work .proyecto .media-proyecto img,
+    .section-work .proyecto .media-proyecto video {
+      max-width: 100%;
+      width: 100%;
+      height: auto;
+      display: block; }
+    .section-work .proyecto .media-proyecto video {
+      pointer-events: none;
+      user-select: none; }
+    .section-work .proyecto .contenido-proyecto {
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end; }
+      .section-work .proyecto .contenido-proyecto .h2 {
+        font-weight: bolder;
+        margin: 0px !important; }
+    .section-work .proyecto .contenido-proyecto-hover {
+      display: none;
+      transform: rotateX(90deg);
+      height: 100px;
+      flex-direction: column;
+      justify-content: flex-end; }
+      .section-work .proyecto .contenido-proyecto-hover p {
+        margin: 0px !important; }
+      .section-work .proyecto .contenido-proyecto-hover .h2 {
+        font-weight: bolder; }
 
 /*# sourceMappingURL=styles.css.map */

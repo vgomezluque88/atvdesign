@@ -68,11 +68,26 @@
     );
     //END ---- Section hero image video
 
-    document.addEventListener("DOMContentLoaded", function () {
-      const galeria = document.querySelector(".galeria-logos");
-      if (galeria) {
-        galeria.innerHTML += galeria.innerHTML; // Duplica imágenes para efecto infinito
-      }
+    const galeria = document.querySelector(".galeria-logos");
+    if (galeria) {
+      galeria.innerHTML += galeria.innerHTML; // Duplica imágenes para efecto infinito
+    }
+    const proyectos = document.querySelectorAll('.proyecto');
+    console.log("color");
+
+    proyectos.forEach(proyecto => {
+      const color = proyecto.getAttribute('data-hover-color');
+      console.log(color);
+      proyecto.addEventListener('mouseenter', () => {
+        proyecto.style.setProperty('--hover-color', color);
+        proyecto.classList.add('hover-activo');
+      });
+
+      proyecto.addEventListener('mouseleave', () => {
+        proyecto.classList.remove('hover-activo');
+      });
     });
+
+
   });
 })(jQuery);

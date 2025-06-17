@@ -70,6 +70,10 @@
             <?php get_template_part('layout/sections/section', 'slider-logos'); ?>
         <?php endif; ?>
 
+        <?php if (get_row_layout() == 'section_works'): ?>
+            <?php get_template_part('layout/sections/section', 'works'); ?>
+        <?php endif; ?>
+
     <?php endwhile; ?>
 
 <?php endif; ?>

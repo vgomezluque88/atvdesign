@@ -47,7 +47,7 @@ $primary-font: 'Roboto', Arial, Helvetica, sans-serif;
   font-weight: 800;
   font-style: normal;
 }
-@mixin font-black($font-family: $primary-font) {
+@mixin font-white($font-family: $primary-font) {
   font-family: $font-family;
   font-weight: 900;
   font-style: normal;
@@ -59,14 +59,14 @@ $primary-font: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 1rem;
   line-height: 1.33;
   text-align: left;
-  color: $black;
+  color: $white;
 }
 @mixin Body-Desktop1600 {
   @include font-regular;
   font-size: 1.2rem;
   line-height: 1.39;
   text-align: left;
-  color: $black; 
+  color: $white; 
 }
 
 @mixin Title1-Mobile {
@@ -74,13 +74,13 @@ $primary-font: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 1.333rem;
   line-height: 1.25;
   text-align: left;
-  color: $black;
+  color: $white;
 }
 @mixin Title1-Desktop1600 {
   @include font-bold;
   font-size: 2rem;
   text-align: left;
-  color: $black;
+  color: $white;
 }
 
 @mixin Title2-Mobile {
@@ -88,13 +88,13 @@ $primary-font: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 1.067rem;
   line-height: 1.25;
   text-align: left;
-  color: $black;
+  color: $white;
 }
 @mixin Title2-Desktop1600 {
   @include font-bold;
   font-size: 1.333rem;
   text-align: left;
-  color: $black;
+  color: $white;
 }
 
 @mixin Title3-Mobile {
@@ -103,14 +103,14 @@ $primary-font: 'Roboto', Arial, Helvetica, sans-serif;
   line-height: 1.18;
   letter-spacing: 1.1px;
   text-align: left;
-  color: $black;
+  color: $white;
 }
 @mixin Title3-Desktop1600 {
   @include font-bold;
   font-size: 0.933rem;
   letter-spacing: 1.4px;
   text-align: left;
-  color: $black;
+  color: $white;
 }
 
 @mixin Featured-Mobile {
@@ -118,14 +118,14 @@ $primary-font: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
   line-height: 1.22;
   text-align: left;
-  color: $black;
+  color: $white;
 }
 @mixin Featured-Desktop1600 {
   @include font-regular;
   font-size: 1.667rem;
   line-height: 1.4;
   text-align: left;
-  color: $black;
+  color: $white;
 }
 
 @mixin Small-Mobile {
@@ -133,14 +133,14 @@ $primary-font: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 0.733rem;
   line-height: 1.64;
   text-align: left;
-  color: $black;
+  color: $white;
 }
 @mixin Small-Desktop1600 {
   @include font-regular;
   font-size: 0.8rem;
   line-height: 1.25;
   text-align: left;
-  color: $black;
+  color: $white;
 }
 
 @mixin wp5($value) {

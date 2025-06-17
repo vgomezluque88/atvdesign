@@ -5,7 +5,7 @@
 
 html {
   font-size: 15px;
-  background-color: white;
+  background-color: $black;
 }
 
 body {
@@ -15,6 +15,9 @@ body {
   @include desktop-1600 {
     @include Body-Desktop1600;
   }
+
+  background-color: $black;
+
 }
 
 

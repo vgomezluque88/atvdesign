@@ -1,0 +1,87 @@
+ .section-work {
+     display: flex;
+     flex-wrap: wrap;
+
+     .proyecto {
+         width: 100%;
+         transition: background-color 0.3s ease;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         margin-bottom: 30px !important;
+         padding: 5px;
+         border-radius: 5px;
+         background-color: rgb(20, 20, 20);
+
+         @include tablet {
+             width: 48%;
+             margin: 5px;
+         }
+
+         @include desktop {
+             width: 32%;
+         }
+
+         &:hover {
+             background-color: var(--hover-color);
+
+             .contenido-proyecto {
+                 transform: rotateX(-90deg);
+                 opacity: 0;
+                 z-index: 1;
+             }
+
+             .contenido-proyecto-hover {
+                 transform: rotateX(0deg);
+                 opacity: 1;
+                 z-index: 2;
+             }
+         }
+
+         .media-proyecto {
+
+             img,
+             video {
+                 max-width: 100%;
+                 width: 100%;
+                 height: auto;
+                 display: block;
+             }
+
+             video {
+                 pointer-events: none;
+                 user-select: none;
+             }
+
+         }
+
+
+         .contenido-proyecto {
+             height: 100px;
+             display: flex;
+             flex-direction: column;
+             justify-content: flex-end;
+
+             .h2 {
+                 font-weight: bolder;
+                 margin: 0px !important;
+             }
+         }
+
+         .contenido-proyecto-hover {
+             display: none;
+             transform: rotateX(90deg);
+             height: 100px;
+             flex-direction: column;
+             justify-content: flex-end;
+
+             p {
+                 margin: 0px !important;
+             }
+
+             .h2 {
+                 font-weight: bolder;
+             }
+         }
+     }
+ }
