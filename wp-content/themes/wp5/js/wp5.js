@@ -23,7 +23,7 @@
     var click_out_overlay = false;
 
     var owl_hero_image = $(".section__hero-image .cont__banners");
-    var owl_last_post = $(".section__last-articles .cont__posts"); 
+    var owl_last_post = $(".section__last-articles .cont__posts");
 
     owl_hero_image.owlCarousel({
       loop: true,
@@ -229,16 +229,22 @@
         }
       });
     }
+    gsap.to("h1", {
+      duration: 2, // Duración de la animación en segundos
+      opacity: 1,    // Opacidad final
+      y: 0,          // Posición final en el eje Y
+      ease: "power3.out" // Tipo de "easing" para un movimiento más natural
+    });
+
+    gsap.to("h2", {
+      duration: 2,
+      opacity: 1,
+      y: 0,
+      ease: "power3.out",
+      delay: 0.5 // Retrasa el inicio de esta animación 0.5 segundos
+    });
 
   });
 
 }(jQuery));
 
-
-(function () {
-	console.log('%cDeveloped by%c\nèmfasi.\n%chttps://emfasi.com\n\n', 
-		'font-size: 16px; color: black;', 
-		'font-size: 32px; font-weight: bold; color:#293fff;', 
-		'font-size: 16px; color: blue; text-decoration: underline;'
-	);
-})();

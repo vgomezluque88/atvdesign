@@ -38,11 +38,13 @@ $query = new WP_Query($args);
                     </div>
                 <?php endif; ?>
                 <div class="contenido-proyecto">
-                    <p class="h2"><?php echo esc_html($titulo); ?></p>
-                </div>
-                <div class="contenido-proyecto-hover">
-                    <p class="h2"><?php echo esc_html($titulo); ?></p>
-                    <p class="h3"><?php echo esc_html($subtitulo); ?></p>
+                    <div class="contenido-proyecto_normal">
+                        <p class="h2"><?php echo esc_html($titulo); ?></p>
+                    </div>
+                    <div class="contenido-proyecto_hover">
+                        <p class="h2"><?php echo esc_html($titulo); ?></p>
+                        <p class="h3"><?php echo esc_html($subtitulo); ?></p>
+                    </div>
                 </div>
             </article>
     <?php

@@ -3449,9 +3449,11 @@ body.error404 section.error-404 {
     max-width: 100%; }
     .section__title-subtitle .container h1, .section__title-subtitle .section__hero-image .owl-dots h1, .section__hero-image .section__title-subtitle .owl-dots h1 {
       font-size: 16vw;
-      text-align: center; }
+      text-align: center;
+      opacity: 0; }
     .section__title-subtitle .container h2, .section__title-subtitle .section__hero-image .owl-dots h2, .section__hero-image .section__title-subtitle .owl-dots h2 {
-      text-align: center; }
+      text-align: center;
+      opacity: 0; }
 
 .galeria_de_la_secion_de_logos {
   overflow: hidden;
@@ -3496,14 +3498,16 @@ body.error404 section.error-404 {
   flex-wrap: wrap; }
   .section-work .proyecto {
     width: 100%;
-    transition: background-color 0.3s ease;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 30px !important;
+    margin-bottom: 30px;
     padding: 5px;
     border-radius: 5px;
-    background-color: #141414; }
+    background-color: #141414;
+    overflow: hidden;
+    position: relative;
+    transition: background-color 0.3s ease; }
     @media only screen and (min-width: 768px) {
       .section-work .proyecto {
         width: 48%;
@@ -3511,42 +3515,52 @@ body.error404 section.error-404 {
     @media only screen and (min-width: 1025px) {
       .section-work .proyecto {
         width: 32%; } }
-    .section-work .proyecto:hover {
-      background-color: var(--hover-color); }
-      .section-work .proyecto:hover .contenido-proyecto {
-        transform: rotateX(-90deg);
-        opacity: 0;
-        z-index: 1; }
-      .section-work .proyecto:hover .contenido-proyecto-hover {
-        transform: rotateX(0deg);
-        opacity: 1;
-        z-index: 2; }
     .section-work .proyecto .media-proyecto img,
     .section-work .proyecto .media-proyecto video {
-      max-width: 100%;
       width: 100%;
       height: auto;
-      display: block; }
+      display: block;
+      max-width: 100%; }
     .section-work .proyecto .media-proyecto video {
       pointer-events: none;
       user-select: none; }
     .section-work .proyecto .contenido-proyecto {
-      height: 100px;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end; }
-      .section-work .proyecto .contenido-proyecto .h2 {
-        font-weight: bolder;
-        margin: 0px !important; }
-    .section-work .proyecto .contenido-proyecto-hover {
-      display: none;
-      transform: rotateX(90deg);
-      height: 100px;
-      flex-direction: column;
-      justify-content: flex-end; }
-      .section-work .proyecto .contenido-proyecto-hover p {
-        margin: 0px !important; }
-      .section-work .proyecto .contenido-proyecto-hover .h2 {
-        font-weight: bolder; }
+      position: relative;
+      height: 60px;
+      overflow: hidden; }
+      .section-work .proyecto .contenido-proyecto_normal, .section-work .proyecto .contenido-proyecto_hover {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px;
+        transition: transform 0.5s ease, opacity 0.5s ease; }
+        .section-work .proyecto .contenido-proyecto_normal p, .section-work .proyecto .contenido-proyecto_hover p {
+          margin-bottom: 0px; }
+          .section-work .proyecto .contenido-proyecto_normal p.h2, .section-work .proyecto .contenido-proyecto_hover p.h2 {
+            text-transform: uppercase; }
+          .section-work .proyecto .contenido-proyecto_normal p.h3, .section-work .proyecto .contenido-proyecto_hover p.h3 {
+            font-size: 13px; }
+      .section-work .proyecto .contenido-proyecto_normal {
+        top: 50%;
+        transform: translateY(-50%);
+        opacity: 1;
+        z-index: 1; }
+      .section-work .proyecto .contenido-proyecto_hover {
+        top: 50%;
+        transform: translateY(50%);
+        opacity: 0;
+        z-index: 0; }
+    .section-work .proyecto:hover {
+      background-color: var(--hover-color); }
+      .section-work .proyecto:hover .contenido-proyecto_normal {
+        transform: translateY(-150%);
+        opacity: 0;
+        z-index: 0; }
+      .section-work .proyecto:hover .contenido-proyecto_hover {
+        transform: translateY(-50%);
+        opacity: 1;
+        z-index: 1; }
 
 /*# sourceMappingURL=styles.css.map */
