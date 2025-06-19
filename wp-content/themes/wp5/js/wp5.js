@@ -243,7 +243,38 @@
       ease: "power3.out",
       delay: 0.5 // Retrasa el inicio de esta animación 0.5 segundos
     });
+    gsap.registerPlugin(ScrollTrigger);
 
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".section__text-slider",
+        start: "100%",
+        end: "0%",
+        scrub: true,
+      }
+    });
+    console.log(tl);
+
+
+    gsap.from(".section__text-slider_1", {
+      x: "-100vw",
+      scrollTrigger: {
+        trigger: ".section__text-slider",
+        start: "top bottom", // empieza cuando el final de section-work toca el bottom del viewport
+        end: "bottom bottom",
+        scrub: true,
+      }
+    });
+
+    gsap.from(".section__text-slider_2", {
+      x: "100vw",
+      scrollTrigger: {
+        trigger: ".section__text-slider",
+        start: "top bottom",
+        end: "bottom bottom",
+        scrub: true,
+      }
+    });
   });
 
 }(jQuery));

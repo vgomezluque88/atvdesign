@@ -74,6 +74,10 @@
             <?php get_template_part('layout/sections/section', 'works'); ?>
         <?php endif; ?>
 
+        <?php if (get_row_layout() == 'section_text_slider'): ?>
+            <?php get_template_part('layout/sections/section', 'text-slider'); ?>
+        <?php endif; ?>
+
     <?php endwhile; ?>
 
 <?php endif; ?>
