@@ -32,6 +32,9 @@
                 height: auto;
                 display: block;
                 max-width: 100%;
+                filter: grayscale(75%);
+                transition: filter 0.5s ease;
+
             }
 
             video {
@@ -44,6 +47,7 @@
             position: relative;
             height: 60px; // Altura del contenedor que permite espacio para el slide
             overflow: hidden;
+            padding: 40px 3px;
 
             &_normal,
             &_hover {
@@ -86,6 +90,11 @@
 
         &:hover {
             background-color: var(--hover-color);
+
+            img,
+            video {
+                filter: grayscale(0%);
+            }
 
             .contenido-proyecto_normal {
                 transform: translateY(-150%); // Se va hacia arriba

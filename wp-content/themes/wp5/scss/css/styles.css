@@ -3526,14 +3526,17 @@ body.error404 section.error-404 {
       width: 100%;
       height: auto;
       display: block;
-      max-width: 100%; }
+      max-width: 100%;
+      filter: grayscale(75%);
+      transition: filter 0.5s ease; }
     .section-work .proyecto .media-proyecto video {
       pointer-events: none;
       user-select: none; }
     .section-work .proyecto .contenido-proyecto {
       position: relative;
       height: 60px;
-      overflow: hidden; }
+      overflow: hidden;
+      padding: 40px 3px; }
       .section-work .proyecto .contenido-proyecto_normal, .section-work .proyecto .contenido-proyecto_hover {
         position: absolute;
         left: 0;
@@ -3561,6 +3564,9 @@ body.error404 section.error-404 {
         z-index: 0; }
     .section-work .proyecto:hover {
       background-color: var(--hover-color); }
+      .section-work .proyecto:hover img,
+      .section-work .proyecto:hover video {
+        filter: grayscale(0%); }
       .section-work .proyecto:hover .contenido-proyecto_normal {
         transform: translateY(-150%);
         opacity: 0;
