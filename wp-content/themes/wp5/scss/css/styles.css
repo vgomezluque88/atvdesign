@@ -2,6 +2,7 @@
 /* IMG */
 /* -------------- FONTS -------------- */
 /* BUTTON */
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
 @keyframes fadeIn {
   0% {
     opacity: 0; }
@@ -1045,7 +1046,9 @@ html {
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 2; }
+  z-index: 2;
+  backdrop-filter: blur(20px);
+  background-color: transparent; }
   #header-wrapper #content {
     width: auto !important;
     max-width: 100% !important;
@@ -1157,7 +1160,8 @@ body.page-template-page-recommender #header-wrapper {
       color: #fff;
       text-decoration: none;
       font-weight: 600;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-family: "Fjalla One", sans-serif; }
 
 #site-navigation-right {
   display: none; }
@@ -1171,6 +1175,7 @@ body.page-template-page-recommender #header-wrapper {
     padding: 40px 0;
     color: #fff; }
   #footer-wrapper .cont__menu--social p {
+    font-family: "Fjalla One", sans-serif;
     font-size: 40px;
     text-transform: uppercase;
     font-weight: 600;
@@ -1183,6 +1188,7 @@ body.page-template-page-recommender #header-wrapper {
     justify-content: center;
     gap: 10px; }
     #footer-wrapper .cont__menu--social_content a {
+      font-family: "Fjalla One", sans-serif;
       font-size: 20px;
       text-transform: uppercase;
       font-weight: 600;
@@ -3537,6 +3543,7 @@ body.error404 section.error-404 {
         padding: 0 10px;
         transition: transform 0.5s ease, opacity 0.5s ease; }
         .section-work .proyecto .contenido-proyecto_normal p, .section-work .proyecto .contenido-proyecto_hover p {
+          font-family: "Fjalla One", sans-serif;
           margin-bottom: 0px; }
           .section-work .proyecto .contenido-proyecto_normal p.h2, .section-work .proyecto .contenido-proyecto_hover p.h2 {
             text-transform: uppercase; }

@@ -5,6 +5,9 @@
 
   z-index: 2;
 
+  backdrop-filter: blur(20px);
+  background-color: transparent;
+
   #content {
     width: auto !important;
     max-width: 100% !important;
@@ -167,6 +170,8 @@ body.page-template-page-recommender {
         text-decoration: none;
         font-weight: 600;
         text-transform: uppercase;
+        font-family: "Fjalla One", sans-serif;
+
       }
     }
   }
